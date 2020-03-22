@@ -2,6 +2,7 @@ import os
 import re
 from collections import Counter
 
+import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
@@ -13,7 +14,7 @@ _dataset_path = os.path.join(_data_dir, 'train.csv')
 
 
 def _convert_attribute_to_categorical(df, attribute_name):
-    categories = df[attribute_name].dropna().unique()
+    categories = df[attribute_name].unique()
     df[attribute_name] = pd.Categorical(df[attribute_name], categories=categories, ordered=False)
     return df
 
@@ -40,7 +41,7 @@ def _add_title_column(dataset_df):
     return dataset_df
 
 
-def _add_ticket_numer_column(dataset_df):
+def _add_ticket_number_column(dataset_df):
     ticket_template = r'(?P<number>\d+)( (?P<add_info>.*))?$'
     ticket_pattern = re.compile(ticket_template)
 
@@ -72,14 +73,14 @@ def _add_floor_column(dataset_df):
     floors = []
     for cabin in dataset_df['Cabin']:
         if cabin != cabin:
-            # NaN value
-            floors.append(None)
+            # NaN value.
+            floors.append('Unknown')
             continue
 
         # Check if the cabin format is atypical.
         if not cabin_full_pattern.match(cabin):
             # print(cabin)
-            floors.append(None)
+            floors.append('Unknown')
             continue
 
         # If you get here the cabin field is in the form:
@@ -93,7 +94,8 @@ def _add_floor_column(dataset_df):
         }
 
         if len(cabin_floors) != 1:
-            floors.append(None)
+            raise ValueError('Only one floor per cabin expected, '
+                             'but got {}'.format(len(cabin_floors)))
             continue
 
         floors.append(cabin_floors.pop())
@@ -105,13 +107,16 @@ def _add_floor_column(dataset_df):
 
 
 def _format_dataset(dataset_df):
+    # Replace NaN genders with valid values.
+    dataset_df.replace({'Embarked': {np.nan: 'Unknown'}}, inplace=True)
+
     attributes_to_convert = ['Sex', 'Embarked', 'Pclass']
     for attribute_name in attributes_to_convert:
         dataset_df = _convert_attribute_to_categorical(dataset_df,
                                                        attribute_name)
 
     dataset_df = _add_title_column(dataset_df)
-    dataset_df = _add_ticket_numer_column(dataset_df)
+    dataset_df = _add_ticket_number_column(dataset_df)
     dataset_df = _add_floor_column(dataset_df)
 
     non_numerical_columns = ['Name', 'Ticket', 'Cabin']
@@ -126,7 +131,7 @@ def get_dataset():
 
 
 def get_formatted_dataset():
-    dataset_df = pd.read_csv(_dataset_path)
+    dataset_df = get_dataset()
     formatted_dataset_df = _format_dataset(dataset_df)
     return formatted_dataset_df
 
