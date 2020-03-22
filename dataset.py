@@ -3,8 +3,9 @@ import re
 from collections import Counter
 
 import pandas as pd
+from sklearn.model_selection import train_test_split
 
-_EVAL_FRACTION = 0.3
+EVAL_FRACTION = 0.3
 
 _project_path = os.path.join(os.environ['HOME'], 'kaggle', 'titanic')
 _data_dir = os.path.join(_project_path, 'data')
@@ -128,3 +129,11 @@ def get_formatted_dataset():
     dataset_df = pd.read_csv(_dataset_path)
     formatted_dataset_df = _format_dataset(dataset_df)
     return formatted_dataset_df
+
+
+def get_formatted_training_and_evaluation_sets():
+    dataset_df = get_formatted_dataset()
+    train_df, eval_df = train_test_split(dataset_df,
+                                         test_size=EVAL_FRACTION,
+                                         random_state=0)
+    return train_df, eval_df
