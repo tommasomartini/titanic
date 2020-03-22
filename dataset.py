@@ -131,7 +131,7 @@ def get_formatted_dataset():
     return formatted_dataset_df
 
 
-def get_formatted_training_and_evaluation_sets():
+def get_formatted_splits():
     dataset_df = get_formatted_dataset()
     train_df, eval_df = train_test_split(dataset_df,
                                          test_size=EVAL_FRACTION,
