@@ -27,8 +27,7 @@ def _add_title_column(dataset_df):
     for name in dataset_df['Name']:
         match = name_pattern.match(name)
         if not match:
-            print('!!! -> {}'.format(name))
-            titles_list.append(None)
+            titles_list.append('Unknown')
             continue
         else:
             titles_list.append(match.group('title').split(' ')[-1])
@@ -50,8 +49,7 @@ def _add_ticket_number_column(dataset_df):
     for row_idx, ticket in enumerate(dataset_df['Ticket']):
         match = ticket_pattern.match(ticket[::-1])
         if not match:
-            # print('!!! {} -> {}'.format(row_idx, ticket))
-            ticket_numbers.append(None)
+            ticket_numbers.append(-1)
             continue
         ticket_numbers.append(int(match.group('number')[::-1]))
 
@@ -79,7 +77,6 @@ def _add_floor_column(dataset_df):
 
         # Check if the cabin format is atypical.
         if not cabin_full_pattern.match(cabin):
-            # print(cabin)
             floors.append('Unknown')
             continue
 
@@ -96,8 +93,6 @@ def _add_floor_column(dataset_df):
         if len(cabin_floors) != 1:
             raise ValueError('Only one floor per cabin expected, '
                              'but got {}'.format(len(cabin_floors)))
-            continue
-
         floors.append(cabin_floors.pop())
 
     dataset_df['Floor'] = pd.Categorical(floors,
@@ -107,8 +102,9 @@ def _add_floor_column(dataset_df):
 
 
 def _format_dataset(dataset_df):
-    # Replace NaN genders with valid values.
+    # Replace NaNs with valid values.
     dataset_df.replace({'Embarked': {np.nan: 'Unknown'}}, inplace=True)
+    dataset_df.replace({'Age': {np.nan: -1}}, inplace=True)
 
     attributes_to_convert = ['Sex', 'Embarked', 'Pclass']
     for attribute_name in attributes_to_convert:
