@@ -8,6 +8,9 @@ from sklearn.model_selection import train_test_split
 
 EVAL_FRACTION = 0.3
 
+ID_COLUMN_NAME = 'PassengerId'
+LABEL_COLUMN_NAME = 'Survived'
+
 _project_path = os.path.join(os.environ['HOME'], 'kaggle', 'titanic')
 _data_dir = os.path.join(_project_path, 'data')
 _dataset_path = os.path.join(_data_dir, 'train.csv')
@@ -130,6 +133,13 @@ def get_formatted_dataset():
     dataset_df = get_dataset()
     formatted_dataset_df = _format_dataset(dataset_df)
     return formatted_dataset_df
+
+
+def get_numerical_dataset():
+    formatted_dataset = get_formatted_dataset()
+    categorical_columns = formatted_dataset.select_dtypes('category').columns
+    formatted_dataset[categorical_columns] = formatted_dataset[categorical_columns].apply(lambda x: x.cat.codes)
+    return formatted_dataset
 
 
 def get_formatted_splits():
