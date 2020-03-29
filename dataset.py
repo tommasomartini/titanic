@@ -18,7 +18,11 @@ def load_test_set():
 
 def load_training_set():
     dataset_df = pd.read_csv(_dataset_path).set_index(ID_COLUMN_NAME)
-    attributes_columns = list(set(dataset_df.columns) - {LABEL_COLUMN_NAME})
+    attributes_columns = [
+        col_name
+        for col_name in dataset_df.columns
+        if col_name != LABEL_COLUMN_NAME
+    ]
     X_train = dataset_df[attributes_columns]
     y_train = dataset_df[LABEL_COLUMN_NAME]
     return X_train, y_train
