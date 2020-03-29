@@ -158,3 +158,8 @@ def convert_categorical_columns_to_numerical(df):
     df[categorical_columns] = \
         df[categorical_columns].apply(lambda x: x.cat.codes)
     return df
+
+
+def sort_columns(df):
+    df = df.reindex(columns=sorted(list(df.columns)))
+    return df
