@@ -70,7 +70,7 @@ def main():
                                            len(test_predictions)))
 
     X_testset = X_testset.assign(**{ds.LABEL_COLUMN_NAME: test_predictions})
-    sm.output_submission_file(X_testset, notes='trees')
+    sm.output_submission_file(X_testset, notes='random_forest')
 
 
 if __name__ == '__main__':
