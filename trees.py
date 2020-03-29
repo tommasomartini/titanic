@@ -1,5 +1,3 @@
-import random
-
 import numpy as np
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import train_test_split
@@ -8,9 +6,6 @@ from sklearn.tree import DecisionTreeClassifier
 import dataset as ds
 import preprocessing as pp
 import submission as sm
-
-np.random.seed(0)
-random.seed(0)
 
 
 def preprocess_dataset(df):
@@ -22,7 +17,7 @@ def preprocess_dataset(df):
     for attribute_name in attributes_to_categorical:
         df = pp.convert_attribute_to_categorical(df, attribute_name)
 
-    df = pp.add_title_column(df)
+    df = pp.add_coarse_title_column(df)
     df = pp.add_ticket_number_column(df)
     df = pp.add_floor_column(df)
 
@@ -30,6 +25,8 @@ def preprocess_dataset(df):
 
     non_numerical_attributes = ['Name', 'Ticket', 'Cabin']
     df.drop(columns=non_numerical_attributes, inplace=True)
+
+    df = pp.sort_columns(df)
 
     return df
 
@@ -41,7 +38,7 @@ def main():
     X_dataset = preprocess_dataset(X_dataset)
     X_train, X_val, y_train, y_val = train_test_split(X_dataset,
                                                       y_dataset,
-                                                      test_size=0.2,
+                                                      test_size=0.3,
                                                       random_state=0)
 
     parameters = {
@@ -64,14 +61,12 @@ def main():
     print('Best parameters:')
     print(clf.best_params_)
 
-    final_clf = \
-        DecisionTreeClassifier(**clf.best_params_).fit(X_dataset, y_dataset)
-    print('Final train accuracy: '
-          '{}'.format(final_clf.score(X_dataset, y_dataset)))
-
     X_testset = ds.load_test_set()
     X_testset = preprocess_dataset(X_testset)
-    test_predictions = final_clf.predict(X_testset)
+    test_predictions = clf.predict(X_testset)
+    print('Testset: {}/{} survived'.format(sum(test_predictions),
+                                           len(test_predictions)))
+
     X_testset = X_testset.assign(**{ds.LABEL_COLUMN_NAME: test_predictions})
     sm.output_submission_file(X_testset, notes='trees')
 
