@@ -1,7 +1,8 @@
-import numpy as np
-from sklearn.svm import SVC
+import pandas as pd
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.svm import SVC
 
 import dataset as ds
 import preprocessing as pp
@@ -36,6 +37,18 @@ def main():
 
     X_dataset, y_dataset = ds.load_training_set()
     X_dataset = preprocess_dataset(X_dataset)
+
+    X_testset = ds.load_test_set()
+    X_testset = preprocess_dataset(X_testset)
+
+    std_scaler = StandardScaler().fit(X_dataset)
+    X_dataset = pd.DataFrame(std_scaler.transform(X_dataset),
+                             index=X_dataset.index,
+                             columns=X_dataset.columns)
+    X_testset = pd.DataFrame(std_scaler.transform(X_testset),
+                             index=X_testset.index,
+                             columns=X_testset.columns)
+
     X_train, X_val, y_train, y_val = train_test_split(X_dataset,
                                                       y_dataset,
                                                       test_size=0.3,
@@ -43,7 +56,7 @@ def main():
 
     parameters = {
         'C': [0.01, 0.1, 1.0, 10.],
-        'kernel': ('rbf', 'poly', 'sigmoid'),
+        'kernel': ('rbf', 'sigmoid'),
         'gamma': ('scale', 'auto'),
     }
     estimator = SVC(random_state=0)
@@ -61,8 +74,6 @@ def main():
     print('Best parameters:')
     print(clf.best_params_)
 
-    X_testset = ds.load_test_set()
-    X_testset = preprocess_dataset(X_testset)
     test_predictions = clf.predict(X_testset)
     print('Testset: {}/{} survived'.format(sum(test_predictions),
                                            len(test_predictions)))
