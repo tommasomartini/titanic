@@ -34,6 +34,49 @@ def add_title_column(df):
     return df
 
 
+def add_coarse_title_column(df):
+    name_template = r'[^,]+, (?P<title>[^\.]+)\.\s'
+    name_pattern = re.compile(name_template)
+
+    titles_list = []
+    for name in df['Name']:
+        match = name_pattern.match(name)
+        if not match:
+            titles_list.append('Unknown')
+            continue
+        else:
+            titles_list.append(match.group('title').split(' ')[-1])
+
+    title_mapping = {
+        'Ms': 'Common',
+        'Major': 'Rare',
+        'Mr': 'Common',
+        'Miss': 'Common',
+        'Countess': 'Rare',
+        'Dr': 'Rare',
+        'Don': 'Rare',
+        'Master': 'Common',
+        'Jonkheer': 'Rare',
+        'Mlle': 'Rare',
+        'Col': 'Rare',
+        'Mme': 'Rare',
+        'Capt': 'Rare',
+        'Rev': 'Rare',
+        'Lady': 'Rare',
+        'Mrs': 'Common',
+        'Sir': 'Rare',
+        'Dona': 'Rare',
+        'Unknown': 'Unknown',
+    }
+
+    df['Title'] = pd.Categorical(
+        map(lambda fine_title: title_mapping.get(fine_title, 'Rare'),
+            titles_list),
+        categories=set(title_mapping.values()),
+        ordered=False)
+    return df
+
+
 def add_ticket_number_column(df):
     ticket_template = r'(?P<number>\d+)( (?P<add_info>.*))?$'
     ticket_pattern = re.compile(ticket_template)
