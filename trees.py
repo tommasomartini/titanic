@@ -35,6 +35,8 @@ def preprocess_dataset(df):
 
 
 def main():
+    print('Decision trees')
+
     X_dataset, y_dataset = ds.load_training_set()
     X_dataset = preprocess_dataset(X_dataset)
     X_train, X_val, y_train, y_val = train_test_split(X_dataset,
