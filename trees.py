@@ -39,7 +39,7 @@ def main():
     X_dataset = preprocess_dataset(X_dataset)
     X_train, X_val, y_train, y_val = train_test_split(X_dataset,
                                                       y_dataset,
-                                                      test_size=0.3,
+                                                      test_size=0.2,
                                                       random_state=0)
 
     parameters = {
@@ -51,7 +51,8 @@ def main():
     clf = GridSearchCV(estimator=estimator,
                        param_grid=parameters,
                        refit=True,
-                       n_jobs=-1)
+                       n_jobs=-1,
+                       cv=10)
     clf.fit(X_train, y_train)
     train_accuracy = clf.score(X_train, y_train)
     val_accuracy = clf.score(X_val, y_val)
@@ -61,9 +62,14 @@ def main():
     print('Best parameters:')
     print(clf.best_params_)
 
+    final_clf = \
+        DecisionTreeClassifier(**clf.best_params_).fit(X_dataset, y_dataset)
+    print('Final train accuracy: '
+          '{}'.format(final_clf.score(X_dataset, y_dataset)))
+
     X_testset = ds.load_test_set()
     X_testset = preprocess_dataset(X_testset)
-    test_predictions = clf.predict(X_testset)
+    test_predictions = final_clf.predict(X_testset)
     X_testset = X_testset.assign(**{ds.LABEL_COLUMN_NAME: test_predictions})
     sm.output_submission_file(X_testset, notes='trees')
 
