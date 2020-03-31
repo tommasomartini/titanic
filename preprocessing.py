@@ -13,7 +13,7 @@ def convert_attribute_to_categorical(df, attribute_name):
     return df
 
 
-def add_title_column(df):
+def get_title_list(df):
     name_template = r'[^,]+, (?P<title>[^\.]+)\.\s'
     name_pattern = re.compile(name_template)
 
@@ -26,6 +26,11 @@ def add_title_column(df):
         else:
             titles_list.append(match.group('title').split(' ')[-1])
 
+    return titles_list
+
+
+def add_title_column(df):
+    titles_list = get_title_list(df)
     titles_counter = Counter(titles_list)
 
     df['Title'] = pd.Categorical(titles_list,
