@@ -13,6 +13,48 @@ def convert_attribute_to_categorical(df, attribute_name):
     return df
 
 
+def format_name(df):
+    # Pre-formatting.
+    df['Name'] = df['Name'].str.replace('"', '')
+    df['Name'] = df['Name'].str.strip()
+
+    # Split the name into "official" and "real".
+    # The official name is usually something like:
+    #  <last name>, <title> <first name>
+    # while the real name is usually the unmarried name for women.
+    full_name_pattern = r'(?P<OfficialName>.+?)(\s\((?P<RealName>.*?)\))?$'
+    df = df.join(df['Name'].str.extract(full_name_pattern).drop(columns=1))
+
+    # Split the official name into last name, title and first name.
+    official_name_pattern = \
+        r'(?P<LastName>.+),\s(?P<Title>\S+)(?:\s(?P<FirstName>.*?))?$'
+    df = df.join(df['OfficialName'].str.extract(official_name_pattern))
+
+    # Split the real name.
+    # Here we use the following convention:
+    # if single word
+    #   it's the first name
+    # otherwise:
+    #   the last word is the last name and all the previous words
+    #   compose the first name.
+    df = df.join(df['RealName'].str.rsplit(n=1, expand=True).rename(
+        columns={0: 'UnmarriedFirstName', 1: 'UnmarriedLastName'}))
+
+    # If any of the unmarried names is missing, fill the hole with
+    # the real name. This is always useful for men and unmarried women.
+    df = df.assign(
+        UnmarriedFirstName=df['UnmarriedFirstName'].fillna(df['FirstName']),
+        UnmarriedLastName=df['UnmarriedLastName'].fillna(df['LastName']))
+
+    # If the first official name is not specified, use the unmarried name.
+    df = df.assign(FirstName=df['FirstName'].fillna(df['UnmarriedFirstName']))
+
+    # Discard intermediate use columns.
+    df = df.drop(columns=['OfficialName', 'RealName'])
+
+    return df
+
+
 def get_title_list(df):
     name_template = r'[^,]+, (?P<title>[^\.]+)\.\s'
     name_pattern = re.compile(name_template)
