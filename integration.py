@@ -277,14 +277,7 @@ def _parse_page(url, title=None):
 
 
 def _export_to_dataframe(passengers):
-    data = {
-        'Survived': [p.survived for p in passengers],
-        'LastName': [p.last_name for p in passengers],
-        'FirstName': [p.first_name for p in passengers],
-        'Title': [p.title for p in passengers],
-        'Age': [p.age for p in passengers],
-        'Pclass': [p.pclass for p in passengers],
-    }
+    data = [p.__dict__ for p in passengers]
     df = pd.DataFrame(data)
     return df
 
@@ -294,8 +287,7 @@ def _main():
                                                                suburl),
                                      (_VICTIMS_SUBURL, _SURVIVORS_SUBURL))
     victims = _parse_page(victims_url, title='Parsing victims')
-    survivors = []
-    # survivors = _parse_page(survivors_url, title='Parsing survivors')
+    survivors = _parse_page(survivors_url, title='Parsing survivors')
 
     for passenger in survivors:
         passenger.survived = 1.
