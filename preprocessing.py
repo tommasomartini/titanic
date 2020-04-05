@@ -13,6 +13,43 @@ def convert_attribute_to_categorical(df, attribute_name):
     return df
 
 
+def manual_fixes(df):
+    """
+    See
+        https://www.kaggle.com/c/titanic/discussion/39787
+    and
+        https://www.kaggle.com/erikbruin/titanic-2nd-degree-families-and-majority-voting
+    for some of the following fixes.
+    """
+
+    # Replace wives' names to fully match their husbands'.
+    replace_dict = {
+        'Allison, Mrs. Hudson J C (Bessie Waldo Daniels)':
+            'Allison, Mrs. Hudson Joshua Creighton (Bessie Waldo Daniels)',
+        'Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)':
+            'Asplund, Mrs. Carl Oscar Vilhelm Gustafsson (Selma Augusta Emilia Johansson)',
+        'Dean, Mrs. Bertram (Eva Georgetta Light)':
+            'Dean, Mrs. Bertram Frank (Eva Georgetta Light)'
+    }
+    df = df.replace(replace_dict)
+
+    # Fix Abbott family's relationship.
+    df.loc[280, ['SibSp', 'Parch']] = [0, 2]
+    df.loc[747, ['SibSp', 'Parch']] = [1, 1]
+    df.loc[1284, ['SibSp', 'Parch']] = [1, 1]
+
+    # Fix Samaan family's relationship.
+    df.loc[1189, ['SibSp', 'Parch']] = [0, 2]
+    df.loc[49, ['SibSp', 'Parch']] = [1, 1]
+    df.loc[921, ['SibSp', 'Parch']] = [1, 1]
+
+    # Fix Davies family's relationship.
+    df.loc[550, ['SibSp', 'Parch']] = [0, 1]
+    df.loc[1222, ['SibSp', 'Parch']] = [0, 1]
+
+    return df
+
+
 def format_name(df):
     # Pre-formatting.
     df['Name'] = df['Name'].str.replace('"', '')
