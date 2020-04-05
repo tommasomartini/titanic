@@ -50,7 +50,7 @@ class Passenger:
                                               self.pclass)
 
 
-def _build_ur(base_url, suburl):
+def _build_url(base_url, suburl):
     return '/'.join((base_url, suburl))
 
 
@@ -137,8 +137,8 @@ def _export_to_dataframe(passengers):
 
 
 def _main():
-    victims_url, survivors_url = map(lambda suburl: _build_ur(_BASE_URL,
-                                                              suburl),
+    victims_url, survivors_url = map(lambda suburl: _build_url(_BASE_URL,
+                                                               suburl),
                                      (_VICTIMS_SUBURL, _SURVIVORS_SUBURL))
     victims = _parse_page(victims_url, title='Parsing victims')
     survivors = _parse_page(survivors_url, title='Parsing survivors')
