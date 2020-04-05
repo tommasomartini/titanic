@@ -157,40 +157,49 @@ def _parse_extra_info(passenger_info, info_box):
     # Embarked.
     embarking_cities = ['Southampton', 'Cherbourg', 'Queenstown']
     embarked = None
-    for city_name in embarking_cities:
-        emb_title = \
-            'Titanic passengers and crew that embarked at {}'.format(city_name)
-        embarked_item = info_box.find('a', attrs={'title': emb_title})
-        if embarked_item:
-            embarked = city_name
+    try:
+        for city_name in embarking_cities:
+            emb_title = \
+                'Titanic passengers and crew that embarked at {}'.format(city_name)
+            embarked_item = info_box.find('a', attrs={'title': emb_title})
+            if embarked_item:
+                embarked = city_name
+    except:
+        pass
     extra_info['embarked'] = embarked
 
     # Ticket and nationality.
     extra_info['ticket_no'] = None
     extra_info['ticket_price'] = None
     extra_info['nationality'] = None
-    for div in info_box.find_all('div', recursive=False):
-        for strong in div.find_all('strong'):
-            try:
-                if strong.getText() == 'Ticket No':
-                    ticket_match = _ticket_pattern.match(div.getText().strip())
-                    if ticket_match:
-                        extra_info['ticket_no'] = \
-                            ticket_match.group('ticket_no')
-                        extra_info['ticket_price'] = \
-                            ticket_match.group('ticket_price')
+    try:
+        for div in info_box.find_all('div', recursive=False):
+            for strong in div.find_all('strong'):
+                try:
+                    if strong.getText() == 'Ticket No':
+                        ticket_match = _ticket_pattern.match(div.getText().strip())
+                        if ticket_match:
+                            extra_info['ticket_no'] = \
+                                ticket_match.group('ticket_no')
+                            extra_info['ticket_price'] = \
+                                ticket_match.group('ticket_price')
 
-                if strong.getText() == 'Nationality':
-                    extra_info['nationality'] = div.getText().strip().split()[-1]
-            except:
-                continue
+                    if strong.getText() == 'Nationality':
+                        extra_info['nationality'] = div.getText().strip().split()[-1]
+                except:
+                    continue
+    except:
+        pass
 
     # Relationships.
     relationships = []
-    for relationship_div in info_box.find_all('div', attrs={'itemprop': 'knows'}):
-        related_person_id = \
-            relationship_div.find('a', attrs={'itemprop': 'url'}).get('href')
-        relationships.append(related_person_id)
+    try:
+        for relationship_div in info_box.find_all('div', attrs={'itemprop': 'knows'}):
+            related_person_id = \
+                relationship_div.find('a', attrs={'itemprop': 'url'}).get('href')
+            relationships.append(related_person_id)
+    except:
+        pass
     extra_info['relationships'] = relationships
 
     passenger_info.update(**extra_info)
