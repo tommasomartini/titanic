@@ -52,6 +52,20 @@ def format_name(df):
     # Discard intermediate use columns.
     df = df.drop(columns=['OfficialName', 'RealName'])
 
+    # Ad-hoc fix: the only title with more than one word is passenger 760,
+    # the Countess of Rothes. OUr heuristics on the name format do not comply
+    # with this passenger.
+    # Name: Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards)
+    countess_fixes = {
+        'LastName': 'Dyer-Edwards',
+        'Title': 'Countess of Rothes',
+        'FirstName': 'Lucy Noel Martha',
+        'UnmarriedFirstName': 'Lucy Noel Martha',
+        'UnmarriedLastName': 'Dyer-Edwards',
+    }
+    keys, values = zip(*countess_fixes.items())
+    df.loc[760, keys] = values
+
     return df
 
 
