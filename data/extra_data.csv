@@ -1,0 +1,2209 @@
+,Age,FirstName,LastName,Pclass,Survived,Title
+0,41.0,Anthony,Abbing,3rd Class Passenger,0.0,Mr
+1,16.0,Rossmore Edward,Abbott,3rd Class Passenger,0.0,Mr
+2,13.0,Eugene Joseph,Abbott,3rd Class Passenger,0.0,Mr
+3,21.0,Ernest Owen,Abbott,Victualling Crew,0.0,Mr
+4,30.0,Samuel,Abelson,2nd Class Passenger,0.0,Mr
+5,45.0,Jirjis Yūsuf,Abī sa'b,3rd Class Passenger,0.0,Mr
+6,19.0,Dāhir,Abī shadīd,3rd Class Passenger,0.0,Mr
+7,34.0,William Thomas,Abrams,Engineering Crew,0.0,Mr
+8,30.0,Mauritz,Ådahl,3rd Class Passenger,0.0,Mr
+9,26.0,Robert John,Adams,Engineering Crew,0.0,Mr
+10,26.0,John,Adams,3rd Class Passenger,0.0,Mr
+11,20.0,Percy Snowden,Ahier,Victualling Crew,0.0,Mr
+12,40.0,Johanna Persdotter,Ahlin,3rd Class Passenger,0.0,Mrs
+13,24.0,Ali,Ahmed,3rd Class Passenger,0.0,Mr
+14,41.0,Isakki Antonpoika,Äijö-nirva,3rd Class Passenger,0.0,Mr
+15,31.0,Albert Edward,Akerman,Victualling Crew,0.0,Mr
+16,37.0,Joseph Francis,Akerman,Victualling Crew,0.0,Mr
+17,19.0,Farīd Husayn Qāsim,Al-munà,3rd Class Passenger,0.0,Mr
+18,35.0,Augustus Henry,Aldworth,2nd Class Passenger,0.0,Mr
+19,24.0,William Albert,Alexander,3rd Class Passenger,0.0,Mr
+20,19.0,Ilmari Rudolf,Alhomäki,3rd Class Passenger,0.0,Mr
+21,25.0,William,Ali,3rd Class Passenger,0.0,Mr
+22,22.0,Battista Antonio,Allaria,Restaurant Staff,0.0,Sig.
+23,30.0,Henry,Allen,Engineering Crew,0.0,Mr
+24,26.0,George,Allen,Victualling Crew,0.0,Mr
+25,39.0,William Henry,Allen,3rd Class Passenger,0.0,Mr
+26,35.0,Robert Spencer,Allen,Victualling Crew,0.0,Mr
+27,2.0,Helen Loraine,Allison,1st Class Passenger,0.0,Miss
+28,30.0,Hudson Joshua Creighton,Allison,1st Class Passenger,0.0,Mr
+29,25.0,Bess Waldo,Allison,1st Class Passenger,0.0,Mrs
+30,43.0,Frank Richard,Allsop,Victualling Crew,0.0,Mr
+31,36.0,Alfred Samuel,Allsop,Engineering Crew,0.0,Mr
+32,17.0,Owen George,Allum,3rd Class Passenger,0.0,Mr
+33,33.0,Albert Kaurin,Andersen,3rd Class Passenger,0.0,Mr
+34,50.0,Walter Yuill,Anderson,Victualling Crew,0.0,Mr
+35,9.0,Ingeborg Constanzia,Andersson,3rd Class Passenger,0.0,Miss
+36,4.0,Sigvard Harald Elias,Andersson,3rd Class Passenger,0.0,Master
+37,39.0,Alfrida Konstantia Brogren,Andersson,3rd Class Passenger,0.0,Mrs
+38,38.0,Ida Augusta Margareta,Andersson,3rd Class Passenger,0.0,Miss
+39,6.0,Ebba Iris Alfrida,Andersson,3rd Class Passenger,0.0,Miss
+40,2.0,Ellis Anna Maria,Andersson,3rd Class Passenger,0.0,Miss
+41,11.0,Sigrid Elisabeth,Andersson,3rd Class Passenger,0.0,Miss
+42,39.0,Anders Johan,Andersson,3rd Class Passenger,0.0,Mr
+43,26.0,Johan Samuel,Andersson,3rd Class Passenger,0.0,Mr
+44,20.0,Pål Edvin,Andreasson,3rd Class Passenger,0.0,Mr
+45,17.0,Edgar Samuel,Andrew,2nd Class Passenger,0.0,Mr
+46,26.0,Frank Thomas,Andrew,2nd Class Passenger,0.0,Mr
+47,39.0,Thomas,Andrews,1st Class Passenger,0.0,Mr
+48,31.0,William,Angle,2nd Class Passenger,0.0,Mr
+49,18.0,Josefine,Arnold-franchi,3rd Class Passenger,0.0,Mrs
+50,25.0,Josef,Arnold-franchi,3rd Class Passenger,0.0,Mr
+51,25.0,Ernst Axel Algot,Aronsson,3rd Class Passenger,0.0,Mr
+52,71.0,Ramon,Artagaveytia,1st Class Passenger,0.0,Mr
+53,57.0,John,Ashby,2nd Class Passenger,0.0,Mr
+54,26.0,Austin Aloysius,Ashcroft,Victualling Crew,0.0,Mr
+55,41.0,Henry Wellesley,Ashe,Victualling Crew,0.0,Mr
+56,35.0,Adola,Asim,3rd Class Passenger,0.0,Mr
+57,26.0,Georges,Aspeslagh,Restaurant Staff,0.0,Mr
+58,5.0,Carl Edgar,Asplund,3rd Class Passenger,0.0,Master
+59,13.0,Filip Oscar,Asplund,3rd Class Passenger,0.0,Master
+60,40.0,Carl Oscar Vilhelm Gustafsson,Asplund,3rd Class Passenger,0.0,Mr
+61,9.0,Clarence Gustaf Hugo,Asplund,3rd Class Passenger,0.0,Master
+62,23.0,Ali,Assam,3rd Class Passenger,0.0,Mr
+63,47.0,John Jacob,Astor,1st Class Passenger,0.0,Colonel
+64,18.0,Malakah,Atā allāh,3rd Class Passenger,0.0,Miss
+65,27.0,Sleiman Khalil,Attala,3rd Class Passenger,0.0,Mr
+66,23.0,Albert,Augustsson,3rd Class Passenger,0.0,Mr
+67,23.0,Edwin George,Ayling,Victualling Crew,0.0,Mr
+68,37.0,Charles Frederick,Back,Victualling Crew,0.0,Mr
+69,32.0,Karl Alfred,Backström,3rd Class Passenger,0.0,Mr
+70,40.0,Mohamed,Badt,3rd Class Passenger,0.0,Mr
+71,33.0,Edward Henry,Bagley,Victualling Crew,0.0,Mr
+72,18.0,Percy,Bailey,2nd Class Passenger,0.0,Mr
+73,46.0,George Frank,Bailey,Engineering Crew,0.0,Mr
+74,44.0,George,Bailey,Victualling Crew,0.0,Mr
+75,22.0,Charles Robert,Bainbrigge,2nd Class Passenger,0.0,Mr
+76,58.0,Richard,Baines,Engineering Crew,0.0,Mr
+77,26.0,Cerin,Bakić,3rd Class Passenger,0.0,Mr
+78,42.0,Solomon,Banewer,2nd Class Passenger,0.0,Mr
+79,24.0,Ugo,Banfi,Restaurant Staff,0.0,
+80,28.0,Frederick James,Banfield,2nd Class Passenger,0.0,Mr
+81,34.0,John Joseph,Bannon,Engineering Crew,0.0,Mr
+82,45.0,Catherine David,Barbara,3rd Class Passenger,0.0,Mrs
+83,18.0,Saiide,Barbara,3rd Class Passenger,0.0,Miss
+84,40.0,Ernest Thomas,Barker,Victualling Crew,0.0,Mr
+85,42.0,Reginald Lomond,Barker,Victualling Crew,0.0,Mr
+86,19.0,Albert Vale,Barker,Victualling Crew,0.0,Mr
+87,39.0,George,Barlow,Victualling Crew,0.0,Mr
+88,30.0,Charles Henry,Barlow,Engineering Crew,0.0,Mr
+89,29.0,Charles,Barnes,Engineering Crew,0.0,Mr
+90,39.0,John,Barnes,Engineering Crew,0.0,Mr
+91,40.0,Frederick Charles,Barnes,Victualling Crew,0.0,Mr
+92,16.0,Arthur,Barratt,Victualling Crew,0.0,Mr
+93,33.0,Frederick William,Barrett,Engineering Crew,0.0,Mr
+94,34.0,Arthur William,Barringer,Victualling Crew,0.0,Mr
+95,35.0,Charles Henry John,Barrow,Victualling Crew,0.0,Mr
+96,32.0,Edward William Peter,Barrows,Victualling Crew,0.0,Mr
+97,30.0,Julia,Barry,3rd Class Passenger,0.0,Miss
+98,22.0,David John,Barton,3rd Class Passenger,0.0,Mr
+99,26.0,Sidney John,Barton,Victualling Crew,0.0,Mr
+100,27.0,Giovanni,Basilico,Restaurant Staff,0.0,Sig.
+101,52.0,Robert James,Bateman,2nd Class Passenger,0.0,Revd
+102,23.0,Hristo Lalev,Batoshev,3rd Class Passenger,0.0,Mr
+103,48.0,John David,Baumann,1st Class Passenger,0.0,Mr
+104,55.0,Thomas Ferguson,Baxter,Victualling Crew,0.0,Mr
+105,53.0,Harry Ross,Baxter,Victualling Crew,0.0,Mr
+106,24.0,Quigg Edmond,Baxter,1st Class Passenger,0.0,Mr
+107,30.0,Rashīd Al-Hāj 'Adb al-Husayn,Bazzī,3rd Class Passenger,0.0,Mr
+108,33.0,Narciso,Bazzi,Restaurant Staff,0.0,Sig.
+109,36.0,Thomson,Beattie,1st Class Passenger,0.0,Mr
+110,40.0,Joseph John,Beattie,Engineering Crew,0.0,Mr
+111,43.0,Henry James,Beauchamp,2nd Class Passenger,0.0,Mr
+112,20.0,William Thomas,Beavan,3rd Class Passenger,0.0,Mr
+113,31.0,William Barnett,Bedford,Victualling Crew,0.0,Mr
+114,35.0,George Arthur,Beedem,Victualling Crew,0.0,Mr
+115,19.0,William,Beere,Victualling Crew,0.0,Mr
+116,51.0,Joseph,Bell,Engineering Crew,0.0,Mr
+117,23.0,Frank,Bendell,Engineering Crew,0.0,Mr
+118,26.0,Jan Viktor,Bengtsson,3rd Class Passenger,0.0,Mr
+119,30.0,Fred John,Benham,Victualling Crew,0.0,Mr
+120,30.0,George Alfred,Bennett,Engineering Crew,0.0,Mr
+121,47.0,Edward,Benville,Engineering Crew,0.0,Mr
+122,22.0,Karl Ivar Sven,Berglund,3rd Class Passenger,0.0,Mr
+123,22.0,Battista,Bernardi,Restaurant Staff,0.0,Sig.
+124,23.0,William John,Berriman,2nd Class Passenger,0.0,Mr
+125,31.0,Edward,Bessant,Victualling Crew,0.0,Mr
+126,40.0,William Edward Lowe,Bessant,Engineering Crew,0.0,Mr
+127,40.0,Edwin Alfred,Best,Victualling Crew,0.0,Mr
+128,25.0,David,Beux,Restaurant Staff,0.0,Mr
+129,22.0,Joseph Henry,Bevis,Engineering Crew,0.0,Mr
+130,31.0,Reginald Charles,Biddlecombe,Engineering Crew,0.0,Mr
+131,28.0,George Baptiste,Biétrix,Restaurant Staff,0.0,Mr
+132,20.0,Edward Charles,Biggs,Engineering Crew,0.0,Mr
+133,20.0,James,Billows,Engineering Crew,0.0,Mr
+134,21.0,Hans Martin Monsen,Birkeland,3rd Class Passenger,0.0,Mr
+135,24.0,Jakob,Birnbaum,1st Class Passenger,0.0,Mr
+136,34.0,Walter Alexander,Bishop,Victualling Crew,0.0,Mr
+137,18.0,Ernst Heribert,Björklund,3rd Class Passenger,0.0,Mr
+138,28.0,Alexander,Black,Engineering Crew,0.0,Mr
+139,41.0,D.,Black,Engineering Crew,0.0,Mr
+140,23.0,Albert Edward,Blackman,Engineering Crew,0.0,Mr
+141,45.0,Stephen Weart,Blackwell,1st Class Passenger,0.0,Mr
+142,17.0,Frederick Charles,Blades,Victualling Crew,0.0,Mr
+143,36.0,Thomas Henry,Blake,Engineering Crew,0.0,Mr
+144,26.0,John Douglas Stanley George,Blake,Engineering Crew,0.0,Mr
+145,32.0,James,Blaney,Engineering Crew,0.0,Mr
+146,21.0,Eustace Horatius,Blann,Engineering Crew,0.0,Mr
+147,26.0,Jean Baptiste,Blumet,Restaurant Staff,0.0,Mr
+148,30.0,Alexis Joseph,Bochatay,Victualling Crew,0.0,Mr
+149,43.0,Pietro Giuseppe,Bochet,Restaurant Staff,0.0,Mr
+150,59.0,Norman Leslie,Bogie,Victualling Crew,0.0,Mr
+151,27.0,Hendrik,Bolhuis,Restaurant Staff,0.0,Mr
+152,45.0,William John,Bond,Victualling Crew,0.0,Mr
+153,37.0,Walter Thomas,Boothby,Victualling Crew,0.0,Mr
+154,41.0,John James,Borebank,1st Class Passenger,0.0,Mr
+155,26.0,Gencho,Bostandjiev,3rd Class Passenger,0.0,Mr
+156,32.0,William John,Boston,Victualling Crew,0.0,Mr
+157,25.0,William Hull,Botsford,2nd Class Passenger,0.0,Mr
+158,46.0,William Thomas,Bott,Engineering Crew,0.0,Mr
+159,24.0,Bernard John,Boughton,Victualling Crew,0.0,Mr
+160,18.0,Hanna,Boulos,3rd Class Passenger,0.0,Mr
+161,40.0,Mary,Bourke,3rd Class Passenger,0.0,Miss
+162,42.0,John,Bourke,3rd Class Passenger,0.0,Mr
+163,32.0,Catherine,Bourke,3rd Class Passenger,0.0,Mrs
+164,20.0,David John 'Dai',Bowen,3rd Class Passenger,0.0,Mr
+165,37.0,John,Boyd,Victualling Crew,0.0,Mr
+166,36.0,John Henry,Boyes,Victualling Crew,0.0,Mr
+167,30.0,James Hollen,Bracken,2nd Class Passenger,0.0,Mr
+168,38.0,Patrick Joseph,Bradley,Engineering Crew,0.0,Mr
+169,28.0,Thomas Henry,Bradley,Deck Crew,0.0,Mr
+170,42.0,John Albert Perkin,Bradshaw,Victualling Crew,0.0,Mr
+171,41.0,John Bertram,Brady,1st Class Passenger,0.0,Mr
+172,20.0,Elin Ester Maria,Braf,3rd Class Passenger,0.0,Miss
+173,24.0,William Theodore Ronald,Brailey,2nd Class Passenger,0.0,Mr
+174,48.0,Emil Franklin,Brandeis,1st Class Passenger,0.0,Mr
+175,22.0,Owen Harris,Braund,3rd Class Passenger,0.0,Mr
+176,29.0,Lewis Richard,Braund,3rd Class Passenger,0.0,Mr
+177,45.0,Arthur Jackson,Brewe,1st Class Passenger,0.0,Dr
+178,30.0,Harry,Brewer,Engineering Crew,0.0,Mr
+179,52.0,George Henry,Brewster,Victualling Crew,0.0,Mr
+180,30.0,Arthur,Briant,Engineering Crew,0.0,Mr
+181,34.0,Albert,Briant,Engineering Crew,0.0,Mr
+182,20.0,Roger Marie,Bricoux,2nd Class Passenger,0.0,Mr
+183,38.0,Harry,Bristow,Victualling Crew,0.0,Mr
+184,38.0,Robert Charles,Bristow,Victualling Crew,0.0,Mr
+185,40.0,José Joaquim de,Brito,2nd Class Passenger,0.0,Mr
+186,22.0,Karl Rudolf,Brobäck,3rd Class Passenger,0.0,Mr
+187,40.0,William Alfred,Brocklebank,3rd Class Passenger,0.0,Mr
+188,28.0,John Cress,Brookman,Victualling Crew,0.0,Mr
+189,25.0,J.,Brooks,Engineering Crew,0.0,Mr
+190,33.0,Herbert George,Broom,Victualling Crew,0.0,Mr
+191,31.0,Athol Frederick,Broome,Victualling Crew,0.0,Mr
+192,41.0,Walter James,Brown,Victualling Crew,0.0,Mr
+193,30.0,Joseph,Brown,Engineering Crew,0.0,Mr
+194,28.0,John,Brown,Engineering Crew,0.0,Mr
+195,60.0,Thomas William Solomon,Brown,2nd Class Passenger,0.0,Mr
+196,25.0,Kurt Arnold Gottfrid,Bryhl,2nd Class Passenger,0.0,Mr
+197,23.0,Catherine,Buckley,3rd Class Passenger,0.0,Miss
+198,34.0,H. E.,Buckley,Victualling Crew,0.0,Mr
+199,36.0,Walter Edward,Bull,Victualling Crew,0.0,Mr
+200,21.0,Henry Ashburnham,Bulley,Victualling Crew,0.0,Mr
+201,10.0,Nūr al-'ayn,Būlus,3rd Class Passenger,0.0,Miss
+202,40.0,Sultānah,Būlus,3rd Class Passenger,0.0,Mrs
+203,7.0,Akar,Būlus,3rd Class Passenger,0.0,Master
+204,20.0,Wilfred James,Bunnell,Victualling Crew,0.0,Mr
+205,29.0,Richard Edward,Burke,Victualling Crew,0.0,Mr
+206,19.0,Jeremiah,Burke,3rd Class Passenger,0.0,Mr
+207,15.0,Mary Delia,Burns,3rd Class Passenger,0.0,Miss
+208,29.0,Ewart Sydenham,Burr,Victualling Crew,0.0,Mr
+209,34.0,Arthur Peckham,Burroughs,Engineering Crew,0.0,Mr
+210,35.0,Edward John,Burton,Engineering Crew,0.0,Mr
+211,25.0,Reginald Fenton,Butler,2nd Class Passenger,0.0,Mr
+212,21.0,Tannūs,Butrus-ka'wī,3rd Class Passenger,0.0,Mr
+213,30.0,William John,Butt,Engineering Crew,0.0,Mr
+214,21.0,Robert Henry,Butt,Victualling Crew,0.0,Mr
+215,46.0,Archibald Willingham,Butt,1st Class Passenger,0.0,Major
+216,23.0,John,Butterworth,Victualling Crew,0.0,Mr
+217,42.0,Thomas Roussel Davids,Byles,2nd Class Passenger,0.0,Fr
+218,44.0,James Edward,Byrne,Victualling Crew,0.0,Mr
+219,38.0,Luka,Čačić,3rd Class Passenger,0.0,Mr
+220,21.0,Manda,Čačić,3rd Class Passenger,0.0,Miss
+221,18.0,Jego Grga,Čačić,3rd Class Passenger,0.0,Mr
+222,36.0,Marija,Čačić,3rd Class Passenger,0.0,Miss
+223,28.0,Alexander Milne,Cairns,1st Class Passenger,0.0,Mr
+224,33.0,Hugh,Calderwood,Engineering Crew,0.0,Mr
+225,17.0,Jovo,Čalić,3rd Class Passenger,0.0,Mr
+226,17.0,Petar,Čalić,3rd Class Passenger,0.0,Mr
+227,28.0,Donald Samuel,Campbell,Victualling Crew,0.0,Mr
+228,20.0,William,Campbell,2nd Class Passenger,0.0,Mr
+229,22.0,Mary,Canavan,3rd Class Passenger,0.0,Miss
+230,21.0,Patrick,Canavan,3rd Class Passenger,0.0,Mr
+231,29.0,Ernest,Cann,3rd Class Passenger,0.0,Mr
+232,40.0,John,Canner,Engineering Crew,0.0,Mr
+233,18.0,Maria Elias,Caram,3rd Class Passenger,0.0,Mrs
+234,28.0,Joseph,Caram,3rd Class Passenger,0.0,Mr
+235,19.0,William,Carbines,2nd Class Passenger,0.0,Mr
+236,33.0,Frans Olof,Carlsson,1st Class Passenger,0.0,Mr
+237,28.0,August Sigfrid,Carlsson,3rd Class Passenger,0.0,Mr
+238,24.0,Carl Robert,Carlsson,3rd Class Passenger,0.0,Mr
+239,31.0,William,Carney,Victualling Crew,0.0,Mr
+240,27.0,Richard Stephen,Carr,Engineering Crew,0.0,Mr
+241,45.0,Jane,Carr,3rd Class Passenger,0.0,Miss
+242,27.0,Francisco Mauro Severiano,Carrau,1st Class Passenger,0.0,Mr
+243,17.0,José Pedro,Carraú-esteves,1st Class Passenger,0.0,Mr
+244,45.0,Lilian,Carter,2nd Class Passenger,0.0,Mrs
+245,54.0,Ernest Courtenay,Carter,2nd Class Passenger,0.0,Rev.
+246,46.0,James,Carter,Engineering Crew,0.0,Mr
+247,33.0,James Edward,Cartwright,Victualling Crew,0.0,Mr
+248,27.0,Alfred John,Carver,3rd Class Passenger,0.0,Mr
+249,32.0,Giulio,Casali,Restaurant Staff,0.0,Sig.
+250,49.0,Howard Brown,Case,1st Class Passenger,0.0,Mr
+251,44.0,Thomas,Casey,Engineering Crew,0.0,Mr
+252,34.0,Charles,Casswill,Victualling Crew,0.0,Mr
+253,37.0,Edward,Castleman,Engineering Crew,0.0,Mr
+254,28.0,William Ewart,Caunt,Victualling Crew,0.0,Mr
+255,39.0,Herbert,Cave,Victualling Crew,0.0,Mr
+256,36.0,Tyrell William,Cavendish,1st Class Passenger,0.0,Mr
+257,21.0,Charles Thomas,Cecil,Victualling Crew,0.0,Mr
+258,24.0,Francesco,Celotti,3rd Class Passenger,0.0,Mr
+259,25.0,Adrien Firmin,Chaboisson,Restaurant Staff,0.0,Mr
+260,46.0,Herbert Fuller,Chaffee,1st Class Passenger,0.0,Mr
+261,37.0,John Henry,Chapman,2nd Class Passenger,0.0,Mr
+262,30.0,Sarah Elizabeth,Chapman,2nd Class Passenger,0.0,Mrs
+263,51.0,Charles Henry,Chapman,2nd Class Passenger,0.0,Mr
+264,25.0,John James,Charman,Victualling Crew,0.0,Mr
+265,20.0,David,Charters,3rd Class Passenger,0.0,Mr
+266,24.0,William Victor,Cherrett,Engineering Crew,0.0,Mr
+267,27.0,William Frederick,Cheverton,Victualling Crew,0.0,Mr
+268,43.0,Roderick,Chisholm,1st Class Passenger,0.0,Mr
+269,36.0,George Alexander,Chisnall,Engineering Crew,0.0,Mr
+270,28.0,Archibald George,Chitty,Victualling Crew,0.0,Mr
+271,50.0,George Henry,Chitty,Victualling Crew,0.0,Mr
+272,25.0,John Henry,Chorley,Engineering Crew,0.0,Mr
+273,29.0,Emil,Christmann,3rd Class Passenger,0.0,Mr
+274,34.0,Herbert Harry,Christmas,Victualling Crew,0.0,Mr
+275,26.0,Apostolos M.,Chronopoulos,3rd Class Passenger,0.0,Mr
+276,21.0,Dimitrios M.,Chronopoulos,3rd Class Passenger,0.0,Mr
+277,27.0,Walter Miller,Clark,1st Class Passenger,0.0,Mr
+278,28.0,John Frederick Preston,Clarke,2nd Class Passenger,0.0,Mr
+279,29.0,Charles Valentine,Clarke,2nd Class Passenger,0.0,Mr
+280,31.0,George James,Clench,Deck Crew,0.0,Mr
+281,40.0,George Quincy,Clifford,1st Class Passenger,0.0,Mr
+282,21.0,Harry,Coe,Engineering Crew,0.0,Mr
+283,20.0,Domingos Fernandeo,Coelho,3rd Class Passenger,0.0,Mr
+284,24.0,Patrick,Colbert,3rd Class Passenger,0.0,Mr
+285,57.0,John,Coleman,Engineering Crew,0.0,Mr
+286,28.0,Albert Edward,Coleman,Victualling Crew,0.0,Mr
+287,29.0,Reginald Charles,Coleridge,2nd Class Passenger,0.0,Mr
+288,27.0,Erik Gustaf,Collander,2nd Class Passenger,0.0,Mr
+289,37.0,Edward Pomeroy,Colley,1st Class Passenger,0.0,Mr
+290,31.0,Harvey,Collyer,2nd Class Passenger,0.0,Mr
+291,37.0,Alexander Taylor jr,Compton,1st Class Passenger,0.0,Mr
+292,31.0,Thomas Henry,Conlin,3rd Class Passenger,0.0,Mr
+293,40.0,Michael,Connaughton,3rd Class Passenger,0.0,Mr
+294,41.0,Kate,Connolly,3rd Class Passenger,0.0,Miss
+295,66.0,Patrick,Connors,3rd Class Passenger,0.0,Mr
+296,25.0,Percy Walter,Conway,Victualling Crew,0.0,Mr
+297,32.0,Gilbert William,Cook,Victualling Crew,0.0,Mr
+298,43.0,Jacob,Cook,3rd Class Passenger,0.0,Mr
+299,45.0,Charles Augustus,Coombs,Victualling Crew,0.0,Mr
+300,25.0,H.,Cooper,Engineering Crew,0.0,Mr
+301,26.0,James Edward,Cooper,Engineering Crew,0.0,Mr
+302,28.0,Albert Harry,Copperthwaite,Engineering Crew,0.0,Mr
+303,19.0,Liudevit,Čor,3rd Class Passenger,0.0,Mr
+304,35.0,Bartol,Čor,3rd Class Passenger,0.0,Mr
+305,27.0,Ivan,Čor,3rd Class Passenger,0.0,Mr
+306,27.0,Ernest Theodore,Corben,Victualling Crew,0.0,Mr
+307,30.0,Irene,Corbett,2nd Class Passenger,0.0,Mrs
+308,33.0,Dennis,Corcoran,Engineering Crew,0.0,Mr
+309,32.0,Mary Emma,Corey,2nd Class Passenger,0.0,Mrs
+310,19.0,Marcel Raymond André,Cornaire,Restaurant Staff,0.0,Mr
+311,30.0,Harris,Cornblatt,3rd Class Passenger,0.0,Mr
+312,21.0,Henry ,Cotterill,2nd Class Passenger,0.0,Mr
+313,35.0,Alfred,Cotton,Engineering Crew,0.0,Mr
+314,49.0,Joseph Henry,Couch,Engineering Crew,0.0,Mr
+315,27.0,Frank,Couch,Deck Crew,0.0,Mr
+316,28.0,Auguste Louis,Coutin,Restaurant Staff,0.0,Mr
+317,30.0,William Denton,Cox,Victualling Crew,0.0,Mr
+318,58.0,Daniel,Coxon,3rd Class Passenger,0.0,Mr
+319,27.0,Francis Ernest George,Coy,Engineering Crew,0.0,Mr
+320,23.0,Henry James,Crabb,Engineering Crew,0.0,Mr
+321,58.0,John Bertram,Crafton,1st Class Passenger,0.0,Mr
+322,20.0,Ernest James,Crease,3rd Class Passenger,0.0,Mr
+323,45.0,Henry Philip,Creese,Engineering Crew,0.0,Mr
+324,43.0,John Hatfield,Cribb,3rd Class Passenger,0.0,Mr
+325,39.0,Albert Hector,Crisp,Victualling Crew,0.0,Mr
+326,33.0,William,Crispin,Victualling Crew,0.0,Mr
+327,45.0,John Borthwick,Crosbie,Victualling Crew,0.0,Mr
+328,70.0,Edward Gifford,Crosby,1st Class Passenger,0.0,Captain
+329,44.0,William Alfred,Cross,Engineering Crew,0.0,Mr
+330,16.0,Paolo Luigi,Crovella,Restaurant Staff,0.0,Sig.
+331,35.0,Charles George Chandler,Crumplin,Victualling Crew,0.0,Mr
+332,17.0,Jeso,Čulumović,3rd Class Passenger,0.0,Mr
+333,39.0,John Bradley,Cumings,1st Class Passenger,0.0,Mr
+334,21.0,Alfred Fleming,Cunningham,2nd Class Passenger,0.0,Mr
+335,35.0,Bernard,Cunningham,Engineering Crew,0.0,Mr
+336,26.0,Arthur,Curtis,Engineering Crew,0.0,Mr
+337,28.0,Ṭannūs,Dāhir,3rd Class Passenger,0.0,Mr
+338,22.0,Gerda Ulrika,Dahlberg,3rd Class Passenger,0.0,Miss
+339,19.0,Branko,Dakić,3rd Class Passenger,0.0,Mr
+340,0.3333333333333333,Gilbert Sigvard Emanuel,Danbom,3rd Class Passenger,0.0,Master
+341,34.0,Ernst Gilbert,Danbom,3rd Class Passenger,0.0,Mr
+342,28.0,Anna Sigrid Maria,Danbom,3rd Class Passenger,0.0,Mrs
+343,18.0,William George,Dashwood,Victualling Crew,0.0,Mr
+344,31.0,Thornton,Davidson,1st Class Passenger,0.0,Mr
+345,19.0,Charles Henry,Davies,2nd Class Passenger,0.0,Mr
+346,32.0,Gordon Raleigh,Davies,Victualling Crew,0.0,Mr
+347,22.0,John,Davies,3rd Class Passenger,0.0,Mr
+348,22.0,Evan Lewis,Davies,3rd Class Passenger,0.0,Mr
+349,33.0,Thomas,Davies,Engineering Crew,0.0,Mr
+350,17.0,Joseph,Davies,3rd Class Passenger,0.0,Mr
+351,24.0,Alfred James,Davies,3rd Class Passenger,0.0,Mr
+352,26.0,Robert J.,Davies,Victualling Crew,0.0,Mr
+353,39.0,Stephen James,Davis,Deck Crew,0.0,Mr
+354,27.0,John,Davis,Victualling Crew,0.0,Mr
+355,32.0,Thomas Henry,Davison,3rd Class Passenger,0.0,Mr
+356,23.0,Joseph,Dawson,Engineering Crew,0.0,Mr
+357,20.0,Govanni,De marsico,Restaurant Staff,0.0,Sig.
+358,16.0,Alfons,De pelsmaeker,3rd Class Passenger,0.0,Mr
+359,17.0,Percy William,Deacon,2nd Class Passenger,0.0,Mr
+360,25.0,Bertram Frank,Dean,3rd Class Passenger,0.0,Mr
+361,19.0,George Fox Hopkins,Dean,Victualling Crew,0.0,Mr
+362,18.0,Maurice Emile Victor,Debreucq,Restaurant Staff,0.0,Mr
+363,34.0,Alfred Arnold,Deeble,Victualling Crew,0.0,Mr
+364,29.0,Sebastiano,Del carlo,2nd Class Passenger,0.0,Mr
+365,25.0,Redjo,Delalic,3rd Class Passenger,0.0,Mr
+366,25.0,Albert Joseph,Denbuoy,2nd Class Passenger,0.0,Mr
+367,30.0,Mityu,Denkov,3rd Class Passenger,0.0,Mr
+368,22.0,Samuel,Dennis,3rd Class Passenger,0.0,Mr
+369,26.0,William,Dennis,3rd Class Passenger,0.0,Mr
+370,27.0,Yoto,Denov,3rd Class Passenger,0.0,Mr
+371,28.0,Arthur Henry,Derrett,Victualling Crew,0.0,Mr
+372,38.0,Percival Stainer,Deslandes,Victualling Crew,0.0,Mr
+373,20.0,Louis Gabriel,Desvernine,Restaurant Staff,0.0,Mr
+374,18.0,William,Dibden,2nd Class Passenger,0.0,Mr
+375,29.0,Ilyās,Dībū,3rd Class Passenger,0.0,Mr
+376,37.0,William,Dickson,Engineering Crew,0.0,Mr
+377,17.0,Mirko,Dika,3rd Class Passenger,0.0,Mr
+378,42.0,Jovan,Dimić,3rd Class Passenger,0.0,Mr
+379,43.0,Vulcho,Dinchev,3rd Class Passenger,0.0,Mr
+380,49.0,James Richard,Dinenage,Victualling Crew,0.0,Mr
+381,39.0,Edward Charles,Dodd,Engineering Crew,0.0,Mr
+382,44.0,George Charles,Dodd,Victualling Crew,0.0,Mr
+383,26.0,Henry Watson,Dodds,Engineering Crew,0.0,Mr
+384,22.0,William John,Doherty,3rd Class Passenger,0.0,Mr
+385,38.0,Joseph,Dolby,Victualling Crew,0.0,Mr
+386,17.0,Italo Francesco,Donati,Restaurant Staff,0.0,Sig.
+387,31.0,Florence Thomas,Donoghue,Victualling Crew,0.0,Mr
+388,21.0,Bridget,Donohoe,3rd Class Passenger,0.0,Miss
+389,37.0,Patrick,Dooly,3rd Class Passenger,0.0,Mr
+390,20.0,Louis Auguste,Dornier,Restaurant Staff,0.0,Mr
+391,22.0,Walter Thomas,Doughty,Victualling Crew,0.0,Mr
+392,50.0,Walter Donald,Douglas,1st Class Passenger,0.0,Mr
+393,55.0,William Joseph,Douton,2nd Class Passenger,0.0,Mr
+394,27.0,Laurence,Doyle,Engineering Crew,0.0,Mr
+395,28.0,Elizabeth,Doyle,3rd Class Passenger,0.0,Miss
+396,33.0,Jozef,Draženović,3rd Class Passenger,0.0,Mr
+397,42.0,James Vivian,Drew,2nd Class Passenger,0.0,Mr
+398,36.0,William Luke,Duffy,Engineering Crew,0.0,Mr
+399,39.0,William Crothers,Dulles,1st Class Passenger,0.0,Mr
+400,48.0,William,Dunford,Victualling Crew,0.0,Mr
+401,65.0,Frank,Dwan,3rd Class Passenger,0.0,Mr
+402,33.0,William Henry,Dyer,Victualling Crew,0.0,Mr
+403,24.0,Henry Ryland,Dyer,Engineering Crew,0.0,Mr
+404,23.0,Adolf Fredrik,Dyker,3rd Class Passenger,0.0,Mr
+405,27.0,Alfred James Jacob,Eagle,Engineering Crew,0.0,Mr
+406,44.0,Charles,Eastman,Engineering Crew,0.0,Mr
+407,23.0,Francis Samuel Jacob,Edbrooke,Victualling Crew,0.0,Mr
+408,23.0,George Bulkeley,Ede,Victualling Crew,0.0,Mr
+409,39.0,Frederick William,Edge,Victualling Crew,0.0,Mr
+410,18.0,Gustaf Hjalmar,Edvardsson,3rd Class Passenger,0.0,Mr
+411,49.0,Charles Essex,Edwards,Victualling Crew,0.0,Mr
+412,48.0,William Henry,Egg,Victualling Crew,0.0,Mr
+413,25.0,George Floyd,Eitemiller,2nd Class Passenger,0.0,Mr
+414,16.0,Hans Linus,Eklund,3rd Class Passenger,0.0,Mr
+415,45.0,Johan,Ekström,3rd Class Passenger,0.0,Mr
+416,15.0,Joseph jr.,Elias,3rd Class Passenger,0.0,Mr
+417,39.0,Joseph,Elias,3rd Class Passenger,0.0,Mr
+418,22.0,Tannous,Elias nasrallah,3rd Class Passenger,0.0,Mr
+419,23.0,Everett Edward,Elliott,Engineering Crew,0.0,Mr
+420,48.0,William James,Elsbury,3rd Class Passenger,0.0,Mr
+421,21.0,Ingvar,Enander,2nd Class Passenger,0.0,Mr
+422,34.0,Walter,Ennis,Victualling Crew,0.0,Mr
+423,18.0,Albert George,Ervine,Engineering Crew,0.0,Mr
+424,37.0,Manuel Gonçalves,Estanislau,3rd Class Passenger,0.0,Mr
+425,36.0,Edith Corse,Evans,1st Class Passenger,0.0,Miss
+426,27.0,George Richard,Evans,Victualling Crew,0.0,Mr
+427,33.0,William Thomas,Evans,Engineering Crew,0.0,Mr
+428,37.0,Thomas James,Everett,3rd Class Passenger,0.0,Mr
+429,18.0,Arne Joma,Fahlstrøm,2nd Class Passenger,0.0,Mr
+430,40.0,Henry Charles,Fairall,Victualling Crew,0.0,Mr
+431,46.0,Charles Richard,Fardon,3rd Class Passenger,0.0,Mr
+432,22.0,Ernest John,Farenden,Victualling Crew,0.0,Mr
+433,39.0,William Edward,Farquharson,Engineering Crew,0.0,Mr
+434,26.0,James ,Farrell,3rd Class Passenger,0.0,Mr
+435,48.0,John,Farthing,1st Class Passenger,0.0,Mr
+436,31.0,Harry Bartram,Faunthorpe,2nd Class Passenger,0.0,Mr
+437,30.0,Thomas Joseph,Fay,Engineering Crew,0.0,Mr
+438,19.0,Carlo,Fei,Restaurant Staff,0.0,Sig.
+439,28.0,Alfred James,Fellowes,Victualling Crew,0.0,Mr
+440,41.0,George William,Feltham,Victualling Crew,0.0,Mr
+441,33.0,Antonio,Ferrary,Engineering Crew,0.0,Mr
+442,39.0,William,Ferris,Engineering Crew,0.0,Mr
+443,18.0,Joseph Charles,Fillbrook,2nd Class Passenger,0.0,Mr
+444,18.0,Henry Herman,Finch,Victualling Crew,0.0,Mr
+445,23.0,Giuseppe Bertoldo,Fioravante,Restaurant Staff,0.0,Sig.
+446,18.0,Eberhard Thelander,Fischer,3rd Class Passenger,0.0,Mr
+447,29.0,Hugh Joseph,Fitzpatrick,Engineering Crew,0.0,Mr
+448,22.0,Honor,Fleming,3rd Class Passenger,0.0,Miss
+449,25.0,Percy William,Fletcher,Victualling Crew,0.0,Mr
+450,28.0,James,Flynn,3rd Class Passenger,0.0,Mr
+451,48.0,John,Flynn,3rd Class Passenger,0.0,Mr
+452,19.0,Joseph,Foley,3rd Class Passenger,0.0,Mr
+453,20.0,William,Foley,3rd Class Passenger,0.0,Mr
+454,23.0,Arthur,Ford,3rd Class Passenger,0.0,Mr
+455,33.0,Thomas,Ford,Engineering Crew,0.0,Mr
+456,7.0,Robina Maggie,Ford,3rd Class Passenger,0.0,Miss
+457,33.0,Ernest,Ford,Victualling Crew,0.0,Mr
+458,18.0,Edward Watson,Ford,3rd Class Passenger,0.0,Mr
+459,54.0,Margaret Ann Watson,Ford,3rd Class Passenger,0.0,Mrs
+460,22.0,H.,Ford,Engineering Crew,0.0,Mr
+461,44.0,Francis,Ford,Victualling Crew,0.0,Mr
+462,14.0,William Neal Thomas,Ford,3rd Class Passenger,0.0,Mr
+463,20.0,Dollina Margaret,Ford,3rd Class Passenger,0.0,Miss
+464,30.0,Benjamin Laventall,Foreman,1st Class Passenger,0.0,Mr
+465,64.0,Mark,Fortune,1st Class Passenger,0.0,Mr
+466,19.0,Charles Alexander,Fortune,1st Class Passenger,0.0,Mr
+467,37.0,Alfred Charles,Foster,Engineering Crew,0.0,Mr
+468,27.0,William Thomas,Fox,Victualling Crew,0.0,Mr
+469,38.0,Stanley Harrington,Fox,2nd Class Passenger,0.0,Mr
+470,28.0,Patrick,Fox,3rd Class Passenger,0.0,Mr
+471,37.0,Thomas Parnham,Franklin,1st Class Passenger,0.0,Mr
+472,28.0,Alan Vincent,Franklin,Victualling Crew,0.0,Mr
+473,30.0,James,Fraser,Engineering Crew,0.0,Mr
+474,30.0,J.,Fraser,Engineering Crew,0.0,Mr
+475,45.0,Ernest Edward Samuel,Freeman,Victualling Crew,0.0,Mr
+476,38.0,Anthony Wood,Frost,2nd Class Passenger,0.0,Mr
+477,39.0,Richard Thomas,Fry,1st Class Passenger,0.0,Mr
+478,38.0,Annie Clemmer,Funk,2nd Class Passenger,0.0,Miss
+479,37.0,Jacques Heath,Futrelle,1st Class Passenger,0.0,Mr
+480,36.0,Joseph J.,Fynney,2nd Class Passenger,0.0,Mr
+481,33.0,Shadrach,Gale,2nd Class Passenger,0.0,Mr
+482,37.0,Harry,Gale,2nd Class Passenger,0.0,Mr
+483,29.0,Martin,Gallagher,3rd Class Passenger,0.0,Mr
+484,21.0,John,Garfirth,3rd Class Passenger,0.0,Mr
+485,19.0,William Alfred,Gaskell,2nd Class Passenger,0.0,Mr
+486,37.0,Gaspare Antonio Pietro,Gatti,Restaurant Staff,0.0,Sig.
+487,26.0,Laurence,Gavey,2nd Class Passenger,0.0,Mr
+488,32.0,Richard Charles,Geddes,Victualling Crew,0.0,Mr
+489,47.0,Arthur H.,Gee,1st Class Passenger,0.0,Mr
+490,26.0,Alfred Emest,Geer,Engineering Crew,0.0,Mr
+491,,Stenyu,Georgiev,3rd Class Passenger,0.0,Mr
+492,23.0,Victor Gaitan Andrea,Giglio,1st Class Passenger,0.0,Mr
+493,31.0,Vincenzo Pio,Gilardino,Restaurant Staff,0.0,Sig.
+494,46.0,William,Gilbert,2nd Class Passenger,0.0,Mr
+495,32.0,John Robert,Giles,Victualling Crew,0.0,Mr
+496,20.0,Frederick Edward,Giles,2nd Class Passenger,0.0,Mr
+497,24.0,Ralph,Giles,2nd Class Passenger,0.0,Mr
+498,18.0,Edgar,Giles,2nd Class Passenger,0.0,Mr
+499,23.0,Eliezer,Gilinski,3rd Class Passenger,0.0,Mr
+500,24.0,John,Gill,2nd Class Passenger,0.0,Mr
+501,38.0,Joseph Stanley,Gill,Victualling Crew,0.0,Mr
+502,38.0,Patrick,Gill,Victualling Crew,0.0,Mr
+503,31.0,William Henry,Gillespie,2nd Class Passenger,0.0,Mr
+504,27.0,Hans Kristensen,Givard,2nd Class Passenger,0.0,Mr
+505,36.0,Frederick Charles,Godwin,Engineering Crew,0.0,Mr
+506,35.0,Martin William,Golder,Engineering Crew,0.0,Mr
+507,71.0,George B.,Goldschmidt,1st Class Passenger,0.0,Mr
+508,41.0,Nathan,Goldsmith,3rd Class Passenger,0.0,Mr
+509,33.0,Frank John,Goldsmith,3rd Class Passenger,0.0,Mr
+510,30.0,Percival Salisbury,Gollop,Victualling Crew,0.0,Mr
+511,12.0,Jessie Allis Mary,Goodwin,3rd Class Passenger,0.0,Miss
+512,14.0,Charles Edward,Goodwin,3rd Class Passenger,0.0,Mr
+513,43.0,Augusta,Goodwin,3rd Class Passenger,0.0,Mrs
+514,10.0,Harold Victor,Goodwin,3rd Class Passenger,0.0,Master
+515,13.0,William Frederick,Goodwin,3rd Class Passenger,0.0,Master
+516,16.0,Lillian Augusta,Goodwin,3rd Class Passenger,0.0,Miss
+517,42.0,Frederick Joseph,Goodwin,3rd Class Passenger,0.0,Mr
+518,1.0,Sidney Leslie,Goodwin,3rd Class Passenger,0.0,Master
+519,30.0,John,Gordon,Engineering Crew,0.0,Mr
+520,40.0,Frank,Goree,Engineering Crew,0.0,Mr
+521,40.0,Alfred James,Goshawk,Victualling Crew,0.0,Mr
+522,22.0,Bertram James,Gosling,Engineering Crew,0.0,Mr
+523,25.0,Frank Henry,Gosling,Engineering Crew,0.0,Mr
+524,22.0,Ernest Edward,Gradidge,Engineering Crew,0.0,Mr
+525,38.0,George Edward,Graham,1st Class Passenger,0.0,Mr
+526,41.0,George,Green,3rd Class Passenger,0.0,Mr
+527,20.0,George,Green,Engineering Crew,0.0,Mr
+528,51.0,Samuel,Greenberg,2nd Class Passenger,0.0,Mr
+529,43.0,David,Gregory,Engineering Crew,0.0,Mr
+530,24.0,Gérald,Grosclaude,Restaurant Staff,0.0,Mr
+531,32.0,Daniel Danielsen,Grønnestad,3rd Class Passenger,0.0,Mr
+532,22.0,Stephen,Guest,3rd Class Passenger,0.0,Mr
+533,46.0,Benjamin,Guggenheim,1st Class Passenger,0.0,Mr
+534,24.0,George,Gumery,Engineering Crew,0.0,Mr
+535,30.0,Joseph Alfred,Gunn,Victualling Crew,0.0,Mr
+536,19.0,Alfred Ossian,Gustafsson,3rd Class Passenger,0.0,Mr
+537,37.0,Anders Vilhelm,Gustafsson,3rd Class Passenger,0.0,Mr
+538,19.0,Karl Gideon,Gustafsson,3rd Class Passenger,0.0,Mr
+539,28.0,Johan Birger,Gustafsson,3rd Class Passenger,0.0,Mr
+540,37.0,William Logan,Gwinn,Victualling Crew,0.0,Mr
+541,24.0,Aloisia,Haas,3rd Class Passenger,0.0,Miss
+542,28.0,Ingvald Olai Olsen,Hagland,3rd Class Passenger,0.0,Mr
+543,19.0,Konrad Mathias Reiersen,Hagland,3rd Class Passenger,0.0,Mr
+544,28.0,Pekka Pietari,Hakkarainen,3rd Class Passenger,0.0,Mr
+545,31.0,Reginald,Hale,2nd Class Passenger,0.0,Mr
+546,40.0,Frank Alfred James,Hall,Victualling Crew,0.0,Mr
+547,32.0,J.,Hall,Engineering Crew,0.0,Mr
+548,23.0,George Alexander,Hallett,Engineering Crew,0.0,Mr
+549,47.0,Ernest William,Hamblyn,Victualling Crew,0.0,Mr
+550,25.0,Ernest,Hamilton,Victualling Crew,0.0,Mr
+551,19.0,Léon Jérome,Hampe,3rd Class Passenger,0.0,Mr
+552,54.0,Bernard,Hands,Engineering Crew,0.0,Mr
+553,35.0,Mansūr,Ḥannā al-hāj,3rd Class Passenger,0.0,Mr
+554,30.0,George,Hannam,Engineering Crew,0.0,Mr
+555,20.0,Henry Damsgaard,Hansen,3rd Class Passenger,0.0,Mr
+556,25.0,Jens Henrik Marius Juul,Hansen,3rd Class Passenger,0.0,Mr
+557,41.0,Claus Peter,Hansen,3rd Class Passenger,0.0,Mr
+558,45.0,William H.,Harbeck,2nd Class Passenger,0.0,Mr
+559,21.0,Alfred John,Harding,Victualling Crew,0.0,Mr
+560,17.0,Kate ,Hargadon,3rd Class Passenger,0.0,Miss
+561,21.0,Alice Phoebe,Harknett,3rd Class Passenger,0.0,Miss
+562,39.0,John,Harper,2nd Class Passenger,0.0,Rev.
+563,37.0,Charles Henry,Harrington,1st Class Passenger,0.0,Mr
+564,19.0,Charles William,Harris,Victualling Crew,0.0,Mr
+565,45.0,Walter,Harris,2nd Class Passenger,0.0,Mr
+566,29.0,Edward John,Harris,Engineering Crew,0.0,Mr
+567,17.0,Clifford Henry,Harris,Victualling Crew,0.0,Mr
+568,45.0,Henry Burkhardt,Harris,1st Class Passenger,0.0,Mr
+569,24.0,Amos,Harris,Engineering Crew,0.0,Mr
+570,17.0,Edward Matthew,Harris,Victualling Crew,0.0,Mr
+571,38.0,Norman E.,Harrison,Engineering Crew,0.0,Mr
+572,45.0,William Henry,Harrison,1st Class Passenger,0.0,Mr
+573,54.0,James,Hart,Engineering Crew,0.0,Mr
+574,47.0,Benjamin,Hart,2nd Class Passenger,0.0,Mr
+575,30.0,Henry,Hart,3rd Class Passenger,0.0,Mr
+576,33.0,Wallace Henry,Hartley,2nd Class Passenger,0.0,Mr
+577,34.0,Herbert Gifford,Harvey,Engineering Crew,0.0,Mr
+578,21.0,Hugh,Hatch,Victualling Crew,0.0,Mr
+579,43.0,William Walter,Hawkesworth,Victualling Crew,0.0,Mr
+580,52.0,James,Hawkesworth,Victualling Crew,0.0,Mr
+581,55.0,Charles Melville,Hays,1st Class Passenger,0.0,Mr
+582,44.0,Arthur,Hayter,Victualling Crew,0.0,Mr
+583,24.0,Alfred,Head,Engineering Crew,0.0,Mr
+584,42.0,Christopher,Head,1st Class Passenger,0.0,Mr
+585,20.0,Hanora ,Hegarty,3rd Class Passenger,0.0,Miss
+586,30.0,Joseph Dominichus,Heinen,Victualling Crew,0.0,Mr
+587,23.0,Wendla Maria,Heininen,3rd Class Passenger,0.0,Miss
+588,30.0,Ignjac,Hendeković,3rd Class Passenger,0.0,Mr
+589,39.0,Edward Martin,Hendy,Victualling Crew,0.0,Mr
+590,28.0,Jenny Lovisa,Henriksson,3rd Class Passenger,0.0,Miss
+591,22.0,Bridget,Henry,3rd Class Passenger,0.0,Miss
+592,26.0,Herbert George Ernest,Hensford,Victualling Crew,0.0,Mr
+593,50.0,Samuel,Herman,2nd Class Passenger,0.0,Mr
+594,33.0,John Henry,Hesketh,Engineering Crew,0.0,Mr
+595,51.0,James,Heslin,Engineering Crew,0.0,Mr
+596,37.0,Thomas,Hewitt,Victualling Crew,0.0,Mr
+597,30.0,Lewis,Hickman,2nd Class Passenger,0.0,Mr
+598,21.0,Stanley George,Hickman,2nd Class Passenger,0.0,Mr
+599,24.0,Leonard Mark,Hickman,2nd Class Passenger,0.0,Mr
+600,37.0,Henry Parkinson,Hill,Victualling Crew,0.0,Mr
+601,25.0,James,Hill,Engineering Crew,0.0,Mr
+602,43.0,James Colston,Hill,Victualling Crew,0.0,Mr
+603,44.0,Herbert Henry,Hilliard,1st Class Passenger,0.0,Mr
+604,18.0,Martta Maria,Hiltunen,2nd Class Passenger,0.0,Miss
+605,40.0,George Herbert,Hinckley,Victualling Crew,0.0,Mr
+606,36.0,William Edward,Hine,Victualling Crew,0.0,Mr
+607,30.0,Stephen William,Hinton,Engineering Crew,0.0,Mr
+608,55.0,William Edward,Hipkins,1st Class Passenger,0.0,Mr
+609,25.0,Sydney George,Hiscock,Victualling Crew,0.0,Mr
+610,18.0,Leonard James,Hoare,Victualling Crew,0.0,Mr
+611,23.0,Richard George,Hocking,2nd Class Passenger,0.0,Mr
+612,36.0,Samuel James Metcalfe,Hocking,2nd Class Passenger,0.0,Mr
+613,29.0,Charley,Hodge,Engineering Crew,0.0,Mr
+614,50.0,Henry Price,Hodges,2nd Class Passenger,0.0,Mr
+615,26.0,W.,Hodges,Engineering Crew,0.0,Mr
+616,46.0,Leonard,Hodgkinson,Engineering Crew,0.0,Mr
+617,19.0,Albert John,Hogan,Victualling Crew,0.0,Mr
+618,43.0,Charles William,Hogg,Victualling Crew,0.0,Mr
+619,22.0,E.,Hogue,Victualling Crew,0.0,Mr
+620,44.0,Stephen,Hold,2nd Class Passenger,0.0,Mr
+621,28.0,Thomas,Holland,Victualling Crew,0.0,Mr
+622,24.0,Sidney,Holloway,Victualling Crew,0.0,Mr
+623,43.0,John Fredrik Alexander,Holm,3rd Class Passenger,0.0,Mr
+624,29.0,Harry,Holman,Deck Crew,0.0,Mr
+625,18.0,Johan Martin,Holten,3rd Class Passenger,0.0,Mr
+626,42.0,Alexander Oskar,Holverson,1st Class Passenger,0.0,Mr
+627,21.0,Ambrose,Hood,2nd Class Passenger,0.0,Mr
+628,29.0,Roland John C.,Hopgood,Engineering Crew,0.0,Mr
+629,14.0,Frederick William,Hopkins,Victualling Crew,0.0,Mr
+630,22.0,John,Horgan,3rd Class Passenger,0.0,Mr
+631,22.0,Richard William,Hosgood,Engineering Crew,0.0,Mr
+632,36.0,George Fox,Hosking,Engineering Crew,0.0,Mr
+633,45.0,William Charles,House,Victualling Crew,0.0,Mr
+634,61.0,Ellen Truelove,Howard,2nd Class Passenger,0.0,Mrs
+635,63.0,Benjamin,Howard,2nd Class Passenger,0.0,Mr
+636,31.0,Arthur Albert,Howell,Victualling Crew,0.0,Mr
+637,43.0,William Fisher,Hoyt,1st Class Passenger,0.0,Mr
+638,34.0,William Thomas,Hughes,Victualling Crew,0.0,Mr
+639,42.0,Adolf Mathias Nicolai Olsen,Humblen,3rd Class Passenger,0.0,Mr
+640,17.0,Frederick,Humby,Victualling Crew,0.0,Mr
+641,21.0,John Law,Hume,2nd Class Passenger,0.0,Mr
+642,31.0,Humphrey,Humphreys,Victualling Crew,0.0,Mr
+643,34.0,George Henry,Hunt,2nd Class Passenger,0.0,Mr
+644,27.0,Tom,Hunt,Engineering Crew,0.0,Mr
+645,40.0,Charles John,Hurst,Engineering Crew,0.0,Mr
+646,31.0,James,Hutchinson,Victualling Crew,0.0,Mr
+647,28.0,John Hall,Hutchinson,Deck Crew,0.0,Mr
+648,11.0,Husayn Mahmūd Husayn,Ibrāhīm,3rd Class Passenger,0.0,Mr
+649,33.0,Yūsuf Hānī,Ibrāhīm-shawah,3rd Class Passenger,0.0,Mr
+650,31.0,Harry John,Ide,Victualling Crew,0.0,Mr
+651,32.0,Ilyo,Iliev,3rd Class Passenger,0.0,Mr
+652,17.0,Ida Livija,Ilmakangas,3rd Class Passenger,0.0,Miss
+653,25.0,Pieta Sofia,Ilmakangas,3rd Class Passenger,0.0,Miss
+654,19.0,George,Ingram,Engineering Crew,0.0,Mr
+655,21.0,Henry,Ingrouille,Victualling Crew,0.0,Mr
+656,20.0,William Ernest,Ings,Victualling Crew,0.0,Mr
+657,31.0,Thomas,Instance,Engineering Crew,0.0,Mr
+658,50.0,Ann Elizabeth,Isham,1st Class Passenger,0.0,Miss
+659,20.0,Kostya,Ivyanov,3rd Class Passenger,0.0,Mr
+660,16.0,Hileni,Jabbur (zabour),3rd Class Passenger,0.0,Miss
+661,19.0,Thamine,Jabbur (zabour),3rd Class Passenger,0.0,Miss
+662,30.0,John Henry,Jackopson,Engineering Crew,0.0,Mr
+663,22.0,Cecil,Jackson,Victualling Crew,0.0,Mr
+664,63.0,Gunhilde Oline 'Lena',Jacobsen,3rd Class Passenger,0.0,Mrs
+665,42.0,Sidney Samuel,Jacobsohn,2nd Class Passenger,0.0,Mr
+666,59.0,Joseph,Jago,Engineering Crew,0.0,Mr
+667,38.0,Henri Marie,Jaillet,Restaurant Staff,0.0,Mr
+668,27.0,Thomas,James,Engineering Crew,0.0,Mr
+669,35.0,William Frank,Janaway,Victualling Crew,0.0,Mr
+670,29.0,Claude Marie,Janin,Restaurant Staff,0.0,Mr
+671,21.0,José Neto,Jardim,3rd Class Passenger,0.0,Mr
+672,46.0,Denzil John,Jarvis,2nd Class Passenger,0.0,Mr
+673,28.0,William Alfred,Jeffery,Restaurant Staff,0.0,Mr
+674,21.0,Ernest Wilfred,Jefferys,2nd Class Passenger,0.0,Mr
+675,24.0,Clifford Thomas,Jefferys,2nd Class Passenger,0.0,Mr
+676,32.0,Stephen Curnow,Jenkin,2nd Class Passenger,0.0,Mr
+677,55.0,Thomas Henry (Harry),Jenner,Victualling Crew,0.0,Mr
+678,20.0,Hans Peder,Jensen,3rd Class Passenger,0.0,Mr
+679,16.0,Svend Lauritz,Jensen,3rd Class Passenger,0.0,Mr
+680,24.0,Charles Valdemar,Jensen,Victualling Crew,0.0,Mr
+681,48.0,Niels Rasmus,Jensen,3rd Class Passenger,0.0,Mr
+682,39.0,N.,Joas,Engineering Crew,0.0,Mr
+683,34.0,Jakob Alfred,Johanson,3rd Class Passenger,0.0,Mr
+684,31.0,Karl Johan,Johansson,3rd Class Passenger,0.0,Mr
+685,22.0,Erik,Johansson,3rd Class Passenger,0.0,Mr
+686,33.0,Gustaf Joël,Johansson,3rd Class Passenger,0.0,Mr
+687,30.0,Nils,Johansson,3rd Class Passenger,0.0,Mr
+688,19.0,William Cahoone,Johnson,3rd Class Passenger,0.0,Mr
+689,33.0,Malkolm Joackim,Johnson,3rd Class Passenger,0.0,Mr
+690,49.0,August,Johnson,3rd Class Passenger,0.0,Mr
+691,36.0,Eliza,Johnston,3rd Class Passenger,0.0,Mrs
+692,7.0,Catherine Nellie,Johnston,3rd Class Passenger,0.0,Miss
+693,8.0,William Andrew,Johnston,3rd Class Passenger,0.0,Master
+694,35.0,Andrew Emslie,Johnston,3rd Class Passenger,0.0,Mr
+695,37.0,Arthur Ernest,Jones,Victualling Crew,0.0,Mr
+696,46.0,Charles Cresson,Jones,1st Class Passenger,0.0,Mr
+697,36.0,Harry Owen Glendower,Jones,Victualling Crew,0.0,Mr
+698,17.0,Albert Hugh Brabner,Jones,Victualling Crew,0.0,Mr
+699,20.0,Victor Reginald,Jones,Victualling Crew,0.0,Mr
+700,27.0,Nils Hilding,Jönsson,3rd Class Passenger,0.0,Mr
+701,24.0,Georges Jules,Jouannault,Restaurant Staff,0.0,Mr
+702,38.0,Henry James,Jukes,Engineering Crew,0.0,Mr
+703,50.0,Henry Forbes,Julian,1st Class Passenger,0.0,Mr
+704,30.0,Boykett Herbert,Jupe,Engineering Crew,0.0,Mr
+705,20.0,Katriina,Jussila,3rd Class Passenger,0.0,Miss
+706,21.0,Mari Aina,Jussila,3rd Class Passenger,0.0,Miss
+707,17.0,Nikolai Erland,Kallio,3rd Class Passenger,0.0,Mr
+708,21.0,Johannes Halvorsen,Kalvik,3rd Class Passenger,0.0,Mr
+709,34.0,Sinai,Kantor,2nd Class Passenger,0.0,Mr
+710,30.0,Milan,Karajić,3rd Class Passenger,0.0,Mr
+711,33.0,Julius Konrad Eugen,Karlsson,3rd Class Passenger,0.0,Mr
+712,22.0,Nils August,Karlsson,3rd Class Passenger,0.0,Mr
+713,22.0,Claire,Karnes,2nd Class Passenger,0.0,Mrs
+714,19.0,Vasilios G.,Katavelos,3rd Class Passenger,0.0,Mr
+715,35.0,Daniel,Keane,2nd Class Passenger,0.0,Mr
+716,23.0,Andrew ,Keane,3rd Class Passenger,0.0,Mr
+717,44.0,Charles Henry,Kearl,Engineering Crew,0.0,Mr
+718,25.0,George Edward,Kearl,Engineering Crew,0.0,Mr
+719,38.0,James,Keegan,Engineering Crew,0.0,Mr
+720,33.0,Edwin Herbert,Keeping,1st Class Passenger,0.0,Mr
+721,19.0,Thomas,Kelland,Victualling Crew,0.0,Mr
+722,19.0,James,Kelly,3rd Class Passenger,0.0,Mr
+723,23.0,William Patrick,Kelly,Engineering Crew,0.0,Mr
+724,44.0,James,Kelly,3rd Class Passenger,0.0,Mr
+725,44.0,James,Kelly,Engineering Crew,0.0,Mr
+726,43.0,Thomas Hulman,Kemp,Engineering Crew,0.0,Mr
+727,30.0,Charles,Kennell,Victualling Crew,0.0,Mr
+728,58.0,Edward Austin,Kent,1st Class Passenger,0.0,Mr
+729,41.0,Frederick Roland,Kenyon,1st Class Passenger,0.0,Mr
+730,44.0,August,Kenzler,Engineering Crew,0.0,Mr
+731,28.0,William Thomas,Kerley,Victualling Crew,0.0,Mr
+732,26.0,Thomas Russell,Kerr,Engineering Crew,0.0,Mr
+733,36.0,Henry,Ketchley,Victualling Crew,0.0,Mr
+734,25.0,Betros,Khalil,3rd Class Passenger,0.0,Mr
+735,20.0,Zahie ,Khalil,3rd Class Passenger,0.0,Mrs
+736,27.0,Sulaymān,Khalīl 'atta allāh,3rd Class Passenger,0.0,Mr
+737,35.0,James William,Kieran,Victualling Crew,0.0,Mr
+738,34.0,Edgar Michael,Kieran,Victualling Crew,0.0,Mr
+739,26.0,John Joseph,Kiernan,3rd Class Passenger,0.0,Mr
+740,22.0,Philip,Kiernan,3rd Class Passenger,0.0,Mr
+741,21.0,Thomas,Kilgannon,3rd Class Passenger,0.0,Mr
+742,36.0,Frederick Charles,Kinchenten,Engineering Crew,0.0,Mr
+743,18.0,Alfred John Moffett,King,Victualling Crew,0.0,Mr
+744,28.0,Ernest Waldron,King,Victualling Crew,0.0,Mr
+745,42.0,Thomas Walter,King,Deck Crew,0.0,Mr
+746,48.0,William Ford,Kingscote,Victualling Crew,0.0,Mr
+747,23.0,Maria,Kink,3rd Class Passenger,0.0,Miss
+748,26.0,Vincenz,Kink,3rd Class Passenger,0.0,Mr
+749,30.0,Louis,Kinsella,Engineering Crew,0.0,Mr
+750,35.0,Thomas Benjamin,Kirkaldy,Victualling Crew,0.0,Mr
+751,43.0,James,Kirkham,Engineering Crew,0.0,Mr
+752,71.0,Charles Leonard,Kirkland,2nd Class Passenger,0.0,Fr
+753,31.0,Arthur Alfred,Kitching,Victualling Crew,0.0,Mr
+754,41.0,Herman,Klaber,1st Class Passenger,0.0,Mr
+755,36.0,Hulda Kristina Eugenia,Klasén,3rd Class Passenger,0.0,Mrs
+756,18.0,Klas Albin,Klasén,3rd Class Passenger,0.0,Mr
+757,1.0,Gertrud Emilia,Klasén,3rd Class Passenger,0.0,Miss
+758,34.0,Herbert,Klein,Victualling Crew,0.0,Mr
+759,21.0,Leonard George,Knight,Victualling Crew,0.0,Mr
+760,42.0,Robert,Knight,2nd Class Passenger,0.0,Mr
+761,24.0,Sotir,Kolev,3rd Class Passenger,0.0,Mr
+762,36.0,Petr,Kolev,3rd Class Passenger,0.0,Mr
+763,,Theodor,Kraeff,3rd Class Passenger,0.0,Mr
+764,23.0,Georges Alexandre,Krins,2nd Class Passenger,0.0,Mr
+765,27.0,Simon,Kutscher (lithman),3rd Class Passenger,0.0,Mr
+766,31.0,Johan Henrik Johannesson,Kvillner,2nd Class Passenger,0.0,Mr
+767,19.0,Bertie William,Lacey,Victualling Crew,0.0,Mr
+768,35.0,Sarkīs,Lahhūd ishaq mu'awwad,3rd Class Passenger,0.0,Mr
+769,35.0,William,Lahtinen,2nd Class Passenger,0.0,Rev.
+770,34.0,Anna Amelia,Lahtinen,2nd Class Passenger,0.0,Mrs
+771,41.0,T.,Lahy,Engineering Crew,0.0,Mr
+772,38.0,Kristina Sofia,Laitinen,3rd Class Passenger,0.0,Miss
+773,46.0,William,Lake,Victualling Crew,0.0,Mr
+774,23.0,Len,Lam,3rd Class Passenger,0.0,Mr
+775,31.0,John J.,Lamb,2nd Class Passenger,0.0,Mr
+776,16.0,Patrick,Lane,3rd Class Passenger,0.0,Mr
+777,33.0,Albert Edward,Lane,Victualling Crew,0.0,Mr
+778,25.0,Joseph Philippe Lemercier,Laroche,2nd Class Passenger,0.0,Mr
+779,29.0,Bengt Edvin,Larsson,3rd Class Passenger,0.0,Mr
+780,29.0,August Viktor,Larsson,3rd Class Passenger,0.0,Mr
+781,55.0,Andrew,Latimer,Victualling Crew,0.0,Mr
+782,36.0,Arthur,Lawrance,Victualling Crew,0.0,Mr
+783,22.0,Archibald,Leader,Victualling Crew,0.0,Mr
+784,17.0,Herbert Henry,Lee,Engineering Crew,0.0,Mr
+785,12.0,Mathilde,Lefebvre,3rd Class Passenger,0.0,Miss
+786,40.0,Frances Marie,Lefebvre,3rd Class Passenger,0.0,Mrs
+787,3.0,Ida,Lefebvre,3rd Class Passenger,0.0,Miss
+788,35.0,Paul Georges,Lefebvre,Victualling Crew,0.0,Mr
+789,5.0,Henry,Lefebvre,3rd Class Passenger,0.0,Master
+790,8.0,Jeannie,Lefebvre,3rd Class Passenger,0.0,Miss
+791,32.0,Antti Gustaf,Leinonen,3rd Class Passenger,0.0,Mr
+792,20.0,Denis,Lennon,3rd Class Passenger,0.0,Mr
+793,25.0,Matthew,Leonard,Victualling Crew,0.0,Mr
+794,41.0,James,Lester,3rd Class Passenger,0.0,Mr
+795,25.0,George Alfred,Levett,Victualling Crew,0.0,Mr
+796,36.0,René Jacques,Lévy,2nd Class Passenger,0.0,Mr
+797,30.0,Ervin G.,Lewy,1st Class Passenger,0.0,Mr
+798,25.0,Robert William Norman,Leyson,2nd Class Passenger,0.0,Mr
+799,24.0,René Aimé,Lievens,3rd Class Passenger,0.0,Mr
+800,47.0,W.,Light,Engineering Crew,0.0,Mr
+801,24.0,Charles Edward,Light,Victualling Crew,0.0,Mr
+802,20.0,Christopher William,Light,Engineering Crew,0.0,Mr
+803,42.0,Erik Gustaf,Lind,1st Class Passenger,0.0,Mr
+804,25.0,Agda Thorilda Viktoria,Lindahl,3rd Class Passenger,0.0,Miss
+805,45.0,Augusta Charlotta,Lindblom,3rd Class Passenger,0.0,Miss
+806,30.0,Elin Gerda,Lindell,3rd Class Passenger,0.0,Mrs
+807,36.0,Edvard Bengtsson,Lindell,3rd Class Passenger,0.0,Mr
+808,21.0,Michael,Linehan,3rd Class Passenger,0.0,Mr
+809,28.0,Lee,Ling,3rd Class Passenger,0.0,Mr
+810,61.0,John,Lingane,2nd Class Passenger,0.0,Mr
+811,28.0,Wenzel,Linhart,3rd Class Passenger,0.0,Mr
+812,25.0,David,Livshin,3rd Class Passenger,0.0,Mr
+813,29.0,William,Lloyd,Engineering Crew,0.0,Mr
+814,41.0,Humphrey,Lloyd,Victualling Crew,0.0,Mr
+815,34.0,Cordelia,Lobb,3rd Class Passenger,0.0,Mrs
+816,31.0,William Arthur,Lobb,3rd Class Passenger,0.0,Mr
+817,33.0,Albert George,Locke,Victualling Crew,0.0,Mr
+818,19.0,Edward Thomas,Lockyer,3rd Class Passenger,0.0,Mr
+819,36.0,William,Long,Engineering Crew,0.0,Mr
+820,31.0,Frank,Long,Engineering Crew,0.0,Mr
+821,29.0,Milton Clyde,Long,1st Class Passenger,0.0,Mr
+822,19.0,John Dickson,Longmuir,Victualling Crew,0.0,Mr
+823,30.0,Joseph Holland,Loring,1st Class Passenger,0.0,Mr
+824,50.0,Charles,Louch,2nd Class Passenger,0.0,Mr
+825,37.0,John,Lovell,Victualling Crew,0.0,Mr
+826,20.0,John Hall,Lovell,3rd Class Passenger,0.0,Mr
+827,50.0,Johan Svensson,Lundahl,3rd Class Passenger,0.0,Mr
+828,45.0,Charles,Lydiatt,Victualling Crew,0.0,Mr
+829,30.0,Panagiotis K.,Lymperopoulus,3rd Class Passenger,0.0,Mr
+830,44.0,Stanko,Lyntakoff,3rd Class Passenger,0.0,Mr
+831,25.0,William Henry,Lyons,Deck Crew,0.0,Mr
+832,23.0,John Charles,Mabey,Victualling Crew,0.0,Mr
+833,57.0,Mary,Mack,2nd Class Passenger,0.0,Mrs
+834,20.0,George William,Mackay,3rd Class Passenger,0.0,Mr
+835,32.0,William Dickson,Mackie,Engineering Crew,0.0,Mr
+836,34.0,George William,Mackie,Victualling Crew,0.0,Mr
+837,22.0,Matti Alexanteri,Mäenpää,3rd Class Passenger,0.0,Mr
+838,30.0,John Edward,Maguire,1st Class Passenger,0.0,Mr
+839,20.0,Bridget Delia,Mahon,3rd Class Passenger,0.0,Miss
+840,36.0,Thomas Edgar,Major,Victualling Crew,0.0,Mr
+841,29.0,Kalle Edvard,Mäkinen,3rd Class Passenger,0.0,Mr
+842,25.0,Jean-Noël,Malachard,2nd Class Passenger,0.0,Mr
+843,45.0,Albert Denis Pierre,Mallet,2nd Class Passenger,0.0,Mr
+844,32.0,Mary,Mangan,3rd Class Passenger,0.0,Miss
+845,47.0,Emilio Giovanni Andrea Onorato,Mangiavacchi,2nd Class Passenger,0.0,Mr
+846,40.0,Roland Frederick,Mantle,Victualling Crew,0.0,Mr
+847,50.0,John Starr,March,Victualling Crew,0.0,Mr
+848,25.0,Sarkis,Mardirosian,3rd Class Passenger,0.0,Mr
+849,26.0,George John,Marett,Engineering Crew,0.0,Mr
+850,23.0,Dmitri,Marinko,3rd Class Passenger,0.0,Mr
+851,35.0,Marin,Markoff,3rd Class Passenger,0.0,Mr
+852,27.0,James,Marks,Victualling Crew,0.0,Mr
+853,33.0,Johann,Markun,3rd Class Passenger,0.0,Mr
+854,21.0,John William,Marriott,Victualling Crew,0.0,Mr
+855,39.0,Frederick Charles,Marsh,Engineering Crew,0.0,Mr
+856,18.0,Daniel Warner,Marvin,1st Class Passenger,0.0,Mr
+857,25.0,Leopold Adolphus,Maskell,Engineering Crew,0.0,Mr
+858,39.0,J.,Mason,Engineering Crew,0.0,Mr
+859,33.0,David,Matherson,Deck Crew,0.0,Mr
+860,29.0,Montague Vincent,Mathias,Deck Crew,0.0,Mr
+861,30.0,Nicola,Matinoff,3rd Class Passenger,0.0,Mr
+862,23.0,William John,Matthews,2nd Class Passenger,0.0,Mr
+863,20.0,Adolf,Mattmann,Restaurant Staff,0.0,Sig.
+864,29.0,John,Maxwell,Deck Crew,0.0,Mr
+865,59.0,Arthur William,May,Engineering Crew,0.0,Mr
+866,22.0,Arthur William,May,Engineering Crew,0.0,Mr
+867,36.0,Frank Hubert,Maybery,2nd Class Passenger,0.0,Mr
+868,27.0,William Peter,Mayo,Engineering Crew,0.0,Mr
+869,53.0,Alfred,Maytum,Victualling Crew,0.0,Mr
+870,38.0,Thomas Patrick,Mcandrew,Engineering Crew,0.0,Mr
+871,23.0,William,Mcandrews,Engineering Crew,0.0,Mr
+872,46.0,Thomas Francis,Mccaffry,1st Class Passenger,0.0,Mr
+873,54.0,Timothy John,Mccarthy,1st Class Passenger,0.0,Mr
+874,38.0,Frederick James,Mccarty,Victualling Crew,0.0,Mr
+875,28.0,William,Mccastlin,Engineering Crew,0.0,Mr
+876,36.0,Thomas W.,Mccawley,Victualling Crew,0.0,Mr
+877,32.0,Arthur Gordon,Mccrae,2nd Class Passenger,0.0,Mr
+878,32.0,James Matthew,Mccrie,2nd Class Passenger,0.0,Mr
+879,37.0,Hugh Walter,Mcelroy,Victualling Crew,0.0,Mr
+880,20.0,Michael,Mcevoy,3rd Class Passenger,0.0,Mr
+881,34.0,Edward Joseph,Mcgarvey,Engineering Crew,0.0,Mr
+882,30.0,Erroll Victor,Mcgaw,Engineering Crew,0.0,Mr
+883,42.0,Catherine,Mcgowan,3rd Class Passenger,0.0,Miss
+884,27.0,James,Mcgrady,Victualling Crew,0.0,Mr
+885,38.0,Thomas,Mcinerney,Engineering Crew,0.0,Mr
+886,46.0,Peter Daniel,Mckane,2nd Class Passenger,0.0,Mr
+887,19.0,Martin,Mcmahon,3rd Class Passenger,0.0,Mr
+888,21.0,Benjamin Tucker,Mcmicken,Victualling Crew,0.0,Mr
+889,36.0,John Richard,Mcmullin,Victualling Crew,0.0,Mr
+890,44.0,William,Mcmurray,Victualling Crew,0.0,Mr
+891,19.0,Eileen,Mcnamee,3rd Class Passenger,0.0,Mrs
+892,27.0,Neal,Mcnamee,3rd Class Passenger,0.0,Mr
+893,32.0,Bridget,Mcneill,3rd Class Passenger,0.0,Miss
+894,26.0,William,Mcquillan,Engineering Crew,0.0,Mr
+895,32.0,William Alexander,Mcrae,Engineering Crew,0.0,Mr
+896,22.0,William Thomas Carson,Mcreynolds,Engineering Crew,0.0,Mr
+897,62.0,Marian,Meanwell,3rd Class Passenger,0.0,Mrs
+898,22.0,John,Meehan,3rd Class Passenger,0.0,Mr
+899,32.0,Annie Louisa,Meek,3rd Class Passenger,0.0,Mrs
+900,34.0,Simon,Meisnere,3rd Class Passenger,0.0,Mr
+901,34.0,Arthur,Mellor,Victualling Crew,0.0,Mr
+902,48.0,Alfonzo,Meo (martino),3rd Class Passenger,0.0,Mr
+903,28.0,Robert,Mernagh,3rd Class Passenger,0.0,Mr
+904,28.0,Edgar Joseph,Meyer,1st Class Passenger,0.0,Mr
+905,31.0,August,Meyer,2nd Class Passenger,0.0,Mr
+906,24.0,Mark Victor,Middleton,Victualling Crew,0.0,Mr
+907,27.0,Alfred Pirrie,Middleton,Engineering Crew,0.0,Mr
+908,28.0,Stoytcho,Mihoff,3rd Class Passenger,0.0,Mr
+909,23.0,Frank,Miles,3rd Class Passenger,0.0,Mr
+910,27.0,George,Milford,Engineering Crew,0.0,Mr
+911,32.0,Thomas,Millar,Engineering Crew,0.0,Mr
+912,26.0,Robert,Millar,Engineering Crew,0.0,Mr
+913,65.0,Francis Davis,Millet,1st Class Passenger,0.0,Mr
+914,48.0,Jacob Christian,Milling,2nd Class Passenger,0.0,Mr
+915,44.0,William Edward,Minahan,1st Class Passenger,0.0,Dr
+916,24.0,Ivan,Mineff,3rd Class Passenger,0.0,Mr
+917,21.0,Lazar,Minkoff,3rd Class Passenger,0.0,Mr
+918,46.0,William,Mintram,Engineering Crew,0.0,Mr
+919,53.0,Ibrāhīm Mansūr,Mish'alānī,Victualling Crew,0.0,Mr
+920,71.0,Henry Michael,Mitchell,2nd Class Passenger,0.0,Mr
+921,19.0,Lorenzo Horace,Mitchell,Engineering Crew,0.0,Mr
+922,23.0,Mito,Mitkoff,3rd Class Passenger,0.0,Mr
+923,27.0,Sigurd Hansen,Moen,3rd Class Passenger,0.0,Mr
+924,55.0,Harry Markland,Molson,1st Class Passenger,0.0,Mr
+925,20.0,Joan Javier,Monrós,Restaurant Staff,0.0,Sr.
+926,23.0,Giovanni,Monteverdi,Restaurant Staff,0.0,Sig.
+927,27.0,Juozas,Montvila,2nd Class Passenger,0.0,Fr
+928,24.0,James Paul,Moody,Deck Crew,0.0,Mr
+929,19.0,Leonard Charles,Moore,3rd Class Passenger,0.0,Mr
+930,22.0,Ralph,Moore,Engineering Crew,0.0,Mr
+931,47.0,Clarence,Moore,1st Class Passenger,0.0,Mr
+932,38.0,Alfred Ernest,Moore,Victualling Crew,0.0,Mr
+933,44.0,Richard Henry,Moores,Engineering Crew,0.0,Mr
+934,28.0,Daniel J.,Moran,3rd Class Passenger,0.0,Mr
+935,54.0,Ernest,Moraweck,2nd Class Passenger,0.0,Dr
+936,26.0,Thomas A.,Morgan,Engineering Crew,0.0,Mr
+937,27.0,Arthur Herbert,Morgan,Engineering Crew,0.0,Mr
+938,44.0,Charles Frederick,Morgan (bird),Victualling Crew,0.0,Mr
+939,38.0,Henry Samuel,Morley,2nd Class Passenger,0.0,Mr
+940,34.0,William,Morley,3rd Class Passenger,0.0,Mr
+941,23.0,William Edward,Morris,Engineering Crew,0.0,Mr
+942,31.0,Thomas Rowan,Morrow,3rd Class Passenger,0.0,Mr
+943,35.0,William,Moss,Victualling Crew,0.0,Mr
+944,28.0,Rahamin Haim,Moutal,3rd Class Passenger,0.0,Mr
+945,24.0,William Young,Moyes,Engineering Crew,0.0,Mr
+946,16.0,Thomas Cupper,Mudd,2nd Class Passenger,0.0,Mr
+947,37.0,Ludwig,Müller,Victualling Crew,0.0,Mr
+948,20.0,Thomas,Mullin,Victualling Crew,0.0,Mr
+949,18.0,Mary,Mullin,3rd Class Passenger,0.0,Miss
+950,22.0,Joseph,Murdlin,3rd Class Passenger,0.0,Mr
+951,39.0,William McMaster,Murdoch,Deck Crew,0.0,Mr
+952,18.0,Pehr Fabian Oliver Malkolm,Myhrman,3rd Class Passenger,0.0,Mr
+953,63.0,Thomas Francis,Myles,2nd Class Passenger,0.0,Mr
+954,22.0,Penko,Naidenoff,3rd Class Passenger,0.0,Mr
+955,17.0,Toufik,Nakhli,3rd Class Passenger,0.0,Mr
+956,36.0,William Henry,Nancarrow,3rd Class Passenger,0.0,Mr
+957,32.0,Minko,Nankoff,3rd Class Passenger,0.0,Mr
+958,42.0,Francesco Luigi Arcangelo,Nannini,Restaurant Staff,0.0,Sig.
+959,20.0,Mustafà,Nasr 'almā,3rd Class Passenger,0.0,Mr
+960,29.0,Niqūlā Khalīl,Naṣr allāh,2nd Class Passenger,0.0,Mr
+961,20.0,Su'ādah Ḥannā,Nasr-rizq,3rd Class Passenger,0.0,Mr
+962,36.0,Charles,Natsch,1st Class Passenger,0.0,Mr
+963,21.0,Hannah,Naughton,3rd Class Passenger,0.0,Miss
+964,31.0,Michel,Navratil,2nd Class Passenger,0.0,Mr
+965,22.0,Hristo,Nenkov,3rd Class Passenger,0.0,Mr
+966,26.0,Israel,Nesson,2nd Class Passenger,0.0,Mr
+967,30.0,George Walter,Nettleton,Engineering Crew,0.0,Mr
+968,58.0,Arthur Webster,Newell,1st Class Passenger,0.0,Mr
+969,32.0,Charles Thomas,Newman,Engineering Crew,0.0,Mr
+970,39.0,Sidney,Nicholls,Victualling Crew,0.0,Mr
+971,19.0,Joseph Charles,Nicholls,2nd Class Passenger,0.0,Mr
+972,47.0,Albert William Stanley,Nichols,Deck Crew,0.0,Mr
+973,45.0,Arthur,Nichols,Victualling Crew,0.0,Mr
+974,59.0,Arthur Ernest,Nicholson,1st Class Passenger,0.0,Mr
+975,29.0,Manta Josefina,Nieminen,3rd Class Passenger,0.0,Miss
+976,28.0,Samuel,Niklasson,3rd Class Passenger,0.0,Mr
+977,21.0,August Ferdinand,Nilsson,3rd Class Passenger,0.0,Mr
+978,30.0,John Brown,Niven,Engineering Crew,0.0,Mr
+979,20.0,Mansouer,Nofal,3rd Class Passenger,0.0,Mr
+980,42.0,John Thomas,Noon,Engineering Crew,0.0,Mr
+981,27.0,Robert Douglas,Norman,2nd Class Passenger,0.0,Mr
+982,22.0,James,Norris,Engineering Crew,0.0,Mr
+983,20.0,Bertram Arthur,Noss,Engineering Crew,0.0,Mr
+984,21.0,Richard Cater,Nosworthy,3rd Class Passenger,0.0,Mr
+985,60.0,Johannes Hansen,Nysveen,3rd Class Passenger,0.0,Mr
+986,22.0,Denis,O'brien,3rd Class Passenger,0.0,Mr
+987,26.0,Thomas,O'brien,3rd Class Passenger,0.0,Mr
+988,18.0,Patrick Denis,O'connell,3rd Class Passenger,0.0,Mr
+989,23.0,Patrick,O'connor,3rd Class Passenger,0.0,Mr
+990,15.0,Maurice,O'connor,3rd Class Passenger,0.0,Mr
+991,44.0,Thomas Peter,O'connor,Victualling Crew,0.0,Mr
+992,44.0,Arthur,O'keefe,3rd Class Passenger,0.0,Mr
+993,63.0,William Francis Norman,O'loughlin,Deck Crew,0.0,Dr
+994,21.0,Bridget Mary,O'sullivan,3rd Class Passenger,0.0,Miss
+995,23.0,Nils Martin,Ödahl,3rd Class Passenger,0.0,Mr
+996,31.0,Charles,Olive,Engineering Crew,0.0,Mr
+997,27.0,Ernest Roskelly,Olive,Victualling Crew,0.0,Mr
+998,42.0,Karl Siegwart Andreas,Olsen,3rd Class Passenger,0.0,Mr
+999,28.0,Henry Margido,Olsen,3rd Class Passenger,0.0,Mr
+1000,27.0,Ole Martin,Olsen,3rd Class Passenger,0.0,Mr
+1001,28.0,Nils Johan Göransson,Olsson,3rd Class Passenger,0.0,Mr
+1002,31.0,Elina,Olsson,3rd Class Passenger,0.0,Miss
+1003,20.0,Thor Anderson,Olsvigen,3rd Class Passenger,0.0,Mr
+1004,30.0,Jelka,Orešković,3rd Class Passenger,0.0,Miss
+1005,19.0,Marija,Orešković,3rd Class Passenger,0.0,Miss
+1006,20.0,Luka,Orešković,3rd Class Passenger,0.0,Mr
+1007,31.0,Walter Hayward,Orpet,Victualling Crew,0.0,Mr
+1008,39.0,James,Orr,Victualling Crew,0.0,Mr
+1009,33.0,William Edward,Osborne,Victualling Crew,0.0,Mr
+1010,16.0,Olaf Elon,Osén,3rd Class Passenger,0.0,Mr
+1011,38.0,Richard,Otter,2nd Class Passenger,0.0,Mr
+1012,36.0,Servando José Florentino,Oviés y rodríguez,1st Class Passenger,0.0,Mr
+1013,49.0,Lewis,Owen,Victualling Crew,0.0,Mr
+1014,17.0,Reginald lvan,Pacey,Victualling Crew,0.0,Mr
+1015,19.0,Jean Baptiste Stanislas,Pachera,Restaurant Staff,0.0,Sig.
+1016,32.0,Richard Charles John,Paice,Engineering Crew,0.0,Mr
+1017,23.0,Alfred,Pain,2nd Class Passenger,0.0,Dr
+1018,32.0,Charles,Painter,Engineering Crew,0.0,Mr
+1019,29.0,Frank,Painter,Engineering Crew,0.0,Mr
+1020,29.0,James Arthur,Paintin,Victualling Crew,0.0,Mr
+1021,45.0,Thomas Henry Michael,Palles,Engineering Crew,0.0,Mr
+1022,3.0,Stina Viola,Pålsson,3rd Class Passenger,0.0,Miss
+1023,2.0,Gösta Leonard,Pålsson,3rd Class Passenger,0.0,Master
+1024,8.0,Torborg Danira,Pålsson,3rd Class Passenger,0.0,Miss
+1025,6.0,Paul Folke,Pålsson,3rd Class Passenger,0.0,Master
+1026,29.0,Alma Cornelia,Pålsson,3rd Class Passenger,0.0,Mrs
+1027,2.0,Urho Abraham,Panula,3rd Class Passenger,0.0,Master
+1028,16.0,Ernesti Arvid,Panula,3rd Class Passenger,0.0,Mr
+1029,41.0,Maija Emelia Abrahamintytar,Panula,3rd Class Passenger,0.0,Mrs
+1030,1.0,Eino Viljam,Panula,3rd Class Passenger,0.0,Master
+1031,7.0,Juha Niilo,Panula,3rd Class Passenger,0.0,Master
+1032,15.0,Jaako Arnold,Panula,3rd Class Passenger,0.0,Master
+1033,17.0,Clifford Richard,Parker,2nd Class Passenger,0.0,Mr
+1034,21.0,Francis ,Parkes,2nd Class Passenger,0.0,Mr
+1035,29.0,William Henry Marsh,Parr,1st Class Passenger,0.0,Mr
+1036,37.0,Edward,Parsons,Victualling Crew,0.0,Mr
+1037,26.0,Frank Alfred,Parsons,Engineering Crew,0.0,Mr
+1038,18.0,Richard Henry,Parsons,Victualling Crew,0.0,Mr
+1039,40.0,Austin,Partner,1st Class Passenger,0.0,Mr
+1040,21.0,Jakob,Pasic,3rd Class Passenger,0.0,Mr
+1041,18.0,George,Patchett,3rd Class Passenger,0.0,Mr
+1042,32.0,Stefo,Pavlović,3rd Class Passenger,0.0,Mr
+1043,23.0,Vivian Ponsonby,Payne,1st Class Passenger,0.0,Mr
+1044,4.0,Treasteall,Peacock,3rd Class Passenger,0.0,Miss
+1045,26.0,Edith,Peacock,3rd Class Passenger,0.0,Mrs
+1046,0.5833333333333334,Albert Edward,Peacock,3rd Class Passenger,0.0,Master
+1047,24.0,Alfred Ernest,Pearce,Victualling Crew,0.0,Mr
+1048,31.0,Ernest,Pearce,3rd Class Passenger,0.0,Mr
+1049,29.0,Thomas,Pears,1st Class Passenger,0.0,Mr
+1050,28.0,Olaf,Pedersen,3rd Class Passenger,0.0,Mr
+1051,21.0,Alessandro,Pedrini,Restaurant Staff,0.0,Sig.
+1052,24.0,Joseph,Peduzzi,3rd Class Passenger,0.0,Mr
+1053,21.0,Edvard,Pekoniemi,3rd Class Passenger,0.0,Mr
+1054,25.0,Nikolai Johannes,Peltomäki,3rd Class Passenger,0.0,Mr
+1055,24.0,Victor,Peñasco y castellana,1st Class Passenger,0.0,Mr
+1056,19.0,Frederick William,Pengelly,2nd Class Passenger,0.0,Mr
+1057,34.0,Thomas Frederick Cohen,Pennal,Victualling Crew,0.0,Mr
+1058,31.0,William Farr,Penny,Victualling Crew,0.0,Mr
+1059,49.0,John Poole,Penrose,Victualling Crew,0.0,Mr
+1060,17.0,Sebastiano,Peracchio,Restaurant Staff,0.0,Sig.
+1061,20.0,Alberto,Peracchio,Restaurant Staff,0.0,Sig.
+1062,23.0,John Henry,Perkin,3rd Class Passenger,0.0,Mr
+1063,22.0,Laurence Alexander,Perkins,Victualling Crew,0.0,Mr
+1064,39.0,René,Pernot,2nd Class Passenger,0.0,Mr
+1065,20.0,Alfonso,Perotti,Restaurant Staff,0.0,Sig.
+1066,47.0,William Charles,Perren,Victualling Crew,0.0,Mr
+1067,32.0,Hubert Prouse,Perriton,Victualling Crew,0.0,Mr
+1068,23.0,Henry Frederick,Perry,Engineering Crew,0.0,Mr
+1069,41.0,Josef,Peruschitz,2nd Class Passenger,0.0,Fr
+1070,28.0,Mathilda,Peteranec kramarić,3rd Class Passenger,0.0,Miss
+1071,27.0,Catherine,Peters,3rd Class Passenger,0.0,Miss
+1072,24.0,Marius,Petersen,3rd Class Passenger,0.0,Mr
+1073,29.0,Pastcho,Petroff,3rd Class Passenger,0.0,Mr
+1074,19.0,Nedialco,Petroff,3rd Class Passenger,0.0,Mr
+1075,25.0,Johan Emil,Pettersson,3rd Class Passenger,0.0,Mr
+1076,18.0,Elin Natalia,Pettersson,3rd Class Passenger,0.0,Miss
+1077,25.0,Edwin Henry,Petty,Victualling Crew,0.0,Mr
+1078,25.0,John George,Phillips,Victualling Crew,0.0,Mr
+1079,27.0,George,Phillips,Engineering Crew,0.0,Mr
+1080,37.0,Walter John,Phillips,Restaurant Staff,0.0,Mr
+1081,43.0,Escott Robert,Phillips,2nd Class Passenger,0.0,Mr
+1082,17.0,Louis,Piatti,Restaurant Staff,0.0,Sig.
+1083,33.0,Pompeo Gaspro,Piazza,Restaurant Staff,0.0,Sig.
+1084,25.0,William James,Pitfield,Engineering Crew,0.0,Mr
+1085,17.0,Wilfred George,Platt,Victualling Crew,0.0,Mr
+1086,27.0,Vasil,Plotcharsky,3rd Class Passenger,0.0,Mr
+1087,24.0,Tome,Pocrnić,3rd Class Passenger,0.0,Mr
+1088,17.0,Mate,Pocrnić,3rd Class Passenger,0.0,Mr
+1089,28.0,Emilio,Poggi,Restaurant Staff,0.0,Sig.
+1090,32.0,George,Pond,Engineering Crew,0.0,Mr
+1091,24.0,Martin,Ponesell,2nd Class Passenger,0.0,Mr
+1092,36.0,Percy Robert,Pook,Victualling Crew,0.0,Mr
+1093,46.0,Walter Chamberlain,Porter,1st Class Passenger,0.0,Mr
+1094,33.0,Thomas Henry,Porteus,Victualling Crew,0.0,Mr
+1095,20.0,Thomas Charles Alfred,Preston,Engineering Crew,0.0,Mr
+1096,17.0,Ernest Cyril,Price,Restaurant Staff,0.0,Mr
+1097,23.0,John Arthur (Jack),Prideaux,Victualling Crew,0.0,Mr
+1098,45.0,Charles,Proctor,Victualling Crew,0.0,Mr
+1099,21.0,Richard Royston,Proudfoot,Engineering Crew,0.0,Mr
+1100,22.0,Charles William,Pryce,Victualling Crew,0.0,Mr
+1101,31.0,Arthur Percy,Pugh,Engineering Crew,0.0,Mr
+1102,27.0,Franz,Pulbaum,2nd Class Passenger,0.0,Mr
+1103,16.0,Uscher,Pulner,3rd Class Passenger,0.0,Mr
+1104,44.0,John Edward,Puzey,Victualling Crew,0.0,Mr
+1105,27.0,Alexander,Radeff,3rd Class Passenger,0.0,Mr
+1106,21.0,Bākhūs,Rafūl-būlus,3rd Class Passenger,0.0,Mr
+1107,29.0,Frank Henry,Randall,Victualling Crew,0.0,Mr
+1108,50.0,James Augustus,Ransom,Victualling Crew,0.0,Mr
+1109,38.0,William Henry,Rattenbury,Victualling Crew,0.0,Mr
+1110,21.0,Enrico,Ratti,Restaurant Staff,0.0,Sig.
+1111,20.0,Joseph,Read,Engineering Crew,0.0,Mr
+1112,18.0,James George,Reed,3rd Class Passenger,0.0,Mr
+1113,54.0,Thomas Charles Prowse,Reed,Victualling Crew,0.0,Mr
+1114,34.0,Frederick Simms,Reeves,Engineering Crew,0.0,Mr
+1115,36.0,David,Reeves,2nd Class Passenger,0.0,Mr
+1116,20.0,Frederick Vernon Hilton,Reeves,Victualling Crew,0.0,Mr
+1117,31.0,Robert Thomas,Reid,Engineering Crew,0.0,Mr
+1118,38.0,Tido,Rekic,3rd Class Passenger,0.0,Mr
+1119,33.0,Peter Henry,Renouf,2nd Class Passenger,0.0,Mr
+1120,26.0,Philip Charles Thomas,Rentowl,Engineering Crew,0.0,Mr
+1121,37.0,Johan George,Reuchlin,1st Class Passenger,0.0,Jonkh
+1122,31.0,William James Francis,Revell,Victualling Crew,0.0,Mr
+1123,21.0,Harold,Reynolds,3rd Class Passenger,0.0,Mr
+1124,22.0,Rinaldo Renato,Ricaldone,Restaurant Staff,0.0,Sig.
+1125,2.0,Francis,Rice,3rd Class Passenger,0.0,Master
+1126,25.0,John Reginald,Rice,Victualling Crew,0.0,Mr
+1127,6.0,Eric,Rice,3rd Class Passenger,0.0,Master
+1128,10.0,Albert,Rice,3rd Class Passenger,0.0,Master
+1129,4.0,Arthur,Rice,3rd Class Passenger,0.0,Master
+1130,19.0,Percy,Rice,Victualling Crew,0.0,Mr
+1131,8.0,George,Rice,3rd Class Passenger,0.0,Master
+1132,39.0,Margaret,Rice,3rd Class Passenger,0.0,Mrs
+1133,23.0,Emile Phillippe,Richard,2nd Class Passenger,0.0,Mr
+1134,30.0,Joseph James,Richards,Engineering Crew,0.0,Mr
+1135,36.0,George Albert,Rickman,Engineering Crew,0.0,Mr
+1136,22.0,Cyril Gordon,Ricks,Victualling Crew,0.0,Mr
+1137,29.0,Walter George,Ridout,Victualling Crew,0.0,Mr
+1138,28.0,Sante,Righini,1st Class Passenger,0.0,Mr
+1139,22.0,Abele,Rigozzi,Restaurant Staff,0.0,Mr
+1140,22.0,Susanna Juhantytär ,Riihivuori,3rd Class Passenger,0.0,Miss
+1141,29.0,Gilbert,Rimmer,Victualling Crew,0.0,Mr
+1142,35.0,Matti,Rintamäki,3rd Class Passenger,0.0,Mr
+1143,69.0,Samuel Beard,Risien,3rd Class Passenger,0.0,Mr
+1144,64.0,Emma Jane,Risien,3rd Class Passenger,0.0,Mrs
+1145,19.0,George Edward,Roberton,Victualling Crew,0.0,Mr
+1146,35.0,Robert George,Roberts,Engineering Crew,0.0,Mr
+1147,36.0,Frank John,Roberts,Victualling Crew,0.0,Mr
+1148,41.0,Hugh H.,Roberts,Victualling Crew,0.0,Mr
+1149,50.0,Alexander,Robins,3rd Class Passenger,0.0,Mr
+1150,45.0,Victor,Robins,1st Class Passenger,0.0,Mr
+1151,48.0,Charity,Robins,3rd Class Passenger,0.0,Mrs
+1152,30.0,James William,Robinson,Victualling Crew,0.0,Mr
+1153,31.0,Washington Augustus,Roebling,1st Class Passenger,0.0,Mr
+1154,29.0,William John,Rogers,3rd Class Passenger,0.0,Mr
+1155,31.0,Edward James William,Rogers,Victualling Crew,0.0,Mr
+1156,18.0,Reginald Harry,Rogers,2nd Class Passenger,0.0,Mr
+1157,26.0,Michael Joseph,Rogers,Victualling Crew,0.0,Mr
+1158,49.0,Knud Paust,Rommetvedt,3rd Class Passenger,0.0,Mr
+1159,22.0,Edvard Larsson,Rondberg,3rd Class Passenger,0.0,Mr
+1160,39.0,Hugh Roscoe,Rood,1st Class Passenger,0.0,Mr
+1161,18.0,Viktor Richard,Rosblom,3rd Class Passenger,0.0,Mr
+1162,41.0,Helena Wilhelmina,Rosblom,3rd Class Passenger,0.0,Mrs
+1163,2.0,Salli Helena,Rosblom,3rd Class Passenger,0.0,Miss
+1164,45.0,George,Rosenshine,1st Class Passenger,0.0,Mr
+1165,36.0,John Hugo,Ross,1st Class Passenger,0.0,Mr
+1166,46.0,Martin,Rothschild,1st Class Passenger,0.0,Mr
+1167,23.0,Angelo Mario,Rotta,Restaurant Staff,0.0,Sig.
+1168,26.0,Arthur John,Rous,Engineering Crew,0.0,Mr
+1169,55.0,Richard Henry,Rouse,3rd Class Passenger,0.0,Mr
+1170,48.0,Pierre,Rousseau,Restaurant Staff,0.0,Mr
+1171,31.0,Edgar Maurice,Rowe,Victualling Crew,0.0,Mr
+1172,59.0,Alfred G.,Rowe,1st Class Passenger,0.0,Mr
+1173,24.0,Henry,Rudd,Engineering Crew,0.0,Mr
+1174,17.0,Alfred George John,Rush,3rd Class Passenger,0.0,Mr
+1175,17.0,Boysie Richard,Russell,Victualling Crew,0.0,Mr
+1176,26.0,Sidney Frank,Rutter,Engineering Crew,0.0,Mr
+1177,28.0,Thomas,Ryan,Victualling Crew,0.0,Mr
+1178,32.0,Patrick,Ryan,3rd Class Passenger,0.0,Mr
+1179,61.0,Arthur Larned,Ryerson,1st Class Passenger,0.0,Mr
+1180,30.0,Amin Houssein,Saad,3rd Class Passenger,0.0,Mr
+1181,24.0,Giovanni Giuseppe Emilio,Saccaggi,Restaurant Staff,0.0,Sig.
+1182,19.0,Matthew,Sadlier,3rd Class Passenger,0.0,Mr
+1183,17.0,Henry,Sadowitz,3rd Class Passenger,0.0,Mr
+1184,18.0,Douglas Bullen,Sage,3rd Class Passenger,0.0,Mr
+1185,44.0,John George,Sage,3rd Class Passenger,0.0,Mr
+1186,7.0,Constance Gladys,Sage,3rd Class Passenger,0.0,Miss
+1187,12.0,Anthony William,Sage,3rd Class Passenger,0.0,Master
+1188,19.0,George John,Sage,3rd Class Passenger,0.0,Mr
+1189,16.0,Frederick,Sage,3rd Class Passenger,0.0,Mr
+1190,44.0,Annie Elizabeth,Sage,3rd Class Passenger,0.0,Mrs
+1191,5.0,Thomas Henry,Sage,3rd Class Passenger,0.0,Master
+1192,10.0,Elizabeth Ada,Sage,3rd Class Passenger,0.0,Miss
+1193,14.0,Dorothy Florence,Sage,3rd Class Passenger,0.0,Miss
+1194,20.0,Stella Anne,Sage,3rd Class Passenger,0.0,Miss
+1195,24.0,Karl Johan,Salander,3rd Class Passenger,0.0,Mr
+1196,29.0,Johan Werner,Salonen,3rd Class Passenger,0.0,Mr
+1197,25.0,Govanni,Salussolia,Restaurant Staff,0.0,Mr
+1198,17.0,Elias,Samaan,3rd Class Passenger,0.0,Mr
+1199,16.0,Youssef,Samaan,3rd Class Passenger,0.0,Mr
+1200,40.0,Hanna Elias,Samaan,3rd Class Passenger,0.0,Mr
+1201,47.0,Owen Wilmore,Samuel,Victualling Crew,0.0,Mr
+1202,30.0,Charles Edward,Sangster,Engineering Crew,0.0,Mr
+1203,24.0,Lazar,Sartori,Restaurant Staff,0.0,Sig.
+1204,19.0,William Henry,Saundercock,3rd Class Passenger,0.0,Mr
+1205,31.0,William Henry,Saunders,Engineering Crew,0.0,Mr
+1206,22.0,F.,Saunders,Engineering Crew,0.0,Mr
+1207,32.0,William Ernest ,Saunders,Victualling Crew,0.0,Mr
+1208,25.0,Walter Ernest,Saunders,Engineering Crew,0.0,Mr
+1209,24.0,Frederick Charles,Sawyer,3rd Class Passenger,0.0,Mr
+1210,31.0,Robert James,Sawyer,Deck Crew,0.0,Mr
+1211,20.0,James,Scanlan,3rd Class Passenger,0.0,Mr
+1212,42.0,Candido,Scavino,Restaurant Staff,0.0,Sig.
+1213,22.0,Augustus,Schmidt,2nd Class Passenger,0.0,Mr
+1214,42.0,Archibald,Scott,Engineering Crew,0.0,Mr
+1215,20.0,John,Scott,Victualling Crew,0.0,Mr
+1216,55.0,Robert,Scovell,Victualling Crew,0.0,Mr
+1217,42.0,Todor,Sdycoff,3rd Class Passenger,0.0,Mr
+1218,28.0,Charles Frederick Waddington,Sedgwick,2nd Class Passenger,0.0,Mr
+1219,25.0,Samuel Francis,Sedunary,Victualling Crew,0.0,Mr
+1220,39.0,Alfred Henry,Self,Engineering Crew,0.0,Mr
+1221,10.0,Betros,Seman,3rd Class Passenger,0.0,Master
+1222,24.0,Giacomo,Sesia,Restaurant Staff,0.0,Sig.
+1223,35.0,Andrew John,Shannon,3rd Class Passenger,0.0,Mr
+1224,29.0,Percival,Sharp,2nd Class Passenger,0.0,Mr
+1225,25.0,Patrick,Shaughnessy,3rd Class Passenger,0.0,Mr
+1226,41.0,Henry,Shaw,Victualling Crew,0.0,Mr
+1227,32.0,Thomas,Shea,Engineering Crew,0.0,Mr
+1228,39.0,John Joseph,Shea,Victualling Crew,0.0,Mr
+1229,55.0,Frederick Blainey,Shellard,3rd Class Passenger,0.0,Mr
+1230,32.0,Jonathan,Shepherd,Engineering Crew,0.0,Mr
+1231,26.0,Al-Amīr Fāris ,Shihāb,3rd Class Passenger,0.0,Mr
+1232,19.0,Charles Frederick,Shillabeer,Engineering Crew,0.0,Mr
+1233,22.0,Charles Joseph,Shorney,3rd Class Passenger,0.0,Mr
+1234,29.0,Sidney Conrad,Siebert,Victualling Crew,0.0,Mr
+1235,51.0,William Baird,Silvey,1st Class Passenger,0.0,Mr
+1236,37.0,William Simon Catcott,Simmons,Victualling Crew,0.0,Mr
+1237,40.0,John,Simmons,3rd Class Passenger,0.0,Mr
+1238,24.0,Frederick Charles,Simmons,Victualling Crew,0.0,Mr
+1239,37.0,John Edward,Simpson,Deck Crew,0.0,Dr
+1240,22.0,Orsen,Sirayanian,3rd Class Passenger,0.0,Mr
+1241,19.0,Morris,Sirota,3rd Class Passenger,0.0,Mr
+1242,40.0,Husein,Sivic,3rd Class Passenger,0.0,Mr
+1243,23.0,William,Sivier,Victualling Crew,0.0,Mr
+1244,21.0,Antti Wilhelm,Sivola,3rd Class Passenger,0.0,Mr
+1245,59.0,Ernst Adolf,Sjöstedt,2nd Class Passenger,0.0,Mr
+1246,23.0,William,Skeates,Engineering Crew,0.0,Mr
+1247,41.0,Edward,Skinner,Victualling Crew,0.0,Mr
+1248,43.0,Anna Bernhardina,Skoog,3rd Class Passenger,0.0,Mrs
+1249,9.0,Mabel,Skoog,3rd Class Passenger,0.0,Miss
+1250,11.0,Karl Thorsten,Skoog,3rd Class Passenger,0.0,Master
+1251,40.0,Wilhelm Johansson,Skoog,3rd Class Passenger,0.0,Mr
+1252,2.0,Margit Elizabeth,Skoog,3rd Class Passenger,0.0,Miss
+1253,5.0,Harald,Skoog,3rd Class Passenger,0.0,Master
+1254,42.0,Petco,Slabenoff,3rd Class Passenger,0.0,Mr
+1255,35.0,Richard James,Slemen,2nd Class Passenger,0.0,Mr
+1256,33.0,Harry John,Slight,Victualling Crew,0.0,Mr
+1257,36.0,William Henry James,Slight,Victualling Crew,0.0,Mr
+1258,31.0,Peter,Sloan,Engineering Crew,0.0,Mr
+1259,20.0,Selman Francis,Slocovski,3rd Class Passenger,0.0,Mr
+1260,42.0,William McMillan,Small,Engineering Crew,0.0,Mr
+1261,56.0,John Montgomery,Smart,1st Class Passenger,0.0,Mr
+1262,37.0,Mile,Smiljanić,3rd Class Passenger,0.0,Mr
+1263,28.0,John Downing,Smillie,Victualling Crew,0.0,Mr
+1264,27.0,Ernest George,Smith,Engineering Crew,0.0,Mr
+1265,39.0,Charles Edwin,Smith,Victualling Crew,0.0,Mr
+1266,24.0,Lucian Philip,Smith,1st Class Passenger,0.0,Mr
+1267,24.0,James William,Smith,Victualling Crew,0.0,Mr
+1268,56.0,James Clinch,Smith,1st Class Passenger,0.0,Mr
+1269,39.0,James Muil,Smith,Engineering Crew,0.0,Mr
+1270,26.0,William,Smith,Deck Crew,0.0,Mr
+1271,33.0,Reginald George,Smith,Victualling Crew,0.0,Mr
+1272,45.0,Charles Henry James,Smith,Victualling Crew,0.0,Mr
+1273,57.0,Richard William,Smith,1st Class Passenger,0.0,Mr
+1274,35.0,John Richard Jago,Smith,Victualling Crew,0.0,Mr
+1275,62.0,Edward John,Smith,Deck Crew,0.0,Captain
+1276,22.0,Harry James,Smither,Engineering Crew,0.0,Mr
+1277,26.0,Thomas,Smyth,3rd Class Passenger,0.0,Mr
+1278,22.0,Lucy Violet,Snape,Victualling Crew,0.0,Mrs
+1279,41.0,George,Snellgrove,Engineering Crew,0.0,Mr
+1280,25.0,William Henry,Snook,Engineering Crew,0.0,Mr
+1281,25.0,Samuel James Hayden,Sobey,2nd Class Passenger,0.0,Mr
+1282,30.0,Francis William,Somerton,3rd Class Passenger,0.0,Mr
+1283,23.0,Woolf,Spector,3rd Class Passenger,0.0,Mr
+1284,57.0,William Augustus,Spencer,1st Class Passenger,0.0,Mr
+1285,31.0,Henry John,Spinner,3rd Class Passenger,0.0,Mr
+1286,38.0,John Henry,Stagg,Victualling Crew,0.0,Mr
+1287,31.0, Augustus George,Stanbrook,Engineering Crew,0.0,Mr
+1288,23.0,Ivan,Staneff,3rd Class Passenger,0.0,Mr
+1289,33.0,Ivan,Stanković,3rd Class Passenger,0.0,Mr
+1290,22.0,Rowland Edwin,Stanley,3rd Class Passenger,0.0,Mr
+1291,42.0,Samuel Ward,Stanton,2nd Class Passenger,0.0,Mr
+1292,62.0,William Thomas,Stead,1st Class Passenger,0.0,Mr
+1293,36.0,Sydney Frederick,Stebbings,Victualling Crew,0.0,Mr
+1294,30.0,Robert Edward,Steel,Engineering Crew,0.0,Mr
+1295,64.0,Albert Ankeny,Stewart,1st Class Passenger,0.0,Mr
+1296,20.0,Henry Dorey,Stocker,Engineering Crew,0.0,Mr
+1297,24.0,Philip Joseph,Stokes,2nd Class Passenger,0.0,Mr
+1298,33.0,Edmund,Stone,Victualling Crew,0.0,Mr
+1299,29.0,Edward Thomas,Stone,Victualling Crew,0.0,Mr
+1300,59.0,Thomas,Storey,3rd Class Passenger,0.0,Mr
+1301,19.0,Ilia,Stoytcheff,3rd Class Passenger,0.0,Mr
+1302,22.0,Ida Sofia,Strandberg,3rd Class Passenger,0.0,Miss
+1303,67.0,Isidor,Straus,1st Class Passenger,0.0,Mr
+1304,63.0,Rosalie Ida,Straus,1st Class Passenger,0.0,Mrs
+1305,26.0,Ivan,Strilić,3rd Class Passenger,0.0,Mr
+1306,2.0,Telma Matilda,Ström,3rd Class Passenger,0.0,Miss
+1307,29.0,Elna Matilda,Ström,3rd Class Passenger,0.0,Mrs
+1308,19.0,Edward Alfred Orlando,Stroud,Victualling Crew,0.0,Mr
+1309,35.0,Harry John,Stroud,Victualling Crew,0.0,Mr
+1310,34.0,John Herbert,Strugnell,Victualling Crew,0.0,Mr
+1311,31.0,Harry Robert,Stubbings,Victualling Crew,0.0,Mr
+1312,28.0,James Henry,Stubbs,Engineering Crew,0.0,Mr
+1313,25.0,Henry,Sutehall,3rd Class Passenger,0.0,Mr
+1314,61.0,Frederick,Sutton,1st Class Passenger,0.0,Mr
+1315,24.0,Olof,Svensson,3rd Class Passenger,0.0,Mr
+1316,74.0,Johan,Svensson,3rd Class Passenger,0.0,Mr
+1317,48.0,William,Swan,Victualling Crew,0.0,Mr
+1318,19.0,George,Swane,2nd Class Passenger,0.0,Mr
+1319,14.0,George Frederick,Sweet,2nd Class Passenger,0.0,Mr
+1320,44.0,John Crane,Symonds,Victualling Crew,0.0,Mr
+1321,43.0,Simon Sivertsen,Sæther,3rd Class Passenger,0.0,Mr
+1322,19.0,Peter Andreas Lauritz Andersen,Søholt,3rd Class Passenger,0.0,Mr
+1323,20.0,George Frederick Charles,Talbot,Victualling Crew,0.0,Mr
+1324,23.0,Frederick,Tamlyn,Deck Crew,0.0,Mr
+1325,16.0,Ṭannūs Ḥannā Mu'awwad,Ṭannūs,3rd Class Passenger,0.0,Mr
+1326,30.0,Bashīr,Tannūs,3rd Class Passenger,0.0,Mr
+1327,34.0,Ḥannā,Ṭannūs mu'awwad,3rd Class Passenger,0.0,Mr
+1328,54.0,Emil,Taussig,1st Class Passenger,0.0,Mr
+1329,19.0,Leonard,Taylor,Victualling Crew,0.0,Mr
+1330,22.0,Bernard Cuthbert,Taylor,Victualling Crew,0.0,Mr
+1331,42.0,J.,Taylor,Engineering Crew,0.0,Mr
+1332,31.0,William John,Taylor,Victualling Crew,0.0,Mr
+1333,40.0,Charles William Frederick,Taylor,Deck Crew,0.0,Mr
+1334,40.0,Percy Cornelius,Taylor,2nd Class Passenger,0.0,Mr
+1335,49.0,John Henry,Taylor,Engineering Crew,0.0,Mr
+1336,19.0,Bertram,Terrell,Deck Crew,0.0,Mr
+1337,23.0,Ercole,Testoni,Restaurant Staff,0.0,Sig.
+1338,35.0,Thomas Moore,Teuton,Victualling Crew,0.0,Mr
+1339,17.0,Montague Donald,Thaler,Victualling Crew,0.0,Mr
+1340,49.0,John Borland,Thayer,1st Class Passenger,0.0,Mr
+1341,34.0,Thomas Leonard,Theobald,3rd Class Passenger,0.0,Mr
+1342,23.0,Joseph Wakefield,Thomas,Engineering Crew,0.0,Mr
+1343,36.0,Alexander Mellis,Thompson,3rd Class Passenger,0.0,Mr
+1344,25.0,Herbert Henry,Thompson,Victualling Crew,0.0,Mr
+1345,41.0,William Gordon,Thorley,Victualling Crew,0.0,Mr
+1346,25.0,Harry,Thorn,Victualling Crew,0.0,Mr
+1347,36.0,Percival,Thorneycroft,3rd Class Passenger,0.0,Mr
+1348,27.0,Carlo/Karl,Tietz,Restaurant Staff,0.0,Sig.
+1349,32.0,Juho,Tikkanen,3rd Class Passenger,0.0,Mr
+1350,31.0,Arthur Leopold,Tizard,Engineering Crew,0.0,Mr
+1351,20.0,Roger,Tobin,3rd Class Passenger,0.0,Mr
+1352,23.0,Lalio,Todoroff,3rd Class Passenger,0.0,Mr
+1353,21.0,Ernest Portage,Tomlin,3rd Class Passenger,0.0,Mr
+1354,27.0,Thomas,Topp,Victualling Crew,0.0,Mr
+1355,41.0,Ernst Wilhelm,Törber,3rd Class Passenger,0.0,Mr
+1356,20.0,Assad,Torfa,3rd Class Passenger,0.0,Mr
+1357,30.0,James Adamson,Toshack,Victualling Crew,0.0,Mr
+1358,25.0,Hristo Danchev,Totevski,3rd Class Passenger,0.0,Mr
+1359,32.0,James,Tozer,Engineering Crew,0.0,Mr
+1360,23.0,Moses Aaron,Troupiansky,2nd Class Passenger,0.0,Mr
+1361,29.0,Assāf Jirjis,Tu'mah al-sayqalī,3rd Class Passenger,0.0,Mr
+1362,36.0,Stjepan,Turčin,3rd Class Passenger,0.0,Mr
+1363,37.0,Richard,Turley,Engineering Crew,0.0,Mr
+1364,28.0,Leopold Olerenshaw,Turner,Victualling Crew,0.0,Mr
+1365,42.0,George Frederick,Turner,Victualling Crew,0.0,Mr
+1366,26.0,Dorothy Ann,Turpin,2nd Class Passenger,0.0,Mrs
+1367,29.0,William John,Turpin,2nd Class Passenger,0.0,Mr
+1368,17.0,Charles Thomas,Turvey,Restaurant Staff,0.0,Mr
+1369,20.0,Roberto,Urbini,Restaurant Staff,0.0,Sig.
+1370,39.0,Manuel Ramirez,Uruchurtu,1st Class Passenger,0.0,Don.
+1371,35.0,Ettore Luigi,Valvassori,Restaurant Staff,0.0,Sig.
+1372,9.0,Walter John,Van billiard,3rd Class Passenger,0.0,Master
+1373,35.0,Austin Blyler,Van billiard,3rd Class Passenger,0.0,Mr
+1374,10.0,James William,Van billiard,3rd Class Passenger,0.0,Master
+1375,35.0,Johannes Josef,Van de velde,3rd Class Passenger,0.0,Mr
+1376,28.0,Leo Peter,Van den steen,3rd Class Passenger,0.0,Mr
+1377,38.0,Wessel Adrianus,Van der brugge,Engineering Crew,0.0,Mr
+1378,61.0,Wyckoff,Van der hoef,1st Class Passenger,0.0,Mr
+1379,10.0,Catharina,Van impe,3rd Class Passenger,0.0,Miss
+1380,36.0,Jean Baptiste,Van impe,3rd Class Passenger,0.0,Mr
+1381,30.0,Rosalie Paula,Van impe,3rd Class Passenger,0.0,Mrs
+1382,23.0,Philemon,Van melckebeke,3rd Class Passenger,0.0,Mr
+1383,46.0,Victor,Vandercruyssen,3rd Class Passenger,0.0,Mr
+1384,31.0,Emelie Maria,Vanderplancke,3rd Class Passenger,0.0,Mrs
+1385,18.0,Augusta Maria,Vanderplancke,3rd Class Passenger,0.0,Miss
+1386,31.0,Julius,Vanderplancke,3rd Class Passenger,0.0,Mr
+1387,15.0,Leo Edmondus,Vanderplancke,3rd Class Passenger,0.0,Mr
+1388,28.0,Nestor Cyriel,Vandewalle,3rd Class Passenger,0.0,Mr
+1389,40.0,James,Veal,2nd Class Passenger,0.0,Mr
+1390,38.0,Thomas Henry Edom,Veal,Victualling Crew,0.0,Mr
+1391,36.0,Arthur,Veal,Engineering Crew,0.0,Mr
+1392,33.0,Henry,Vear,Engineering Crew,0.0,Mr
+1393,34.0,William,Vear,Engineering Crew,0.0,Mr
+1394,14.0,Hulda Amanda Adolfina,Veström,3rd Class Passenger,0.0,Miss
+1395,21.0,Alphonse Jean Eugene,Vicat,Restaurant Staff,0.0,Sig.
+1396,19.0,Pierre Léon Gabriel,Villvarlange,Restaurant Staff,0.0,Mr
+1397,17.0,Herbert Thomas Gordon,Vine,Restaurant Staff,0.0,Mr
+1398,25.0,Roberto,Vioni,Restaurant Staff,0.0,Sig.
+1399,35.0,Johannes,Vögelin-dubach,Restaurant Staff,0.0,Sig.
+1400,21.0,Janko,Vovk,3rd Class Passenger,0.0,Mr
+1401,26.0,Minko Anghelov,Vulchev,3rd Class Passenger,0.0,Mr
+1402,22.0,Achille,Waelens,3rd Class Passenger,0.0,Mr
+1403,37.0,Percy,Wake,Victualling Crew,0.0,Mr
+1404,48.0,William Anderson,Walker,1st Class Passenger,0.0,Mr
+1405,36.0,Catherine Jane,Wallis,Victualling Crew,0.0,Mrs
+1406,48.0,James,Walpole,Victualling Crew,0.0,Mr
+1407,42.0,Catherine,Walsh,Victualling Crew,0.0,Miss
+1408,23.0,Arthur,Ward,Engineering Crew,0.0,Mr
+1409,40.0,Percy Thomas,Ward,Victualling Crew,0.0,Mr
+1410,31.0,James William,Ward,Engineering Crew,0.0,Mr
+1411,34.0,Edward Bryon,Ward,Victualling Crew,0.0,Mr
+1412,40.0,Fred Albert,Wardner,Engineering Crew,0.0,Mr
+1413,22.0,William Jeffery,Ware,2nd Class Passenger,0.0,Mr
+1414,35.0,Frederick,Ware,3rd Class Passenger,0.0,Mr
+1415,46.0,John James,Ware,2nd Class Passenger,0.0,Mr
+1416,37.0,Robert Arthur,Wareham,Victualling Crew,0.0,Mr
+1417,31.0,Charles William,Warren,3rd Class Passenger,0.0,Mr
+1418,63.0,Frank Manley,Warren,1st Class Passenger,0.0,Mr
+1419,25.0,Tom,Warwick,Victualling Crew,0.0,Mr
+1420,26.0,Edward Lewis,Wateridge,Engineering Crew,0.0,Mr
+1421,14.0,William Albert,Watson,Victualling Crew,0.0,Mr
+1422,27.0,William,Watson,Engineering Crew,0.0,Mr
+1423,18.0,Ennis Hastings,Watson,2nd Class Passenger,0.0,Mr
+1424,23.0,Yūsuf Ahmad,Waznah,3rd Class Passenger,0.0,Mr
+1425,25.0,Thomas Herbert,Weatherston,Victualling Crew,0.0,Mr
+1426,50.0,Brook Holding,Webb,Victualling Crew,0.0,Mr
+1427,28.0,Samuel Francis,Webb,Engineering Crew,0.0,Mr
+1428,66.0,James,Webber,3rd Class Passenger,0.0,Mr
+1429,30.0,Francis Albert,Webber,Engineering Crew,0.0,Mr
+1430,61.0,John,Weir,1st Class Passenger,0.0,Colonel
+1431,37.0,Léopold,Weisz,2nd Class Passenger,0.0,Mr
+1432,21.0,William Harold,Welch,Victualling Crew,0.0,Mr
+1433,20.0,Olof Edvin,Wendel,3rd Class Passenger,0.0,Mr
+1434,36.0,Edwy Arthur,West,2nd Class Passenger,0.0,Mr
+1435,65.0,Edward Henry,Wheadon,2nd Class Passenger,0.0,Mr
+1436,26.0,Edwin Charles ,Wheeler,2nd Class Passenger,0.0,Mr
+1437,21.0,Richard Frasar,White,1st Class Passenger,0.0,Mr
+1438,17.0,Albert,White,Engineering Crew,0.0,Mr
+1439,27.0,Edward Joseph,White,Victualling Crew,0.0,Mr
+1440,27.0,Frank Leonard,White,Engineering Crew,0.0,Mr
+1441,54.0,Percival Wayland,White,1st Class Passenger,0.0,Mr
+1442,32.0,Leonard Lisle Oliver,White,Victualling Crew,0.0,Mr
+1443,37.0,Arthur,White,Victualling Crew,0.0,Mr
+1444,39.0,Alfred Henry,Whitford,Victualling Crew,0.0,Mr
+1445,57.0,George Dennick,Wick,1st Class Passenger,0.0,Col.
+1446,51.0,Carl Peter,Widegren,3rd Class Passenger,0.0,Mr
+1447,27.0,Harry Elkins,Widener,1st Class Passenger,0.0,Mr
+1448,50.0,George Dunton,Widener,1st Class Passenger,0.0,Mr
+1449,17.0,Jakob Alfred,Wiklund,3rd Class Passenger,0.0,Mr
+1450,18.0,Karl Johan,Wiklund,3rd Class Passenger,0.0,Mr
+1451,39.0,Henry Tingle,Wilde,Deck Crew,0.0,Mr
+1452,37.0,Aaron,Willer,3rd Class Passenger,0.0,Mr
+1453,21.0,Edward John,Willey,3rd Class Passenger,0.0,Mr
+1454,24.0,Leslie,Williams,3rd Class Passenger,0.0,Mr
+1455,28.0,Samuel Solomon,Williams,Engineering Crew,0.0,Mr
+1456,43.0,Fletcher Fellowes Lambert,Williams,1st Class Passenger,0.0,Mr
+1457,28.0,Howard Hugh,Williams,3rd Class Passenger,0.0,Mr
+1458,42.0,Arthur John,Williams,Victualling Crew,0.0,Mr
+1459,51.0,Charles Duane,Williams,1st Class Passenger,0.0,Mr
+1460,35.0,James Bertram,Williamson,Victualling Crew,0.0,Mr
+1461,59.0,William,Willis,Victualling Crew,0.0,Mr
+1462,33.0,William Aubrey,Willsher,Victualling Crew,0.0,Mr
+1463,27.0,Bertie,Wilson,Engineering Crew,0.0,Mr
+1464,53.0,William Edward,Wilton,Engineering Crew,0.0,Mr
+1465,21.0,Einar,Windeløv,3rd Class Passenger,0.0,Mr
+1466,36.0,Rowland,Winser,Victualling Crew,0.0,Mr
+1467,17.0,Albert,Wirz,3rd Class Passenger,0.0,Mr
+1468,53.0,Philippe,Wiseman,3rd Class Passenger,0.0,Mr
+1469,39.0,Albert Ernest,Witcher,Engineering Crew,0.0,Mr
+1470,37.0,Henry Dennis,Witt,Engineering Crew,0.0,Mr
+1471,36.0,Camilius Aloysius,Wittevrongel,3rd Class Passenger,0.0,Mr
+1472,38.0,Henry,Wittman,Victualling Crew,0.0,Mr
+1473,35.0,William Francis,Witts,Engineering Crew,0.0,Mr
+1474,31.0,Henry,Wood,Engineering Crew,0.0,Mr
+1475,49.0,James Thomas,Wood,Victualling Crew,0.0,Mr
+1476,40.0,Frederick Ernest,Woodford,Engineering Crew,0.0,Mr
+1477,32.0,John Wesley,Woodward,2nd Class Passenger,0.0,Mr
+1478,41.0,Oscar Scott,Woody,Victualling Crew,0.0,Mr
+1479,45.0,Henry Frederick Charles,Wormald,Victualling Crew,0.0,Mr
+1480,37.0,William Henry,Worthman,Engineering Crew,0.0,Mr
+1481,18.0,Frederick Bernard,Wrapson,Victualling Crew,0.0,Mr
+1482,62.0,George,Wright,1st Class Passenger,0.0,Mr
+1483,24.0,Frederick,Wright,Victualling Crew,0.0,Mr
+1484,25.0,James Robert,Wyeth,Engineering Crew,0.0,Mr
+1485,27.0,Antūn Mūsà,Yazbak,3rd Class Passenger,0.0,Mr
+1486,23.0,Lazar “Lalyo”,Yonkov,3rd Class Passenger,0.0,Mr
+1487,32.0,Francis James,Young,Engineering Crew,0.0,Mr
+1488,45.0,Gerios,Youssiff (sam'aan),3rd Class Passenger,0.0,Mr
+1489,22.0,Henriette Virginie,Yvois,2nd Class Passenger,0.0,Miss
+1490,22.0,Mapriededer,Zakarian,3rd Class Passenger,0.0,Mr
+1491,27.0,Ortin,Zakarian,3rd Class Passenger,0.0,Mr
+1492,20.0,Minio,Zanetti,Restaurant Staff,0.0,Sig.
+1493,26.0,L.,Zarracchi,Restaurant Staff,0.0,Sig.
+1494,29.0,Leo,Zimmermann,3rd Class Passenger,0.0,Mr
+1495,64.0,Engelhart Cornelius,Østby,1st Class Passenger,0.0,Mr
+1496,39.0,Rhoda Mary 'Rosa',Abbott,3rd Class Passenger,1.0,Mrs
+1497,16.0,Kalle (Karen) Marie Kristiane,Abelseth,3rd Class Passenger,1.0,Miss
+1498,25.0,Olaus Jørgensen,Abelseth,3rd Class Passenger,1.0,Mr
+1499,28.0,Anna,Abelson,2nd Class Passenger,1.0,Mrs
+1500,38.0,Sha'nīnah ,Abī sa'b,3rd Class Passenger,1.0,Mrs
+1501,27.0,Nāsīf Qāsim,Abī-al-munà,3rd Class Passenger,1.0,Mr
+1502,19.0,August Abraham Johannes,Abrahamsson,3rd Class Passenger,1.0,Mr
+1503,21.0,Leah,Aks,3rd Class Passenger,1.0,Mrs
+1504,0.8333333333333334,Philip,Aks,3rd Class Passenger,1.0,Master
+1505,2.0,Hilānah,Al-ba'qlīnī,3rd Class Passenger,1.0,Miss
+1506,5.0,Mārīyā,Al-ba'qlīnī,3rd Class Passenger,1.0,Miss
+1507,3.0,Ūwjīnīyā,Al-ba'qlīnī,3rd Class Passenger,1.0,Miss
+1508,23.0,Laṭīfah,Al-ba'qlīnī,3rd Class Passenger,1.0,Mrs
+1509,25.0,Fahīm Rūḥānā,Al-za'innī,3rd Class Passenger,1.0,Mr
+1510,24.0,Ernest Frederick,Allen,Engineering Crew,1.0,Mr
+1511,29.0,Elisabeth Walton,Allen,1st Class Passenger,1.0,Miss
+1512,0.9166666666666666,Hudson Trevor,Allison,1st Class Passenger,1.0,Master
+1513,19.0,Carla Christine Nielsine,Andersen-jensen,3rd Class Passenger,1.0,Miss
+1514,42.0,John,Anderson,Deck Crew,1.0,Mr
+1515,42.0,Henry,Anderson,1st Class Passenger,1.0,Mr
+1516,16.0,Erna Alexandra,Andersson,3rd Class Passenger,1.0,Miss
+1517,62.0,Cornelia Theodosia,Andrews,1st Class Passenger,1.0,Miss
+1518,19.0,Charles Edward,Andrews,Victualling Crew,1.0,Mr
+1519,36.0,Florence Agnes,Angle,2nd Class Passenger,1.0,Mrs
+1520,53.0,Charlotte,Appleton,1st Class Passenger,1.0,Mrs
+1521,35.0,Ernest Edward,Archer,Deck Crew,1.0,Mr
+1522,5.0,Lillian Gertrud,Asplund,3rd Class Passenger,1.0,Miss
+1523,23.0,Johan Charles,Asplund,3rd Class Passenger,1.0,Mr
+1524,38.0,Selma Augusta Emilia,Asplund,3rd Class Passenger,1.0,Mrs
+1525,3.0,Edvin Rojj Felix,Asplund,3rd Class Passenger,1.0,Master
+1526,18.0,Madeleine Talmage,Astor,1st Class Passenger,1.0,Mrs
+1527,24.0,Léontine Pauline ,Aubart,1st Class Passenger,1.0,Mme.
+1528,20.0,James Albert,Avery,Engineering Crew,1.0,Mr
+1529,15.0,Bannūrah,Ayyūb-dāhir,3rd Class Passenger,1.0,Miss
+1530,33.0,Maria Mathilda,Backström,3rd Class Passenger,1.0,Mrs
+1531,18.0,Emily Louisa,Badman,3rd Class Passenger,1.0,Miss
+1532,28.0,Allen Marden,Baggott,Victualling Crew,1.0,Mr
+1533,46.0,Henry Joseph,Bailey,Deck Crew,1.0,Mr
+1534,18.0,Percy,Ball,Victualling Crew,1.0,Mr
+1535,36.0,Ada E.,Balls,2nd Class Passenger,1.0,Mrs
+1536,26.0,Ellen Mary,Barber,1st Class Passenger,1.0,Miss
+1537,47.0,Algernon Henry,Barkworth,1st Class Passenger,1.0,Mr
+1538,29.0,Frederick William,Barrett,Engineering Crew,1.0,Mr
+1539,31.0,Albina,Bassani,1st Class Passenger,1.0,Mrs
+1540,50.0,Hélène,Baxter,1st Class Passenger,1.0,Mrs
+1541,32.0,Edward,Beane,2nd Class Passenger,1.0,Mr
+1542,22.0,Ethel Louisa,Beane,2nd Class Passenger,1.0,Mrs
+1543,24.0,George William,Beauchamp,Engineering Crew,1.0,Mr
+1544,12.0,Ruth Elizabeth,Becker,2nd Class Passenger,1.0,Miss
+1545,4.0,Marion Louise,Becker,2nd Class Passenger,1.0,Miss
+1546,1.0,Richard F.,Becker,2nd Class Passenger,1.0,Master
+1547,35.0,Nellie E.,Becker,2nd Class Passenger,1.0,Mrs
+1548,37.0,Richard Leonard,Beckwith,1st Class Passenger,1.0,Mr
+1549,46.0,Sarah Maybell,Beckwith,1st Class Passenger,1.0,Mrs
+1550,34.0,Lawrence,Beesley,2nd Class Passenger,1.0,Mr
+1551,26.0,Karl Howell,Behr,1st Class Passenger,1.0,Mr
+1552,33.0,Mabel Kate,Bennett,Victualling Crew,1.0,Mrs
+1553,19.0,Lillian Winifred,Bentham,2nd Class Passenger,1.0,Miss
+1554,39.0,Nellie Mayo,Bessette,1st Class Passenger,1.0,Miss
+1555,46.0,Rosalie,Bidois,1st Class Passenger,1.0,Miss
+1556,32.0,Lee,Bing,3rd Class Passenger,1.0,Mr
+1557,20.0,Walter William,Binstead,Engineering Crew,1.0,Mr
+1558,31.0,Ellen,Bird,1st Class Passenger,1.0,Miss
+1559,25.0,Dickinson H.,Bishop,1st Class Passenger,1.0,Mr
+1560,19.0,Helen Margaret,Bishop,1st Class Passenger,1.0,Mrs
+1561,28.0,Mauritz Håkan,Björnström-steffansson,1st Class Passenger,1.0,Mr
+1562,22.0,Percival Albert,Blake,Engineering Crew,1.0,Mr
+1563,39.0,Henry,Blank,1st Class Passenger,1.0,Mr
+1564,45.0,Emma,Bliss,Victualling Crew,1.0,Mrs
+1565,30.0,Caroline,Bonnell,1st Class Passenger,1.0,Miss
+1566,61.0,Elizabeth,Bonnell,1st Class Passenger,1.0,Miss
+1567,45.0,Grace Scott,Bowen,1st Class Passenger,1.0,Miss
+1568,22.0,Elsie Edith,Bowerman,1st Class Passenger,1.0,Miss
+1569,31.0,Ruth Harwood,Bowker,Restaurant Staff,1.0,Miss
+1570,28.0,Joseph Groves,Boxhall,Deck Crew,1.0,Mr
+1571,22.0,Bridget,Bradley,3rd Class Passenger,1.0,Miss
+1572,37.0,George Andrew,Brereton,1st Class Passenger,1.0,Mr
+1573,42.0,Walter Thomas,Brice,Deck Crew,1.0,Mr
+1574,22.0,Harold Sydney,Bride,Victualling Crew,1.0,Mr
+1575,42.0,Arthur John,Bright,Deck Crew,1.0,Mr
+1576,59.0,Caroline Lane,Brown,1st Class Passenger,1.0,Mrs
+1577,15.0,Edith Eileen,Brown,2nd Class Passenger,1.0,Miss
+1578,44.0,Margaret ,Brown,1st Class Passenger,1.0,Mrs
+1579,39.0,Elizabeth Catherine,Brown,2nd Class Passenger,1.0,Mrs
+1580,18.0,Amelia Mary ,Brown,2nd Class Passenger,1.0,Miss
+1581,34.0,Edward,Brown,Victualling Crew,1.0,Mr
+1582,20.0,Dagmar Jenny Ingeborg,Bryhl,2nd Class Passenger,1.0,Miss
+1583,21.0,Daniel,Buckley,3rd Class Passenger,1.0,Mr
+1584,58.0,Emma Eliza,Bucknell,1st Class Passenger,1.0,Mrs
+1585,26.0,Edward John,Buley,Deck Crew,1.0,Mr
+1586,18.0,Charles,Burgess,Victualling Crew,1.0,Mr
+1587,39.0,William,Burke,Victualling Crew,1.0,Mr
+1588,41.0,Elizabeth Margaret,Burns,1st Class Passenger,1.0,Miss
+1589,20.0,Arthur Victor Edwards,Burrage,Victualling Crew,1.0,Mr
+1590,36.0,Kate,Buss,2nd Class Passenger,1.0,Miss
+1591,39.0,Karolina,Byström,2nd Class Passenger,1.0,Mrs
+1592,42.0,Edward Pennington,Calderhead,1st Class Passenger,1.0,Mr
+1593,28.0,Sylvia Mae,Caldwell,2nd Class Passenger,1.0,Mrs
+1594,0.8333333333333334,Alden Gates,Caldwell,2nd Class Passenger,1.0,Master
+1595,26.0,Albert Francis,Caldwell,2nd Class Passenger,1.0,Mr
+1596,35.0,Clear Annie,Cameron,2nd Class Passenger,1.0,Miss
+1597,52.0,Helen Churchill,Candee,1st Class Passenger,1.0,Mrs
+1598,58.0,Charlotte Wardle,Cardeza,1st Class Passenger,1.0,Mrs
+1599,36.0,Thomas Drake Martinez,Cardeza,1st Class Passenger,1.0,Mr
+1600,36.0,William Ernest,Carter,1st Class Passenger,1.0,Mr
+1601,14.0,Lucile Polk,Carter,1st Class Passenger,1.0,Miss
+1602,36.0,Lucile,Carter,1st Class Passenger,1.0,Mrs
+1603,11.0,William Thornton II,Carter,1st Class Passenger,1.0,Master
+1604,36.0,Eleanor Genevieve,Cassebeer,1st Class Passenger,1.0,Mrs
+1605,33.0,Annie,Caton,Victualling Crew,1.0,Miss
+1606,22.0,George Henry,Cavell,Engineering Crew,1.0,Mr
+1607,25.0,Julia Florence,Cavendish,1st Class Passenger,1.0,Mrs
+1608,47.0,Carrie Constance,Chaffee,1st Class Passenger,1.0,Mrs
+1609,27.0,Norman Campbell,Chambers,1st Class Passenger,1.0,Mr
+1610,32.0,Bertha,Chambers,1st Class Passenger,1.0,Mrs
+1611,32.0,Joseph Charles,Chapman,Victualling Crew,1.0,Mr
+1612,36.0,Victorine,Chaudanson,1st Class Passenger,1.0,Miss
+1613,30.0,Gladys,Cherry,1st Class Passenger,1.0,Miss
+1614,45.0,Paul Romaine Marie Léonce,Chevré,1st Class Passenger,1.0,Mr
+1615,48.0,Edith Martha Bowerman,Chibnall,1st Class Passenger,1.0,Mrs
+1616,32.0,Chang,Chip,3rd Class Passenger,1.0,Mr
+1617,25.0,Rachel Juli Cohen,Christy,2nd Class Passenger,1.0,Miss
+1618,52.0,Alice Frances,Christy,2nd Class Passenger,1.0,Mrs
+1619,26.0,Virginia Estelle,Clark,1st Class Passenger,1.0,Mrs
+1620,40.0,William,Clark,Engineering Crew,1.0,Mr
+1621,28.0,Ada Maria,Clarke,2nd Class Passenger,1.0,Mrs
+1622,22.0,Alice Catherine,Cleaver,1st Class Passenger,1.0,Miss
+1623,33.0,Frederick Charles,Clench,Deck Crew,1.0,Mr
+1624,19.0,Gurshon ,Cohen,3rd Class Passenger,1.0,Mr
+1625,33.0,E. Joseph,Colgan,Victualling Crew,1.0,Mr
+1626,25.0,Sidney Clarence Stuart,Collett,2nd Class Passenger,1.0,Mr
+1627,38.0,John,Collins,Engineering Crew,1.0,Mr
+1628,17.0,John,Collins,Victualling Crew,1.0,Mr
+1629,30.0,Charlotte Caroline,Collyer,2nd Class Passenger,1.0,Mrs
+1630,8.0,Marjorie Lottie,Collyer,2nd Class Passenger,1.0,Miss
+1631,34.0,George,Combes,Engineering Crew,1.0,Mr
+1632,39.0,Sara Rebecca,Compton,1st Class Passenger,1.0,Miss
+1633,64.0,Mary Eliza,Compton,1st Class Passenger,1.0,Mrs
+1634,23.0,Catherine,Connolly,3rd Class Passenger,1.0,Miss
+1635,22.0,Selena,Cook,2nd Class Passenger,1.0,Mrs
+1636,55.0,Malvina Helen,Cornell,1st Class Passenger,1.0,Mrs
+1637,16.0,Ellen,Corr,3rd Class Passenger,1.0,Miss
+1638,30.0,Robert Frederick William,Couper,Engineering Crew,1.0,Mr
+1639,9.0,William Loch ,Coutts,3rd Class Passenger,1.0,Master
+1640,36.0,Winnie ,Coutts,3rd Class Passenger,1.0,Mrs
+1641,3.0,Neville Leslie,Coutts,3rd Class Passenger,1.0,Master
+1642,20.0,Frederick Horace,Crafter,Victualling Crew,1.0,Mr
+1643,43.0,Alfred George,Crawford,Victualling Crew,1.0,Mr
+1644,16.0,Laura Mae,Cribb,3rd Class Passenger,1.0,Miss
+1645,21.0,James,Crimmins,Engineering Crew,1.0,Mr
+1646,64.0,Catherine Elizabeth,Crosby,1st Class Passenger,1.0,Mrs
+1647,39.0,Harriette Rebecca,Crosby,1st Class Passenger,1.0,Miss
+1648,26.0,George Frederick,Crow,Victualling Crew,1.0,Mr
+1649,49.0,Charles James,Cullen,Victualling Crew,1.0,Mr
+1650,35.0,Florence Briggs,Cumings,1st Class Passenger,1.0,Mrs
+1651,38.0,Andrew Orr,Cunningham,Victualling Crew,1.0,Mr
+1652,45.0,Charles Edward,Dahl,3rd Class Passenger,1.0,Mr
+1653,33.0,Margaret ,Daly,3rd Class Passenger,1.0,Miss
+1654,29.0,Eugene Patrick,Daly,3rd Class Passenger,1.0,Mr
+1655,51.0,Peter Dennis,Daly,1st Class Passenger,1.0,Mr
+1656,27.0,Robert Williams,Daniel,1st Class Passenger,1.0,Mr
+1657,36.0,Sarah Rebecca,Daniels,1st Class Passenger,1.0,Miss
+1658,18.0,Sidney Edward,Daniels,Victualling Crew,1.0,Mr
+1659,27.0,Orian,Davidson,1st Class Passenger,1.0,Mrs
+1660,8.0,John Morgan jr,Davies,2nd Class Passenger,1.0,Master
+1661,48.0,Agnes,Davies,2nd Class Passenger,1.0,Mrs
+1662,28.0,Mary Ann Charlotte,Davis,2nd Class Passenger,1.0,Miss
+1663,34.0,Mary Elizabeth,Davison,3rd Class Passenger,1.0,Mrs
+1664,36.0,Guillaume Joseph,De messemaeker,3rd Class Passenger,1.0,Mr
+1665,36.0,Anna,De messemaeker,3rd Class Passenger,1.0,Mrs
+1666,30.0,Theodoor,De mulder,3rd Class Passenger,1.0,Mr
+1667,1.0,Bertram Vere,Dean,3rd Class Passenger,1.0,Master
+1668,0.16666666666666666,Elizabeth Gladys Millvina,Dean,3rd Class Passenger,1.0,Miss
+1669,32.0,Eva Georgetta,Dean,3rd Class Passenger,1.0,Mrs
+1670,24.0,Argene,Del carlo,2nd Class Passenger,1.0,Mrs
+1671,20.0,Margaret Bedelia,Devaney,3rd Class Passenger,1.0,Miss
+1672,27.0,John Joseph,Diaper,Engineering Crew,1.0,Mr
+1673,31.0,Albert Adrian,Dick,1st Class Passenger,1.0,Mr
+1674,17.0,Vera,Dick,1st Class Passenger,1.0,Mrs
+1675,33.0,Thomas Patrick,Dillon,Engineering Crew,1.0,Mr
+1676,38.0,Ruth,Dodge,1st Class Passenger,1.0,Mrs
+1677,4.0,Washington,Dodge,1st Class Passenger,1.0,Master
+1678,52.0,Washington,Dodge,1st Class Passenger,1.0,Dr
+1679,22.0,Frederick,Doel,Engineering Crew,1.0,Mr
+1680,18.0,Elsie,Doling,2nd Class Passenger,1.0,Miss
+1681,34.0,Ada Julia Elizabeth,Doling,2nd Class Passenger,1.0,Mrs
+1682,22.0,Albert James,Dore,Engineering Crew,1.0,Mr
+1683,18.0,Edward Arthur,Dorking,3rd Class Passenger,1.0,Mr
+1684,48.0,Mahala,Douglas,1st Class Passenger,1.0,Mrs
+1685,27.0,Mary Hélène,Douglas,1st Class Passenger,1.0,Mrs
+1686,31.0,Elizabeth,Dowdell,3rd Class Passenger,1.0,Miss
+1687,8.0,Marshall Brines,Drew,2nd Class Passenger,1.0,Master
+1688,34.0,Maria Louisa Thorne,Drew,2nd Class Passenger,1.0,Mrs
+1689,27.0,Bridget,Driscoll,3rd Class Passenger,1.0,Miss
+1690,24.0,Jennie,Dropkin,3rd Class Passenger,1.0,Miss
+1691,49.0,Cosmo Edmund,Duff gordon,1st Class Passenger,1.0,Sir
+1692,48.0,"Lucy Christiana, Lady",Duff gordon,1st Class Passenger,1.0,
+1693,24.0,Joseph Pierre,Duquemin,3rd Class Passenger,1.0,Mr
+1694,30.0,Florentina,Durán i moné,2nd Class Passenger,1.0,Sra.
+1695,27.0,Asuncion,Durán i moné,2nd Class Passenger,1.0,Sra.
+1696,22.0,Anna Elisabeth Judith,Dyker,3rd Class Passenger,1.0,Mrs
+1697,36.0,Frank,Dymond,Engineering Crew,1.0,Mr
+1698,23.0,Olive,Earnshaw,1st Class Passenger,1.0,Mrs
+1699,28.0,John Bertie,Ellis,Victualling Crew,1.0,Mr
+1700,6.0,Virginia Ethel,Emanuel,3rd Class Passenger,1.0,Miss
+1701,39.0,Caroline Louise,Endres,1st Class Passenger,1.0,Miss
+1702,43.0,Henry Samuel,Etches,Victualling Crew,1.0,Mr
+1703,54.0,Elizabeth Mussey,Eustis,1st Class Passenger,1.0,Miss
+1704,27.0,Frank Oliver,Evans,Deck Crew,1.0,Mr
+1705,25.0,Alfred Frank,Evans,Deck Crew,1.0,Mr
+1706,37.0,William Stephen,Faulkner,Victualling Crew,1.0,Mr
+1707,41.0,Luigi,Finoli,3rd Class Passenger,1.0,Mr
+1708,21.0,Cecil William,Fitzpatrick,Engineering Crew,1.0,Mr
+1709,52.0,Edward,Flaherty,Engineering Crew,1.0,Mr
+1710,24.0,Frederick,Fleet,Deck Crew,1.0,Mr
+1711,48.0,Antoinette,Flegenheim,1st Class Passenger,1.0,Mrs
+1712,42.0,Margaret,Fleming,1st Class Passenger,1.0,Miss
+1713,36.0,John Irwin,Flynn,1st Class Passenger,1.0,Mr
+1714,21.0,Wilfred Cyril,Foley,Victualling Crew,1.0,Mr
+1715,46.0,John,Foley,Deck Crew,1.0,Mr
+1716,32.0,Choong,Foo,3rd Class Passenger,1.0,Mr
+1717,23.0,Mabel Helen,Fortune,1st Class Passenger,1.0,Miss
+1718,28.0,Ethel Flora,Fortune,1st Class Passenger,1.0,Miss
+1719,24.0,Alice Elizabeth,Fortune,1st Class Passenger,1.0,Miss
+1720,60.0,Mary,Fortune,1st Class Passenger,1.0,Mrs
+1721,27.0,James,Forward,Deck Crew,1.0,Mr
+1722,31.0,Laura Mabel,Francatelli,1st Class Passenger,1.0,Miss
+1723,49.0,Henry William,Frauenthal,1st Class Passenger,1.0,Dr
+1724,42.0,Clara,Frauenthal,1st Class Passenger,1.0,Mrs
+1725,43.0,Isaac Gerald,Frauenthal,1st Class Passenger,1.0,Mr
+1726,21.0,Walter Francis,Fredericks,Engineering Crew,1.0,Mr
+1727,22.0,Hedwig Margaritha,Frölicher,1st Class Passenger,1.0,Miss
+1728,60.0,Maximilian Josef,Frölicher-stehli,1st Class Passenger,1.0,Mr
+1729,48.0,Margaretha Emerentia,Frölicher-stehli,1st Class Passenger,1.0,Mrs
+1730,29.0,Albert Ernest,Fryer,Engineering Crew,1.0,Mr
+1731,35.0,Lily May,Futrelle,1st Class Passenger,1.0,Mrs
+1732,39.0,Ethel,Garside,2nd Class Passenger,1.0,Miss
+1733,36.0,Jacob William,Gibbons,Victualling Crew,1.0,Mr
+1734,22.0,Dorothy Winifred,Gibson,1st Class Passenger,1.0,Miss
+1735,45.0,Pauline Caroline,Gibson,1st Class Passenger,1.0,Mrs
+1736,35.0,Amalie Henriette,Gieger,1st Class Passenger,1.0,Miss
+1737,17.0,Kate,Gilnagh,3rd Class Passenger,1.0,Miss
+1738,18.0,Mary Agatha,Glynn,3rd Class Passenger,1.0,Miss
+1739,38.0,George Auguste,Godley,Engineering Crew,1.0,Mr
+1740,45.0,Jane Kate Coulson,Gold,Victualling Crew,1.0,Mrs
+1741,46.0,Nella Carlynne,Goldenberg,1st Class Passenger,1.0,Mrs
+1742,47.0,Samuel Levi,Goldenberg,1st Class Passenger,1.0,Mr
+1743,31.0,Emily Alice,Goldsmith,3rd Class Passenger,1.0,Mrs
+1744,9.0,Frank John William,Goldsmith,3rd Class Passenger,1.0,Master
+1745,53.0,Archibald,Gracie,1st Class Passenger,1.0,Colonel
+1746,58.0,Edith,Graham,1st Class Passenger,1.0,Mrs
+1747,28.0,Thomas Gibson,Graham,Engineering Crew,1.0,Mr
+1748,19.0,Margaret Edith,Graham,1st Class Passenger,1.0,Miss
+1749,45.0,Blanche,Greenfield,1st Class Passenger,1.0,Mrs
+1750,23.0,William Bertram,Greenfield,1st Class Passenger,1.0,Mr
+1751,45.0,Mary Josephine,Gregson,Victualling Crew,1.0,Miss
+1752,29.0,Elgar John,Guy,Victualling Crew,1.0,Mr
+1753,35.0,John,Haggan,Engineering Crew,1.0,Mr
+1754,31.0,Albert,Haines,Deck Crew,1.0,Mr
+1755,24.0,Elin Matilda,Hakkarainen,3rd Class Passenger,1.0,Mrs
+1756,27.0,Richard,Halford,Victualling Crew,1.0,Mr
+1757,23.0,Anna Lydia Amanda,Hämäläinen,2nd Class Passenger,1.0,Mrs
+1758,1.0,Viljo Unto Johannes,Hämäläinen,2nd Class Passenger,1.0,Master
+1759,27.0,Mubārik Sulaymān Abī Āsī,Ḥannā,3rd Class Passenger,1.0,Mr
+1760,45.0,Jennie Louise,Hansen,3rd Class Passenger,1.0,Mrs
+1761,39.0,William,Harder,Deck Crew,1.0,Mr
+1762,21.0,Dorothy,Harder,1st Class Passenger,1.0,Mrs
+1763,25.0,George Achilles,Harder,1st Class Passenger,1.0,Mr
+1764,21.0,Reginald,Hardwick,Victualling Crew,1.0,Mr
+1765,40.0,John,Hardy,Victualling Crew,1.0,Mr
+1766,6.0,Annie Jessie,Harper,2nd Class Passenger,1.0,Miss
+1767,49.0,Myra Raymond,Harper,1st Class Passenger,1.0,Mrs
+1768,48.0,Henry Sleeper,Harper,1st Class Passenger,1.0,Mr
+1769,62.0,George,Harris,2nd Class Passenger,1.0,Mr
+1770,35.0,Irene,Harris,1st Class Passenger,1.0,Mrs
+1771,39.0,Fred,Harris,Engineering Crew,1.0,Mr
+1772,40.0,Aragõa Drummond,Harrison,Victualling Crew,1.0,Mr
+1773,7.0,Eva Miriam,Hart,2nd Class Passenger,1.0,Miss
+1774,31.0,John Edward,Hart,Victualling Crew,1.0,Mr
+1775,48.0,Emily Esther Louisa,Hart,2nd Class Passenger,1.0,Mrs
+1776,21.0,Fred,Hartnell,Victualling Crew,1.0,Mr
+1777,27.0,Hammad,Hassab,1st Class Passenger,1.0,Mr
+1778,45.0,Walter James,Hawksford,1st Class Passenger,1.0,Mr
+1779,52.0,Clara Jennings,Hays,1st Class Passenger,1.0,Mrs
+1780,24.0,Margaret Bechstein,Hays,1st Class Passenger,1.0,Miss
+1781,33.0,Honor,Healy,3rd Class Passenger,1.0,Miss
+1782,22.0,William Albert Thomas,Hebb,Engineering Crew,1.0,Mr
+1783,27.0,Oskar Arvid,Hedman,3rd Class Passenger,1.0,Mr
+1784,24.0,Ling,Hee,3rd Class Passenger,1.0,Mr
+1785,16.0,Laina Maria,Heikkinen,3rd Class Passenger,1.0,Miss
+1786,22.0,Hilda Maria,Hellström,3rd Class Passenger,1.0,Miss
+1787,43.0,Samuel Ernest,Hemming,Deck Crew,1.0,Mr
+1788,28.0,Charles Osker,Hendrickson,Engineering Crew,1.0,Mr
+1789,24.0,Alice,Herman,2nd Class Passenger,1.0,Miss
+1790,24.0,Kate,Herman,2nd Class Passenger,1.0,Miss
+1791,50.0,Jane,Herman,2nd Class Passenger,1.0,Mrs
+1792,56.0,Mary Dunbar,Hewlett,2nd Class Passenger,1.0,Mrs
+1793,29.0,Robert,Hichens,Deck Crew,1.0,Mr
+1794,44.0,Ida Sophia,Hippach,1st Class Passenger,1.0,Mrs
+1795,17.0,Gertrude Isabelle,Hippach,1st Class Passenger,1.0,Miss
+1796,2.0,Hildur Elisabeth,Hirvonen,3rd Class Passenger,1.0,Miss
+1797,22.0,Helga Elisabeth Lindqvist,Hirvonen,3rd Class Passenger,1.0,Mrs
+1798,20.0,Ellen ,Hocking,2nd Class Passenger,1.0,Miss
+1799,54.0,Eliza,Hocking,2nd Class Passenger,1.0,Mrs
+1800,51.0,Anna Louisa,Hogeboom,1st Class Passenger,1.0,Mrs
+1801,29.0,George Alfred,Hogg,Deck Crew,1.0,Mr
+1802,29.0,Annie Margaret,Hold,2nd Class Passenger,1.0,Mrs
+1803,35.0,Mary Alice,Holverson,1st Class Passenger,1.0,Mrs
+1804,40.0,Harry Haven,Homer,1st Class Passenger,1.0,Mr
+1805,28.0,Eliina,Honkanen,3rd Class Passenger,1.0,Miss
+1806,43.0,Robert John,Hopkins,Deck Crew,1.0,Mr
+1807,33.0,Albert Edward James,Horswill,Deck Crew,1.0,Mr
+1808,41.0,Masabumi,Hosono,2nd Class Passenger,1.0,Mr
+1809,26.0,May Elizabeth,Howard,3rd Class Passenger,1.0,Miss
+1810,33.0,Jane Anne,Hoyt,1st Class Passenger,1.0,Mrs
+1811,38.0,Frederick Maxfield,Hoyt,1st Class Passenger,1.0,Mr
+1812,52.0,Sidney,Humphreys,Deck Crew,1.0,Mr
+1813,23.0,Albert Sylvanus,Hunt,Engineering Crew,1.0,Mr
+1814,23.0,Walter,Hurst,Engineering Crew,1.0,Mr
+1815,19.0,Leo James,Hyland,Victualling Crew,1.0,Mr
+1816,31.0,Joseph Abraham,Hyman,3rd Class Passenger,1.0,Mr
+1817,18.0,Sāfiyah,Ibrāhīm,3rd Class Passenger,1.0,Mrs
+1818,39.0,Rose Amélie,Icard,1st Class Passenger,1.0,Miss
+1819,17.0,Bertha,Ilett,2nd Class Passenger,1.0,Miss
+1820,49.0,Joseph Bruce,Ismay,1st Class Passenger,1.0,Mr
+1821,24.0,Amy Frances Christy,Jacobsohn,2nd Class Passenger,1.0,Mrs
+1822,30.0,Ivan,Jalševac,3rd Class Passenger,1.0,Mr
+1823,21.0,Carl Olof,Jansson,3rd Class Passenger,1.0,Mr
+1824,26.0,Annie Jane,Jermyn,3rd Class Passenger,1.0,Miss
+1825,23.0,Marie Marthe,Jerwan,2nd Class Passenger,1.0,Mrs
+1826,24.0,Violet Constance,Jessop,Victualling Crew,1.0,Miss
+1827,23.0,Archie,Jewell,Deck Crew,1.0,Mr
+1828,29.0,Bernt Johannes,Johannesen,3rd Class Passenger,1.0,Mr
+1829,32.0,Oscar Wilhelm,Johansson,3rd Class Passenger,1.0,Mr
+1830,4.0,Harold Theodor,Johnson,3rd Class Passenger,1.0,Master
+1831,1.0,Eleanor Ileen,Johnson,3rd Class Passenger,1.0,Miss
+1832,27.0,Aliina Vilhelmina,Johnson,3rd Class Passenger,1.0,Mrs
+1833,52.0,James,Johnstone,Victualling Crew,1.0,Mr
+1834,34.0,Thomas William,Jones,Deck Crew,1.0,Mr
+1835,25.0,Karl,Jonsson,3rd Class Passenger,1.0,Mr
+1836,33.0,Charles John,Joughin,Victualling Crew,1.0,Mr
+1837,31.0,Charles Edward,Judd,Engineering Crew,1.0,Mr
+1838,32.0,Eiriik,Jussila,3rd Class Passenger,1.0,Mr
+1839,24.0,Miriam,Kantor,2nd Class Passenger,1.0,Mrs
+1840,21.0,Einar Gervasius,Karlsson,3rd Class Passenger,1.0,Mr
+1841,39.0,Franz,Karun,3rd Class Passenger,1.0,Mr
+1842,5.0,Manca,Karun,3rd Class Passenger,1.0,Miss
+1843,40.0,F.,Kasper,Engineering Crew,1.0,Mr
+1844,46.0,Nora Agnes,Keane,2nd Class Passenger,1.0,Miss
+1845,30.0,Percy Edward,Keen,Victualling Crew,1.0,Mr
+1846,20.0,Anna Katherine,Kelly,3rd Class Passenger,1.0,Miss
+1847,48.0,Fanny Maria ,Kelly,2nd Class Passenger,1.0,Mrs
+1848,22.0,Mary,Kelly,3rd Class Passenger,1.0,Miss
+1849,22.0,George,Kemish,Engineering Crew,1.0,Mr
+1850,24.0,John,Kennedy,3rd Class Passenger,1.0,Mr
+1851,40.0,Marion Estelle,Kenyon,1st Class Passenger,1.0,Mrs
+1852,42.0,Edwin Nelson Jr.,Kimball,1st Class Passenger,1.0,Mr
+1853,45.0,Susan Gertrude,Kimball,1st Class Passenger,1.0,Mrs
+1854,29.0,Anton,Kink,3rd Class Passenger,1.0,Mr
+1855,26.0,Luise,Kink-heilmann,3rd Class Passenger,1.0,Mrs
+1856,4.0,Luise Gretchen,Kink-heilmann,3rd Class Passenger,1.0,Miss
+1857,46.0,George,Knight,Victualling Crew,1.0,Mr
+1858,44.0,Thomas,Knowles,Engineering Crew,1.0,Mr
+1859,25.0,Neshan,Krekorian,3rd Class Passenger,1.0,Mr
+1860,29.0,Emilie,Kreuchen,1st Class Passenger,1.0,Miss
+1861,38.0,Ali,Lam,3rd Class Passenger,1.0,Mr
+1862,22.0,Aurora Adelia,Landergren,3rd Class Passenger,1.0,Miss
+1863,32.0,Fang,Lang,3rd Class Passenger,1.0,Mr
+1864,3.0,Simonne Marie Anne Andrée,Laroche,2nd Class Passenger,1.0,Miss
+1865,22.0,Juliette Marie Louise,Laroche,2nd Class Passenger,1.0,Mrs
+1866,1.0,Louise,Laroche,2nd Class Passenger,1.0,Miss
+1867,40.0,Elizabeth,Lavington,Victualling Crew,1.0,Miss
+1868,49.0,Alice May,Leader,1st Class Passenger,1.0,Dr
+1869,50.0,Elizabeth Mary,Leather,Victualling Crew,1.0,Mrs
+1870,41.0,Reginald Robinson,Lee,Deck Crew,1.0,Mr
+1871,29.0,Henry Reginald,Lee,Victualling Crew,1.0,Mr
+1872,17.0,Bertha,Lehmann,2nd Class Passenger,1.0,Miss
+1873,31.0,Jessie Wills,Leitch,2nd Class Passenger,1.0,Miss
+1874,39.0,Amelia ,Lemore,2nd Class Passenger,1.0,Mrs
+1875,27.0,Berthe,Leroy,1st Class Passenger,1.0,Miss
+1876,35.0,Louis Gustave Joseph,Lesueur,1st Class Passenger,1.0,Mr
+1877,27.0,Arthur Ernest Read,Lewis,Victualling Crew,1.0,Mr
+1878,38.0,Charles Herbert,Lightoller,Deck Crew,1.0,Mr
+1879,20.0,Eino William,Lindqvist,3rd Class Passenger,1.0,Mr
+1880,30.0,William Charles,Lindsay,Engineering Crew,1.0,Mr
+1881,55.0,Sigrid,Lindström,1st Class Passenger,1.0,Mrs
+1882,50.0,Elizabeth Lindsey,Lines,1st Class Passenger,1.0,Mrs
+1883,16.0,Mary Conover,Lines,1st Class Passenger,1.0,Miss
+1884,40.0,Alexander James,Littlejohn,Victualling Crew,1.0,Mr
+1885,21.0,Gretchen Fiske,Longley,1st Class Passenger,1.0,Miss
+1886,42.0,Alice Adelaide,Louch,2nd Class Passenger,1.0,Mrs
+1887,29.0,Harold Godfrey,Lowe,Deck Crew,1.0,Mr
+1888,25.0,William Arthur,Lucas,Deck Crew,1.0,Mr
+1889,31.0,William Watson,Lucas,Victualling Crew,1.0,Mr
+1890,29.0,Nikola,Lulić,3rd Class Passenger,1.0,Mr
+1891,23.0,Olga Elida,Lundin,3rd Class Passenger,1.0,Miss
+1892,32.0,Thure Edvin,Lundström,3rd Class Passenger,1.0,Mr
+1893,59.0,Eugénie Elise,Lurette,1st Class Passenger,1.0,Miss
+1894,21.0,Margaret ,Madigan,3rd Class Passenger,1.0,Miss
+1895,16.0,Georgette Alexandra,Madill,1st Class Passenger,1.0,Miss
+1896,24.0,Fridtjof Arne,Madsen,3rd Class Passenger,1.0,Mr
+1897,20.0,Roberta Elizabeth Mary,Maioni,1st Class Passenger,1.0,Miss
+1898,32.0,William James,Major,Engineering Crew,1.0,Mr
+1899,24.0,Antonine Marie,Mallet,2nd Class Passenger,1.0,Mrs
+1900,1.0,André Clement,Mallet,2nd Class Passenger,1.0,Master
+1901,20.0,Hannā Mikā'īl,Māmā,3rd Class Passenger,1.0,Mr
+1902,28.0,Margaret,Mannion,3rd Class Passenger,1.0,Miss
+1903,29.0,Pierre,Maréchal,1st Class Passenger,1.0,Mr
+1904,28.0,Evelyn,Marsden,Victualling Crew,1.0,Miss
+1905,20.0,Mabel Elvina,Martin,Restaurant Staff,1.0,Miss
+1906,39.0,Annie Martha,Martin,Victualling Crew,1.0,Mrs
+1907,18.0,Mary Graham Carmichael,Marvin,1st Class Passenger,1.0,Mrs
+1908,32.0,Frank Archibald Robert,Mason,Engineering Crew,1.0,Mr
+1909,25.0,Paul Achille Maurice Germain,Maugé,Restaurant Staff,1.0,Mr
+1910,31.0,Isaac Hiram,Maynard,Victualling Crew,1.0,Mr
+1911,24.0,Berthe Antonine,Mayné,1st Class Passenger,1.0,Mlle
+1912,25.0,Thomas Jubilee,Mayzes,Engineering Crew,1.0,Mr
+1913,24.0,Catherine ,Mccarthy,3rd Class Passenger,1.0,Miss
+1914,48.0,William,Mccarthy,Deck Crew,1.0,Mr
+1915,19.0,Thomas Joseph,Mccormack,3rd Class Passenger,1.0,Mr
+1916,24.0,Bernard,Mccoy,3rd Class Passenger,1.0,Mr
+1917,29.0,Agnes,Mccoy,3rd Class Passenger,1.0,Miss
+1918,26.0,Alice,Mccoy,3rd Class Passenger,1.0,Miss
+1919,31.0,Bridget Delia,Mcdermott,3rd Class Passenger,1.0,Miss
+1920,29.0,James,Mcgann,Engineering Crew,1.0,Mr
+1921,36.0,George Francis 'Paddy',Mcgough,Deck Crew,1.0,Mr
+1922,35.0,James Robert,Mcgough,1st Class Passenger,1.0,Mr
+1923,20.0,Mary,Mcgovern,3rd Class Passenger,1.0,Miss
+1924,17.0,Anna Louise,Mcgowan,3rd Class Passenger,1.0,Miss
+1925,21.0,William,Mcintyre,Engineering Crew,1.0,Mr
+1926,30.0,Charles Donald,Mckay,Victualling Crew,1.0,Mr
+1927,42.0,Hypatia,Mclaren,Victualling Crew,1.0,Mrs
+1928,26.0,Arthur,Mcmicken,Victualling Crew,1.0,Mr
+1929,42.0,Elizabeth Anne,Mellinger,2nd Class Passenger,1.0,Mrs
+1930,13.0,Violet Madeline,Mellinger,2nd Class Passenger,1.0,Miss
+1931,19.0,William John,Mellors,2nd Class Passenger,1.0,Mr
+1932,25.0,Leila,Meyer,1st Class Passenger,1.0,Mrs
+1933,21.0,Karl Albert,Midtsjø,3rd Class Passenger,1.0,Mr
+1934,51.0,Christopher,Mills,Victualling Crew,1.0,Mr
+1935,37.0,Lillian Mae,Minahan,1st Class Passenger,1.0,Mrs
+1936,33.0,Ida Daisy,Minahan,1st Class Passenger,1.0,Miss
+1937,30.0,Philipp Edmund,Mock,1st Class Passenger,1.0,Mr
+1938,23.0,Ellen Mary,Mockler,3rd Class Passenger,1.0,Miss
+1939,7.0,Meier,Moor,3rd Class Passenger,1.0,Master
+1940,29.0,Beila,Moor,3rd Class Passenger,1.0,Mrs
+1941,32.0,George Alfred,Moore,Deck Crew,1.0,Mr
+1942,29.0,J.,Moore,Engineering Crew,1.0,Mr
+1943,28.0,Bridget,Moran,3rd Class Passenger,1.0,Miss
+1944,28.0,Frank Herbert,Morris,Victualling Crew,1.0,Mr
+1945,29.0,Albert Johan,Moss,3rd Class Passenger,1.0,Mr
+1946,35.0,Mantoura Boulos,Moussa,3rd Class Passenger,1.0,Mrs
+1947,7.0,Jirjis,Mubārik,3rd Class Passenger,1.0,Master
+1948,4.0,Halīm,Mubārik,3rd Class Passenger,1.0,Master
+1949,25.0,Amīnah,Mubārik,3rd Class Passenger,1.0,Mrs
+1950,21.0,Catherine ,Mullin,3rd Class Passenger,1.0,Miss
+1951,25.0,Bridget Elizabeth,Mulvihill,3rd Class Passenger,1.0,Miss
+1952,37.0,William John,Murdock,Engineering Crew,1.0,Mr
+1953,25.0,Margaret ,Murphy,3rd Class Passenger,1.0,Miss
+1954,31.0,Nora,Murphy,3rd Class Passenger,1.0,Miss
+1955,18.0,Catherine ,Murphy,3rd Class Passenger,1.0,Miss
+1956,22.0,Fatīmah Muhammad ,Muslamānī,3rd Class Passenger,1.0,Mrs
+1957,15.0,Adāl,Najīb qiyāmah,3rd Class Passenger,1.0,Miss
+1958,19.0,Wadi'ah ,Nakid,3rd Class Passenger,1.0,Mrs
+1959,1.0,Mariayam,Nakid,3rd Class Passenger,1.0,Miss
+1960,20.0,Sa'īd Antūn,Nakid,3rd Class Passenger,1.0,Mr
+1961,17.0,Adāl,Naṣr allāh,2nd Class Passenger,1.0,Mrs
+1962,45.0,Zād,Naṣr allāh,3rd Class Passenger,1.0,Mrs
+1963,3.0,Michel Marcel,Navratil,2nd Class Passenger,1.0,Master
+1964,2.0,Edmond Roger,Navratil,2nd Class Passenger,1.0,Master
+1965,25.0,Harold Bentley,Neal,Victualling Crew,1.0,Mr
+1966,31.0,Madeleine,Newell,1st Class Passenger,1.0,Miss
+1967,23.0,Marjorie Anne,Newell,1st Class Passenger,1.0,Miss
+1968,19.0,Helen Monypeny,Newsom,1st Class Passenger,1.0,Miss
+1969,35.0,Walter Henry,Nichols,Victualling Crew,1.0,Mr
+1970,26.0,Helmina Josefina,Nilsson,3rd Class Passenger,1.0,Miss
+1971,18.0,Berta Olivia,Nilsson,3rd Class Passenger,1.0,Miss
+1972,14.0,Jamīlah,Nīqūla yārid,3rd Class Passenger,1.0,Miss
+1973,11.0,Ilyās,Nīqūla yārid,3rd Class Passenger,1.0,Master
+1974,,Juho,Niskanen,3rd Class Passenger,1.0,Mr
+1975,30.0,Henry,Noss,Engineering Crew,1.0,Mr
+1976,20.0,Alfred,Nourney,1st Class Passenger,1.0,Mr
+1977,30.0,William,Nutbean,Engineering Crew,1.0,Mr
+1978,29.0,Elizabeth,Nye,2nd Class Passenger,1.0,Mrs
+1979,22.0,Anna Sofia,Nysten,3rd Class Passenger,1.0,Miss
+1980,27.0,Hannah,O'brien,3rd Class Passenger,1.0,Mrs
+1981,29.0,John,O'connor,Engineering Crew,1.0,Mr
+1982,22.0,Ellen ,O'dwyer,3rd Class Passenger,1.0,Miss
+1983,21.0,Patrick,O'keeffe,3rd Class Passenger,1.0,Mr
+1984,16.0,Hanora ,O'leary,3rd Class Passenger,1.0,Miss
+1985,22.0,Velin Matilda,Öhman,3rd Class Passenger,1.0,Miss
+1986,39.0,Fermina,Oliva y ocana,1st Class Passenger,1.0,Doña
+1987,41.0,Harry,Oliver,Engineering Crew,1.0,Mr
+1988,27.0,Alfred John,Olliver,Deck Crew,1.0,Mr
+1989,9.0,Artur Karl,Olsen,3rd Class Passenger,1.0,Master
+1990,29.0,Alfred Fernand,Omont,1st Class Passenger,1.0,Mr
+1991,31.0,Mara,Osman,3rd Class Passenger,1.0,Mrs
+1992,27.0,Frank,Osman,Deck Crew,1.0,Mr
+1993,36.0,Charles Alfred,Othen,Engineering Crew,1.0,Mr
+1994,22.0,Percy Thomas,Oxenham,2nd Class Passenger,1.0,Mr
+1995,26.0,Julian,Padron manent,2nd Class Passenger,1.0,Mr
+1996,29.0,Emili,Pallàs i castelló,2nd Class Passenger,1.0,Sr.
+1997,26.0,Oskar Leander Johansson,Palmquist,3rd Class Passenger,1.0,Mr
+1998,59.0,Lutie Davis,Parrish,2nd Class Passenger,1.0,Mrs
+1999,45.0,Charles Henry,Pascoe,Deck Crew,1.0,Mr
+2000,33.0,John,Pearce,Engineering Crew,1.0,Mr
+2001,25.0,Albert Victor,Pearcey,Victualling Crew,1.0,Mr
+2002,22.0,Edith,Pears,1st Class Passenger,1.0,Mrs
+2003,39.0,George,Pelham,Engineering Crew,1.0,Mr
+2004,22.0,Maria Josefa Perezde Soto y Vallejo,Peñasco y castellana,1st Class Passenger,1.0,Mrs
+2005,37.0,Walter John,Perkis,Deck Crew,1.0,Mr
+2006,33.0,Mary Anne,Perreault,1st Class Passenger,1.0,Miss
+2007,19.0,Edgar Lionel,Perry,Engineering Crew,1.0,Mr
+2008,25.0,Ernst Ulrik,Persson,3rd Class Passenger,1.0,Mr
+2009,26.0,William Chapman,Peters,Deck Crew,1.0,Mr
+2010,52.0,Arthur Godfrey,Peuchen,1st Class Passenger,1.0,Major
+2011,30.0,Richard Paul Jozef,Pfropper,Victualling Crew,1.0,Mr
+2012,23.0,Harold Charles William,Phillimore,Victualling Crew,1.0,Mr
+2013,19.0,Kate Florence,Phillips,2nd Class Passenger,1.0,Miss
+2014,21.0,Alice Frances Louisa,Phillips,2nd Class Passenger,1.0,Miss
+2015,33.0,Benoît,Picard,3rd Class Passenger,1.0,Mr
+2016,32.0,Rosa,Pinsky,2nd Class Passenger,1.0,Mrs
+2017,34.0,Herbert John,Pitman,Deck Crew,1.0,Mr
+2018,24.0,Alfred John Alexander,Podesta,Engineering Crew,1.0,Mr
+2019,27.0,John Thomas,Poingdestre,Deck Crew,1.0,Mr
+2020,22.0,Frank,Port,Victualling Crew,1.0,Mr
+2021,30.0,Emilio Ilario Giuseppe,Portaluppi,2nd Class Passenger,1.0,Mr
+2022,56.0,Lily Alexenia,Potter,1st Class Passenger,1.0,Mrs
+2023,30.0,George Alexander,Prangnell,Engineering Crew,1.0,Mr
+2024,23.0,Frank Winnold,Prentice,Victualling Crew,1.0,Mr
+2025,36.0,Alice Maud,Prichard,Victualling Crew,1.0,Mrs
+2026,24.0,Arthur John,Priest,Engineering Crew,1.0,Mr
+2027,20.0,Harold John Arnold,Prior,Victualling Crew,1.0,Mr
+2028,20.0,Alfred,Pugh,Victualling Crew,1.0,Mr
+2029,22.0,William Robert Holland,Pusey,Engineering Crew,1.0,Mr
+2030,8.0,Winnifred Vera,Quick,2nd Class Passenger,1.0,Miss
+2031,2.0,Phyllis May,Quick,2nd Class Passenger,1.0,Miss
+2032,33.0,Jane,Quick,2nd Class Passenger,1.0,Mrs
+2033,29.0,Thomas,Ranger,Engineering Crew,1.0,Mr
+2034,32.0,Frederick Dent,Ray,Victualling Crew,1.0,Mr
+2035,30.0,Lillian,Renouf,2nd Class Passenger,1.0,Mrs
+2036,29.0,Encarnación,Reynaldo,2nd Class Passenger,1.0,Sra.
+2037,33.0,George Alexander Lucien,Rheims,1st Class Passenger,1.0,Mr
+2038,32.0,Charles John,Rice,Engineering Crew,1.0,Mr
+2039,24.0,Emily,Richards,2nd Class Passenger,1.0,Mrs
+2040,3.0,William Rowe,Richards,2nd Class Passenger,1.0,Master
+2041,0.75,Sibley George,Richards,2nd Class Passenger,1.0,Master
+2042,58.0,Lucy,Ridsdale,2nd Class Passenger,1.0,Miss
+2043,21.0,Hannah,Riordan,3rd Class Passenger,1.0,Miss
+2044,43.0,Elisabeth Walton,Robert,1st Class Passenger,1.0,Mrs
+2045,41.0,Mary Kezia,Roberts,Victualling Crew,1.0,Mrs
+2046,47.0,Annie,Robinson,Victualling Crew,1.0,Mrs
+2047,45.0,Charles Hallace,Romaine,1st Class Passenger,1.0,Mr
+2048,32.0,Edith Louise,Rosenbaum,1st Class Passenger,1.0,Miss
+2049,38.0,Horace Leopold,Ross,Victualling Crew,1.0,Mr
+2050,26.0,Sarah,Roth,3rd Class Passenger,1.0,Miss
+2051,33.0,"Lucy Noël Martha, Countess of",Rothes,1st Class Passenger,1.0,
+2052,54.0,Elizabeth Jane Anne,Rothschild,1st Class Passenger,1.0,Mrs
+2053,31.0,George Thomas,Rowe,Deck Crew,1.0,Mr
+2054,22.0,Emily,Rugg,2nd Class Passenger,1.0,Miss
+2055,58.0,Samuel James,Rule,Victualling Crew,1.0,Mr
+2056,24.0,Edward,Ryan,3rd Class Passenger,1.0,Mr
+2057,13.0,John Borie,Ryerson,1st Class Passenger,1.0,Master
+2058,18.0,Emily Borie,Ryerson,1st Class Passenger,1.0,Miss
+2059,21.0,Susan Parker ,Ryerson,1st Class Passenger,1.0,Miss
+2060,33.0,William Edwy,Ryerson,Victualling Crew,1.0,Mr
+2061,48.0,Emily Maria,Ryerson,1st Class Passenger,1.0,Mrs
+2062,47.0,Adolphe,Saalfeld,1st Class Passenger,1.0,Mr
+2063,24.0,Emma,Sägesser,1st Class Passenger,1.0,Mlle
+2064,21.0,Anna Kristine,Salkjelsvik,3rd Class Passenger,1.0,Miss
+2065,43.0,Abraham Lincoln,Salomon,1st Class Passenger,1.0,Mr
+2066,4.0,Marguerite Rut,Sandström,3rd Class Passenger,1.0,Miss
+2067,24.0,Agnes Charlotta,Sandström,3rd Class Passenger,1.0,Mrs
+2068,1.0,Beatrice Irene,Sandström,3rd Class Passenger,1.0,Miss
+2069,21.0,Julius,Sap,3rd Class Passenger,1.0,Mr
+2070,23.0,Charles James,Savage,Victualling Crew,1.0,Mr
+2071,33.0,Joseph George,Scarrott,Deck Crew,1.0,Mr
+2072,35.0,Emma,Schabert,1st Class Passenger,1.0,Mrs
+2073,29.0,Jean,Scheerlinck,3rd Class Passenger,1.0,Mr
+2074,28.0,Frederick William,Scott,Engineering Crew,1.0,Mr
+2075,24.0,Albert Charles Edward,Self,Engineering Crew,1.0,Mr
+2076,31.0,Harry,Senior,Engineering Crew,1.0,Mr
+2077,30.0,Augusta Jeanne,Serreplaà,1st Class Passenger,1.0,Miss
+2078,25.0,Wilfred Deable,Seward,Victualling Crew,1.0,Mr
+2079,34.0,Frederic Kimber,Seward,1st Class Passenger,1.0,Mr
+2080,20.0,Frederick,Sheath,Engineering Crew,1.0,Mr
+2081,24.0,Imanita Parrish,Shelley,2nd Class Passenger,1.0,Mrs
+2082,25.0,Alfred Charles,Shiers,Engineering Crew,1.0,Mr
+2083,20.0,Ellen,Shine,3rd Class Passenger,1.0,Miss
+2084,28.0,Christopher Arthur,Shulver,Engineering Crew,1.0,Mr
+2085,40.0,Elizabeth Weed,Shutes,1st Class Passenger,1.0,Miss
+2086,17.0,Lyyli Karoliina,Silvén,2nd Class Passenger,1.0,Miss
+2087,35.0,Spencer Victor,Silverthorne,1st Class Passenger,1.0,Mr
+2088,39.0,Alice Gray,Silvey,1st Class Passenger,1.0,Mrs
+2089,31.0,Andrew George James,Simmons,Victualling Crew,1.0,Mr
+2090,56.0,Colonel (Oberst) Alfons,Simonius-blumer,1st Class Passenger,1.0,Mr
+2091,20.0,Maude,Sincock,2nd Class Passenger,1.0,Miss
+2092,30.0,Anna,Sinkkonen,2nd Class Passenger,1.0,Miss
+2093,18.0,Anna Sofia,Sjöblom,3rd Class Passenger,1.0,Miss
+2094,30.0,Hilda Mary,Slayter,2nd Class Passenger,1.0,Miss
+2095,45.0,Mary Jane,Sloan,Victualling Crew,1.0,Miss
+2096,30.0,Maude Louise,Slocombe,Victualling Crew,1.0,Mrs
+2097,28.0,William Thompson,Sloper,1st Class Passenger,1.0,Mr
+2098,18.0,Mary Eloise,Smith,1st Class Passenger,1.0,Mrs
+2099,44.0,Kate Elizabeth,Smith,Victualling Crew,1.0,Miss
+2100,49.0,Marion,Smith,2nd Class Passenger,1.0,Miss
+2101,18.0,Julia,Smyth,3rd Class Passenger,1.0,Miss
+2102,21.0,Eustace Philip,Snow,Engineering Crew,1.0,Mr
+2103,23.0,Nelle,Snyder,1st Class Passenger,1.0,Mrs
+2104,24.0,John Pillsbury,Snyder,1st Class Passenger,1.0,Mr
+2105,36.0,Henry William,Sparkman,Engineering Crew,1.0,Mr
+2106,39.0,Margaretta Corning,Spedden,1st Class Passenger,1.0,Mrs
+2107,6.0,Robert Douglas,Spedden,1st Class Passenger,1.0,Master
+2108,45.0,Frederic Oakley,Spedden,1st Class Passenger,1.0,Mr
+2109,48.0,Marie Eugenie,Spencer,1st Class Passenger,1.0,Mrs
+2110,32.0,Max,Stähelin-maeglin,1st Class Passenger,1.0,Dr
+2111,24.0,Amy Zillah Elsie,Stanley,3rd Class Passenger,1.0,Miss
+2112,47.0,Sarah Agnes,Stap,Victualling Crew,1.0,Miss
+2113,43.0,Annie May,Stengel,1st Class Passenger,1.0,Mrs
+2114,54.0,Charles Emil Henry,Stengel,1st Class Passenger,1.0,Mr
+2115,52.0,Martha,Stephenson,1st Class Passenger,1.0,Mrs
+2116,28.0,John,Stewart,Victualling Crew,1.0,Mr
+2117,61.0,Martha Evelyn,Stone,1st Class Passenger,1.0,Mrs
+2118,30.0,Juho Niilosson,Strandén,3rd Class Passenger,1.0,Mr
+2119,25.0,Thomas Albert,Street,Engineering Crew,1.0,Mr
+2120,20.0,Victor Francis,Sunderland,3rd Class Passenger,1.0,Mr
+2121,45.0,Johan Julian,Sundman,3rd Class Passenger,1.0,Mr
+2122,14.0,Johan Cervin,Svensson,3rd Class Passenger,1.0,Mr
+2123,46.0,Margaret Welles,Swift,1st Class Passenger,1.0,Mrs
+2124,24.0,George Thomas Macdonald,Symons,Deck Crew,1.0,Mr
+2125,0.4166666666666667,As'ad,Tannūs,3rd Class Passenger,1.0,Master
+2126,16.0,Thamīn,Tannūs,3rd Class Passenger,1.0,Mrs
+2127,18.0,Ruth,Taussig,1st Class Passenger,1.0,Miss
+2128,39.0,Tillie,Taussig,1st Class Passenger,1.0,Mrs
+2129,48.0,Elmer Zebley,Taylor,1st Class Passenger,1.0,Mr
+2130,28.0,William Henry,Taylor,Engineering Crew,1.0,Mr
+2131,49.0,Juliet Cummins,Taylor,1st Class Passenger,1.0,Mrs
+2132,23.0,George,Taylor,Engineering Crew,1.0,Mr
+2133,25.0,Gunnar Isidor,Tenglin,3rd Class Passenger,1.0,Mr
+2134,27.0,Frank,Terrill,Victualling Crew,1.0,Mr
+2135,17.0,John Borland,Thayer,1st Class Passenger,1.0,Mr
+2136,39.0,Marian Longstreth,Thayer,1st Class Passenger,1.0,Mrs
+2137,46.0,Alfred,Theissinger,Victualling Crew,1.0,Mr
+2138,23.0,Albert Charles,Thomas,Victualling Crew,1.0,Mr
+2139,30.0,Benjamin James,Thomas,Victualling Crew,1.0,Mr
+2140,36.0,John William,Thompson,Engineering Crew,1.0,Mr
+2141,37.0,Gertrude Maybelle,Thorne,1st Class Passenger,1.0,Miss
+2142,32.0,Florence Kate,Thorneycroft,3rd Class Passenger,1.0,Mrs
+2143,44.0,Thomas,Threlfall,Engineering Crew,1.0,Mr
+2144,25.0,George Terrill,Thresher,Engineering Crew,1.0,Mr
+2145,29.0,Fred,Toms,Victualling Crew,1.0,Mr
+2146,50.0,Ellen Mary,Toomey,2nd Class Passenger,1.0,Miss
+2147,26.0,Johan Vilhelm Henrik,Törnqvist,3rd Class Passenger,1.0,Mr
+2148,41.0,Robert,Triggs,Engineering Crew,1.0,Mr
+2149,27.0,Jessie Laird,Trout,2nd Class Passenger,1.0,Mrs
+2150,27.0,Edwina Celia,Troutt,2nd Class Passenger,1.0,Miss
+2151,27.0,Hinnah,Tu'mah,3rd Class Passenger,1.0,Mrs
+2152,8.0,Jirjis Yūsuf,Tu'mah,3rd Class Passenger,1.0,Master
+2153,9.0,Mariyam,Tu'mah,3rd Class Passenger,1.0,Miss
+2154,31.0,Gilbert Milligan jr,Tucker,1st Class Passenger,1.0,Mr
+2155,18.0,Anna Sofia,Turja,3rd Class Passenger,1.0,Miss
+2156,64.0,Hedwig,Turkula,3rd Class Passenger,1.0,Mrs
+2157,22.0,David,Vartanian,3rd Class Passenger,1.0,Mr
+2158,32.0,Philip Francis,Vigott,Deck Crew,1.0,Mr
+2159,36.0,Ellen 'Nellie',Wallcroft,2nd Class Passenger,1.0,Miss
+2160,37.0,William,Ward,Victualling Crew,1.0,Mr
+2161,37.0,Annie Moore,Ward,1st Class Passenger,1.0,Miss
+2162,32.0,Florence Louise,Ware,2nd Class Passenger,1.0,Mrs
+2163,60.0,Anna Sophia,Warren,1st Class Passenger,1.0,Mrs
+2164,40.0,Elizabeth ,Watt,2nd Class Passenger,1.0,Mrs
+2165,12.0,Robertha Josephine ,Watt,2nd Class Passenger,1.0,Miss
+2166,38.0,Susan,Webber,2nd Class Passenger,1.0,Miss
+2167,52.0,Augustus Henry,Weikman,Victualling Crew,1.0,Mr
+2168,37.0,Mathilde Françoise,Weisz,2nd Class Passenger,1.0,Mrs
+2169,30.0,William Clifford,Weller,Deck Crew,1.0,Mr
+2170,4.0,Joan,Wells,2nd Class Passenger,1.0,Miss
+2171,2.0,Ralph Lester,Wells,2nd Class Passenger,1.0,Master
+2172,29.0,Addie Dart,Wells,2nd Class Passenger,1.0,Mrs
+2173,27.0,August,Wennerström,3rd Class Passenger,1.0,Mr
+2174,33.0,Ada Mary,West,2nd Class Passenger,1.0,Mrs
+2175,0.8333333333333334,Barbara Joyce,West,2nd Class Passenger,1.0,Miss
+2176,4.0,Constance Miriam,West,2nd Class Passenger,1.0,Miss
+2177,30.0,Joseph Thomas,Wheat,Victualling Crew,1.0,Mr
+2178,28.0,Edenser Edward,Wheelton,Victualling Crew,1.0,Mr
+2179,31.0,Charles,Whilems,2nd Class Passenger,1.0,Mr
+2180,55.0,Ella,White,1st Class Passenger,1.0,Mrs
+2181,23.0,William George,White,Engineering Crew,1.0,Mr
+2182,32.0,Alfred,White,Engineering Crew,1.0,Mr
+2183,18.0,Thomas Arthur,Whiteley,Victualling Crew,1.0,Mr
+2184,45.0,Mary Peebles,Wick,1st Class Passenger,1.0,Mrs
+2185,31.0,Mary Natalie,Wick,1st Class Passenger,1.0,Miss
+2186,50.0,Eleanor,Widener,1st Class Passenger,1.0,Mrs
+2187,37.0,Isaac George,Widgery,Victualling Crew,1.0,Mr
+2188,47.0,Ellen,Wilkes,3rd Class Passenger,1.0,Mrs
+2189,30.0,Elizabeth Anne,Wilkinson,2nd Class Passenger,1.0,Mrs
+2190,21.0,Constance,Willard,1st Class Passenger,1.0,Miss
+2191,23.0,Charles Eugene,Williams,2nd Class Passenger,1.0,Mr
+2192,21.0,Richard Norris,Williams,1st Class Passenger,1.0,Mr
+2193,28.0,Walter John,Williams,Victualling Crew,1.0,Mr
+2194,33.0,Helen Alice,Wilson,1st Class Passenger,1.0,Miss
+2195,38.0,Alfred Edgar,Windebank,Victualling Crew,1.0,Mr
+2196,31.0,James William Cheetham,Witter,Victualling Crew,1.0,Mr
+2197,45.0,Hugh,Woolner,1st Class Passenger,1.0,Mr
+2198,47.0,William,Wright,Victualling Crew,1.0,Mr
+2199,26.0,Marion,Wright,2nd Class Passenger,1.0,Miss
+2200,41.0,William,Wynn,Deck Crew,1.0,Mr
+2201,17.0,Sīlānah Iskandar Nāsīf Abī Dāghir,Yazbak,3rd Class Passenger,1.0,Mrs
+2202,40.0,Harry,Yearsley,Victualling Crew,1.0,Mr
+2203,36.0,Marie Grice,Young,1st Class Passenger,1.0,Miss
+2204,4.0,Michael (Shafīq) Peter,Yūsuf,3rd Class Passenger,1.0,Master
+2205,2.0,Nabīah (Mary),Yūsuf,3rd Class Passenger,1.0,Miss
+2206,23.0,Kātrīn,Yūsuf,3rd Class Passenger,1.0,Mrs
+2207,22.0,Helen Ragnhild,Østby,1st Class Passenger,1.0,Miss
