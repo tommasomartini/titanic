@@ -64,8 +64,12 @@ def format_name(df):
 
     # Split the official name into last name, title and first name.
     official_name_pattern = \
-        r'(?P<LastName>.+),\s(?P<Title>\S+)(?:\s(?P<FirstName>.*?))?$'
+        r'(?P<LastName>.+),\s(?P<UnstrippedTitle>\S+)(?:\s(?P<FirstName>.*?))?$'
     df = df.join(df['OfficialName'].str.extract(official_name_pattern))
+
+    # If the title ends with a punctuation sign (usually a dot), remove it.
+    stripped_title_pattern = r'(?P<Title>\w+)\W?'
+    df = df.join(df['UnstrippedTitle'].str.extract(stripped_title_pattern))
 
     # Split the real name.
     # Here we use the following convention:
@@ -87,7 +91,7 @@ def format_name(df):
     df = df.assign(FirstName=df['FirstName'].fillna(df['UnmarriedFirstName']))
 
     # Discard intermediate use columns.
-    df = df.drop(columns=['OfficialName', 'RealName'])
+    df = df.drop(columns=['OfficialName', 'RealName', 'UnstrippedTitle'])
 
     # Ad-hoc fix: the only title with more than one word is passenger 760,
     # the Countess of Rothes. OUr heuristics on the name format do not comply
