@@ -165,9 +165,10 @@ def _parse_extra_info(passenger_info, info_box):
             embarked = city_name
     extra_info['embarked'] = embarked
 
-    # Ticket number.
+    # Ticket and nationality.
     extra_info['ticket_no'] = None
     extra_info['ticket_price'] = None
+    extra_info['nationality'] = None
     for div in info_box.find_all('div', recursive=False):
         for strong in div.find_all('strong'):
             try:
