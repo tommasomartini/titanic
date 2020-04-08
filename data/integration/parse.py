@@ -33,7 +33,10 @@ def _parse_birth_date(summary_box):
         try:
             birth_date = datetime.strptime(birth_date_str, '%Y-%m-%d')
         except ValueError:
-            birth_date = datetime.strptime(birth_date_str, '%Y')
+            try:
+                birth_date = datetime.strptime(birth_date_str, '%Y')
+            except ValueError:
+                birth_date = datetime.strptime(birth_date_str, '%B %Y')
     except AttributeError:
         birth_date = None
     return birth_date
