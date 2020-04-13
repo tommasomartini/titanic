@@ -1,94 +1,70 @@
 import logging
-import re
-from datetime import datetime
 
 _logger = logging.getLogger(__name__)
 
-
-_ticket_pattern = \
-    re.compile(r'Ticket No\. (?P<ticket_no>[^,]*)(, (?P<ticket_price>.*))?')
 _embarking_cities = ['Southampton', 'Cherbourg', 'Queenstown']
-
-
-def _age_from_string(age_str):
-    if not age_str:
-        return None
-
-    if age_str[-1] == 'm':
-        # Age is given in months.
-        months = int(age_str[:-1])
-        age = months / 12
-        return age
-
-    # Age given in years.
-    return int(age_str)
 
 
 def _parse_birth_date(summary_box):
     try:
         birth_date_span = \
             summary_box.find('span', attrs={'itemprop': 'birthDate'})
-        birth_date_str = \
-            birth_date_span.get('content', birth_date_span.getText())
-        try:
-            birth_date = datetime.strptime(birth_date_str, '%Y-%m-%d')
-        except ValueError:
-            try:
-                birth_date = datetime.strptime(birth_date_str, '%Y')
-            except ValueError:
-                birth_date = datetime.strptime(birth_date_str, '%B %Y')
+        return birth_date_span.get('content', birth_date_span.getText())
     except AttributeError:
-        birth_date = None
-    return birth_date
+        return None
 
 
 def _parse_birth_place(summary_box):
     try:
-        birth_place = summary_box \
+        return summary_box \
             .find('span', attrs={'itemprop': 'birthPlace'}) \
             .get('content')
     except AttributeError:
-        birth_place = None
-    return birth_place
+        return None
 
 
 def _parse_gender(summary_box):
     try:
-        gender = summary_box \
+        return summary_box \
             .find('span', attrs={'itemprop': 'gender'}) \
             .getText()
     except AttributeError:
-        gender = None
-    return gender
+        return None
 
 
 def _parse_marital_status(summary_box):
-    try:
-        marital_status = summary_box \
-            .find('a', attrs={'title': 'List of unmarried Titanic '
-                                       'passengers and crew'}) \
-            .getText()
-    except AttributeError:
-        marital_status = None
-    return marital_status
+    # Try to get both the states, then OR them to keep the positive one.
+    marital_status_married = summary_box \
+        .find('a', attrs={'title': 'List of married '
+                                   'Titanic passengers and crew'})
+    marital_status_single = summary_box \
+        .find('a', attrs={'title': 'List of unmarried '
+                                   'Titanic passengers and crew'})
+
+    marital_status = marital_status_married or marital_status_single
+
+    if not marital_status:
+        return None
+
+    return marital_status.getText()
 
 
 def _parse_residence(summary_box):
     try:
-        residence = summary_box \
+        return summary_box \
             .find('span', attrs={'itemprop': 'homeLocation'}) \
             .getText()
     except AttributeError:
-        residence = None
-    return residence
+        return None
 
 
 def _parse_occupation(summary_box):
     try:
-        job = summary_box.find('span', attrs={'itemprop': 'jobTitle'}).getText()
+        return summary_box \
+            .find('span', attrs={'itemprop': 'jobTitle'}) \
+            .getText()
     except AttributeError:
-        job = None
-    return job
+        return None
 
 
 def _parse_embark_port(summary_box):
@@ -105,46 +81,20 @@ def _parse_embark_port(summary_box):
     return None
 
 
-def _ticket_price_in_pounds(ticket_price):
-    """Ticket price is given in pounds (£), shillings (s) and pennies (d).
-    This function returns a float value in pounds.
-
-    1 pound = 20 shillings
-    1 shilling = 12 pennies
-    """
-    if ticket_price is None:
-        return ticket_price
-
-    pounds_match = re.search(r'£(\d+)', ticket_price)
-    pounds = float(pounds_match.group(1)) if pounds_match else 0.
-
-    shillings_match = re.search(r'(\d+)s', ticket_price)
-    shillings = float(shillings_match.group(1)) if shillings_match else 0.
-
-    pennies_match = re.search(r'(\d+)d', ticket_price)
-    pennies = float(pennies_match.group(1)) if pennies_match else 0.
-
-    price = pounds + shillings / 20 + pennies / 240
-    return price
+def _parse_nationality(summary_box):
+    try:
+        return summary_box \
+            .find('span', attrs={'itemprop': 'nationality'}) \
+            .getText()
+    except AttributeError:
+        return None
 
 
-def _parse_ticket_info_and_nationality(summary_box):
-    ticket_no = None
-    ticket_price = None
-    nationality = None
-    for div in summary_box.find_all('div', recursive=False):
-        for strong in div.find_all('strong'):
-            if strong.getText() == 'Ticket No':
-                ticket_match = _ticket_pattern.match(div.getText().strip())
-                if ticket_match:
-                    ticket_no = ticket_match.group('ticket_no')
-                    ticket_price_str = ticket_match.group('ticket_price')
-                    ticket_price = _ticket_price_in_pounds(ticket_price_str)
-
-            elif strong.getText() == 'Nationality':
-                nationality = div.getText().strip().split()[-1]
-
-    return ticket_no, ticket_price, nationality
+def _parse_ticket(summary_box):
+    try:
+        return summary_box.find('strong', text='Ticket No').parent.getText()
+    except AttributeError:
+        return None
 
 
 def _parse_relationships(summary_box):
@@ -159,24 +109,35 @@ def _parse_relationships(summary_box):
     return relationships
 
 
+def _parse_cabin(summary_box):
+    try:
+        return summary_box.find('strong', text='Cabin No.').parent.getText()
+    except AttributeError:
+        return None
+
+
+def _parse_destination(summary_box):
+    try:
+        return summary_box.find('strong', text='Destination').parent.getText()
+    except AttributeError:
+        return None
+
+
 def parse_passenger_summary_box(summary_box):
     passenger_info = dict()
 
-    passenger_info['birth_date'] = _parse_birth_date(summary_box)
-    passenger_info['birth_place'] = _parse_birth_place(summary_box)
-    passenger_info['gender'] = _parse_gender(summary_box)
-    passenger_info['marital_status'] = _parse_marital_status(summary_box)
-    passenger_info['residence'] = _parse_residence(summary_box)
-    passenger_info['job'] = _parse_occupation(summary_box)
-    passenger_info['embarked'] = _parse_embark_port(summary_box)
-
-    ticket_no, ticket_price, nationality = \
-        _parse_ticket_info_and_nationality(summary_box)
-    passenger_info['ticket_no'] = ticket_no
-    passenger_info['ticket_price'] = ticket_price
-    passenger_info['nationality'] = nationality
-
-    passenger_info['relationships'] = _parse_relationships(summary_box)
+    passenger_info['BirthDate'] = _parse_birth_date(summary_box)
+    passenger_info['BirthPlace'] = _parse_birth_place(summary_box)
+    passenger_info['Sex'] = _parse_gender(summary_box)
+    passenger_info['MaritalStatus'] = _parse_marital_status(summary_box)
+    passenger_info['Residence'] = _parse_residence(summary_box)
+    passenger_info['Job'] = _parse_occupation(summary_box)
+    passenger_info['Embarked'] = _parse_embark_port(summary_box)
+    passenger_info['Ticket'] = _parse_ticket(summary_box)
+    passenger_info['Nationality'] = _parse_nationality(summary_box)
+    passenger_info['Relationships'] = _parse_relationships(summary_box)
+    passenger_info['Cabin'] = _parse_cabin(summary_box)
+    passenger_info['Destination'] = _parse_destination(summary_box)
 
     return passenger_info
 
@@ -203,19 +164,17 @@ def parse_passenger_row(passenger_row):
     except AttributeError:
         age_str = age_td.getText()
 
-    age = _age_from_string(age_str.strip())
-
     pclass = class_td.find('span').getText()
 
     passenger_page_url_postfix = name_td \
         .find('a', attrs={'itemprop': 'url'}) \
         .get('href')
 
-    passenger_info = dict(first_name=first_name,
-                          title=title,
-                          last_name=last_name,
-                          age=age,
-                          pclass=pclass,
-                          url_id=passenger_page_url_postfix)
+    passenger_info = dict(FirstName=first_name,
+                          Title=title,
+                          LastName=last_name,
+                          Age=age_str,
+                          Pclass=pclass,
+                          UrlId=passenger_page_url_postfix)
 
     return passenger_info

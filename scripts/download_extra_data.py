@@ -5,13 +5,13 @@ import logging
 import os
 import urllib.request
 from multiprocessing import Pool
+from urllib.parse import urljoin
 
 import pandas as pd
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
 import data.integration.parse as parse
-from data.integration.passenger import Passenger
 
 logging.basicConfig(format='[{levelname}][{name}] {message}',
                     style='{',
@@ -29,12 +29,8 @@ _OUTPUT_PATH = os.path.join(os.environ['HOME'],
                             'extra_data.csv')
 
 
-def _build_url(base_url, suburl):
-    return '/'.join((base_url, suburl))
-
-
 def _parse_passenger_page(passenger_dict):
-    url = _build_url(_BASE_URL, passenger_dict['url_id'])
+    url = urljoin(_BASE_URL, passenger_dict['UrlId'])
     response = urllib.request.urlopen(url)
     web_content = response.read().decode('utf-8')
     soup = BeautifulSoup(str(web_content), 'html.parser')
@@ -46,12 +42,8 @@ def _parse_passenger_page(passenger_dict):
 
 
 def _parse_page(url, title=None):
-    # HTTP request of the page.
     response = urllib.request.urlopen(url)
-    _logger.debug('Response code {} for URL: {}'.format(response.code, url))
     web_content = response.read().decode('utf-8')
-
-    # Parse the page content.
     soup = BeautifulSoup(str(web_content), 'html.parser')
 
     passengers = []
@@ -69,19 +61,13 @@ def _parse_page(url, title=None):
     return passengers
 
 
-def _export_to_dataframe(passengers):
-    data = [p.__dict__ for p in passengers]
-    df = pd.DataFrame(data)
-    return df
-
-
 def _main():
-    victims_url = _build_url(_BASE_URL, _VICTIMS_SUBURL)
+    victims_url = urljoin(_BASE_URL, _VICTIMS_SUBURL)
     victims = _parse_page(victims_url, title='Collect victims')
     for passenger_dict in victims:
         passenger_dict['survived'] = 0.
 
-    survivors_url = _build_url(_BASE_URL, _SURVIVORS_SUBURL)
+    survivors_url = urljoin(_BASE_URL, _SURVIVORS_SUBURL)
     survivors = _parse_page(survivors_url, title='Collect survivors')
     for passenger_dict in survivors:
         passenger_dict['survived'] = 1.
@@ -90,15 +76,12 @@ def _main():
     _logger.info('Collected {} passengers'.format(len(all_passengers)))
 
     pool = Pool()
-    passengers = [
-        Passenger(**p_dict)
-        for p_dict
-        in tqdm(pool.imap_unordered(_parse_passenger_page, all_passengers),
-                desc='Parse passengers pages',
-                total=len(all_passengers))
-    ]
+    passengers = list(tqdm(pool.imap_unordered(_parse_passenger_page,
+                                               all_passengers[:100]),
+                           desc='Parse passengers pages',
+                           total=len(all_passengers)))
 
-    df = _export_to_dataframe(passengers)
+    df = pd.DataFrame(passengers)
     df.to_csv(_OUTPUT_PATH)
 
 
