@@ -11,7 +11,6 @@ from bs4 import BeautifulSoup
 from tqdm import tqdm
 
 import data.integration.parse as parse
-import data.integration.parse as parser
 from data.integration.passenger import Passenger
 
 logging.basicConfig(format='[{levelname}][{name}] {message}',
@@ -41,7 +40,7 @@ def _parse_passenger_page(passenger_dict):
     soup = BeautifulSoup(str(web_content), 'html.parser')
     summary_box = \
         soup.find('div', attrs={'itemtype': 'http://schema.org/Person'})
-    extra_info_dict = parser.parse_passenger_summary_box(summary_box)
+    extra_info_dict = parse.parse_passenger_summary_box(summary_box)
     passenger_dict.update(extra_info_dict)
     return passenger_dict
 
