@@ -6,7 +6,7 @@ _logger = logging.getLogger(__name__)
 
 
 _ticket_pattern = \
-    re.compile(r'Ticket No\. (?P<ticket_no>.*?), (?P<ticket_price>.*)')
+    re.compile(r'Ticket No\. (?P<ticket_no>[^,]*)(, (?P<ticket_price>.*))?')
 _embarking_cities = ['Southampton', 'Cherbourg', 'Queenstown']
 
 
@@ -105,6 +105,29 @@ def _parse_embark_port(summary_box):
     return None
 
 
+def _ticket_price_in_pounds(ticket_price):
+    """Ticket price is given in pounds (£), shillings (s) and pennies (d).
+    This function returns a float value in pounds.
+
+    1 pound = 20 shillings
+    1 shilling = 12 pennies
+    """
+    if ticket_price is None:
+        return ticket_price
+
+    pounds_match = re.search(r'£(\d+)', ticket_price)
+    pounds = float(pounds_match.group(1)) if pounds_match else 0.
+
+    shillings_match = re.search(r'(\d+)s', ticket_price)
+    shillings = float(shillings_match.group(1)) if shillings_match else 0.
+
+    pennies_match = re.search(r'(\d+)d', ticket_price)
+    pennies = float(pennies_match.group(1)) if pennies_match else 0.
+
+    price = pounds + shillings / 20 + pennies / 240
+    return price
+
+
 def _parse_ticket_info_and_nationality(summary_box):
     ticket_no = None
     ticket_price = None
@@ -115,7 +138,8 @@ def _parse_ticket_info_and_nationality(summary_box):
                 ticket_match = _ticket_pattern.match(div.getText().strip())
                 if ticket_match:
                     ticket_no = ticket_match.group('ticket_no')
-                    ticket_price = ticket_match.group('ticket_price')
+                    ticket_price_str = ticket_match.group('ticket_price')
+                    ticket_price = _ticket_price_in_pounds(ticket_price_str)
 
             elif strong.getText() == 'Nationality':
                 nationality = div.getText().strip().split()[-1]
