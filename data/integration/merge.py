@@ -7,7 +7,7 @@ _extra_data_filepath = os.path.join(os.environ['HOME'],
                                     'kaggle',
                                     'titanic',
                                     'data',
-                                    'extra_data_8.csv')
+                                    'extra_data.csv')
 
 
 def import_extra_data():

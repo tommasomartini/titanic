@@ -71,6 +71,9 @@ def extract_residence_city_region_country(df):
 
 
 def extract_destination_city_region_country(df):
+    df['Destination'] = df['Destination']\
+        .str.split(':', expand=True)[1]\
+        .str.strip()
     return _extract_city_region_country_from_location(df, 'Destination')
 
 
