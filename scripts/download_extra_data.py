@@ -5,6 +5,7 @@ import logging
 import os
 import urllib.request
 from multiprocessing import Pool
+from urllib.error import URLError
 from urllib.parse import urljoin
 
 import pandas as pd
@@ -31,14 +32,19 @@ _OUTPUT_PATH = os.path.join(os.environ['HOME'],
 
 def _parse_passenger_page(passenger_dict):
     url = urljoin(_BASE_URL, passenger_dict['UrlId'])
-    response = urllib.request.urlopen(url)
-    web_content = response.read().decode('utf-8')
-    soup = BeautifulSoup(str(web_content), 'html.parser')
-    summary_box = \
-        soup.find('div', attrs={'itemtype': 'http://schema.org/Person'})
-    extra_info_dict = parse.parse_passenger_summary_box(summary_box)
-    passenger_dict.update(extra_info_dict)
-    return passenger_dict
+    try:
+        response = urllib.request.urlopen(url)
+        web_content = response.read().decode('utf-8')
+        soup = BeautifulSoup(str(web_content), 'html.parser')
+        extra_info_dict = parse.parse_passenger_summary_box(soup)
+        passenger_dict.update(extra_info_dict)
+        return passenger_dict
+
+    except TimeoutError:
+        return _parse_passenger_page(passenger_dict)
+
+    except URLError:
+        return _parse_passenger_page(passenger_dict)
 
 
 def _parse_page(url, title=None):
@@ -77,7 +83,7 @@ def _main():
 
     pool = Pool()
     passengers = list(tqdm(pool.imap_unordered(_parse_passenger_page,
-                                               all_passengers[:100]),
+                                               all_passengers),
                            desc='Parse passengers pages',
                            total=len(all_passengers)))
 
