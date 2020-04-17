@@ -1,3 +1,12 @@
+import datetime as dt
+
+import numpy as np
+import pandas as pd
+
+# The date of the sinking.
+_sinking_date = dt.date(year=1912, month=4, day=15)
+
+
 def manually_fix_missing_titles(df):
     df.loc[df['LastName'] == 'Banfi', ['Title']] = 'Mr'
     df.loc[df['FirstName'] == 'Lucy Christiana, Lady',
@@ -120,6 +129,43 @@ def extract_cabin_deck(df):
 
 def gender_to_lower_case(df):
     df['Sex'] = df['Sex'].str.lower()
+    return df
+
+
+def compute_age_in_days(df):
+    # Explicitly set the missing ages to NaN.
+    df.loc[df['BirthDate'].isna(), ['Age']] = np.nan
+
+    # Convert the dates in the format "January 1912" to "1912-04".
+    # We don't use directly the to_datetime function because we don't want
+    # all the missing values to be set to 1, as it is by default.
+    # We prefer to randomize the missing months and days.
+    mask = ~(df['BirthDate'].str.extract(r'([A-Za-z])').isna())[0]
+    numeral_dates = df[mask]['BirthDate'].apply(
+        lambda d: dt.datetime.strptime(d, '%B %Y').strftime('%Y-%m'))
+    df.loc[mask, 'BirthDate'] = numeral_dates
+
+    # Split the birth date in year, month and day.
+    df[['year', 'month', 'day']] = df['BirthDate']\
+        .str.split('-', expand=True)\
+        .astype(float)
+
+    # Randomize the missing months.
+    nan_months = df.loc[df.month.isna(), ['month']]
+    nan_months['month'] = np.random.randint(1, 13, size=len(nan_months))
+    df.loc[df.month.isna(), ['month']] = nan_months.astype(int)
+
+    # Randomize the missing days.
+    nan_days = df.loc[df.day.isna(), ['day']]
+    nan_days['day'] = np.random.randint(1, 29, size=len(nan_days))
+    df.loc[df.day.isna(), ['day']] = nan_days.astype(int)
+
+    df['AgeInDays'] = pd.to_datetime(df[['year', 'month', 'day']]).apply(
+        lambda d: (pd.Timestamp(_sinking_date) - d).days)
+
+    # Get rid of the utility columns.
+    df = df.drop(columns=['year', 'month', 'day'])
+
     return df
 
 

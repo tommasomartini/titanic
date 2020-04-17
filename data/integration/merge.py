@@ -26,9 +26,9 @@ def apply_post_processing(df):
         postpro.embarked_as_single_character,
         postpro.manually_fill_missing_nationalities,
         postpro.manually_fill_missing_birth_dates,
-        postpro.extract_birth_year,
         postpro.extract_cabin_deck,
         postpro.gender_to_lower_case,
+        postpro.compute_age_in_days,
         postpro.assign_id,
     ]
 
