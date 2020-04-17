@@ -23,15 +23,21 @@ def manual_fixes(df):
     """
 
     # Replace wives' names to fully match their husbands'.
-    replace_dict = {
-        'Allison, Mrs. Hudson J C (Bessie Waldo Daniels)':
-            'Allison, Mrs. Hudson Joshua Creighton (Bessie Waldo Daniels)',
-        'Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)':
-            'Asplund, Mrs. Carl Oscar Vilhelm Gustafsson (Selma Augusta Emilia Johansson)',
-        'Dean, Mrs. Bertram (Eva Georgetta Light)':
-            'Dean, Mrs. Bertram Frank (Eva Georgetta Light)'
-    }
-    df = df.replace(replace_dict)
+    df.loc[499, 'Name'] = 'Allison, Mrs. Hudson Joshua Creighton (Bessie Waldo Daniels)'
+    df.loc[26, 'Name'] = 'Asplund, Mrs. Carl Oscar Vilhelm Gustafsson (Selma Augusta Emilia Johansson)'
+    df.loc[924, 'Name'] = 'Dean, Mrs. Bertram Frank (Eva Georgetta Light)'
+
+    # Replace some ill-formatted names.
+    df.loc[188, 'Name'] = 'Romaine, Mr. Charles Hallace'
+    df.loc[200, 'Name'] = 'Yrois, Miss. Henriette'
+    df.loc[428, 'Name'] = 'Phillips, Miss. Kate Florence'
+    df.loc[557, 'Name'] = 'Duff Gordon, Lady. Lucille Christiana (Lucille Christiana Sutherland)'
+    df.loc[600, 'Name'] = 'Duff Gordon, Sir. Cosmo Edmund'
+    df.loc[605, 'Name'] = 'Homer, Mr. Harry'
+    df.loc[706, 'Name'] = 'Morley, Mr. Henry Samuel'
+    df.loc[711, 'Name'] = 'Mayne, Mlle. Berthe Antonine'
+    df.loc[1036, 'Name'] = 'Lindeberg-Lind, Mr. Erik Gustaf'
+    df.loc[1219, 'Name'] = 'Rosenshine, Mr. George Thorne'
 
     # Fix Abbott family's relationship.
     df.loc[280, ['SibSp', 'Parch']] = [0, 2]
@@ -180,23 +186,8 @@ def add_coarse_title_column(df):
 
 
 def add_ticket_number_column(df):
-    ticket_template = r'(?P<number>\d+)( (?P<add_info>.*))?$'
-    ticket_pattern = re.compile(ticket_template)
-
-    ticket_numbers = []
-    ticket_additional_infos = set()
-    for row_idx, ticket in enumerate(df['Ticket']):
-        match = ticket_pattern.match(ticket[::-1])
-        if not match:
-            ticket_numbers.append(-1)
-            continue
-        ticket_numbers.append(int(match.group('number')[::-1]))
-
-        add_info_match = match.group('add_info')
-        if add_info_match:
-            ticket_additional_infos.add(add_info_match[::-1])
-
-    df = df.assign(TicketNumber=ticket_numbers)
+    ticket_pattern = r'.*?(?P<TicketNumber>\d+)$'
+    df['TicketNumber'] = df['Ticket'].str.extract(ticket_pattern, expand=True).astype(float)
     return df
 
 
