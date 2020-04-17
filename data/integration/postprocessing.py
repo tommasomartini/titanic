@@ -121,3 +121,8 @@ def extract_cabin_deck(df):
 def gender_to_lower_case(df):
     df['Sex'] = df['Sex'].str.lower()
     return df
+
+
+def assign_id(df):
+    df['PassengerId'] = df.index
+    return df

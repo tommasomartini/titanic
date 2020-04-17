@@ -29,6 +29,7 @@ def apply_post_processing(df):
         postpro.extract_birth_year,
         postpro.extract_cabin_deck,
         postpro.gender_to_lower_case,
+        postpro.assign_id,
     ]
 
     for func in post_processing_functions:
