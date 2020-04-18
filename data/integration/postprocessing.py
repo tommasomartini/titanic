@@ -21,40 +21,40 @@ def manually_fix_missing_titles(df):
 def extract_ticket_number_and_price(df):
     # Remove the initial "Ticket No." string and split number and price.
     df[['Ticket', 'TicketPrice']] = df['Ticket'] \
-        .str.split('No. ', expand=True)[1]\
-        .str.strip()\
+        .str.split('No. ', expand=True)[1] \
+        .str.strip() \
         .str.split(', ', expand=True)
 
     # Extract the ticket number.
     ticket_number_pattern = r'^\D*(?P<TicketNumber>\d+)$'
-    df = df.join(df['Ticket']\
+    df = df.join(df['Ticket'] \
                  .str.strip()
                  .str.extract(ticket_number_pattern, expand=True)
                  .astype(float))
 
-    # Extract the ticket price: first extract pounds, shillings and pennies and
+    # Extract the ticket price: first extract pounds, shillings and pence and
     # then sum them together:
-    #  1 pound (£) = 12 shillings (s)
-    #  1 shilling (s) = 20 pennies (d)
+    #  1 pound (£) = 20 shillings (s)
+    #  1 shilling (s) = 12 pence (d)
     # This extraction requires the creation of 3 intermediate columns.
     ticket_price_pattern = r'(?:£(?P<Pounds>\d+))\s*' \
                            r'(?:(?P<Shillings>\d+)s)?\s*' \
-                           r'(?:(?P<Pennies>\d+)d)?'
-    df = df.join(df['TicketPrice']\
+                           r'(?:(?P<Pence>\d+)d)?'
+    df = df.join(df['TicketPrice'] \
                  .str.extract(ticket_price_pattern, expand=True)
                  .astype(float))
 
     # Fill the nan with zeros. This should hold because the people without
     # ticket seem to be employees of the cruise, hence they actually paid £0.
-    df[['Pounds', 'Shillings', 'Pennies']] = \
-        df[['Pounds', 'Shillings', 'Pennies']].fillna(0)
+    df[['Pounds', 'Shillings', 'Pence']] = \
+        df[['Pounds', 'Shillings', 'Pence']].fillna(0)
 
     df['TicketPrice'] = df['Pounds'] \
-                        + (1 / 12) * df['Shillings'] \
-                        + (1 / 240) * df['Pennies']
+                        + (1 / 20) * df['Shillings'] \
+                        + (1 / 240) * df['Pence']
 
     # Drop the intermediate columns.
-    df = df.drop(columns=['Pounds', 'Shillings', 'Pennies'])
+    df = df.drop(columns=['Pounds', 'Shillings', 'Pence'])
 
     return df
 
