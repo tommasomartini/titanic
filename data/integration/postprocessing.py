@@ -1,10 +1,19 @@
 import datetime as dt
+import json
+import os
 
 import numpy as np
 import pandas as pd
 
 # The date of the sinking.
 _sinking_date = dt.date(year=1912, month=4, day=15)
+
+# List of UrlId of passengers embarked in Belfast.
+_belfast_passengers_path = os.path.join(os.environ['HOME'],
+                                        'kaggle',
+                                        'titanic',
+                                        'data',
+                                        'belfast_passengers.json')
 
 
 def manually_fix_missing_titles(df):
@@ -91,12 +100,10 @@ def embarked_as_single_character(df):
     return df
 
 
-def deduce_missing_embarking_harbour(df):
-    # We will assume that the people living in Southampton embarked
-    # in that city.
-    df.loc[(df['Embarked'].isna()) &
-           (df['Residence'].str.contains('Southampton')),
-           ['Embarked']] = 'Southampton'
+def add_belfast_as_embarking_city(df):
+    with open(_belfast_passengers_path, 'r') as f:
+        belfast_passengers = json.load(f)
+    df.loc[df['UrlId'].isin(belfast_passengers), ['Embarked']] = 'Belfast'
     return df
 
 

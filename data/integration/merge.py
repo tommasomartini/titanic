@@ -22,7 +22,7 @@ def apply_post_processing(df):
         postpro.extract_birth_city_region_country,
         postpro.extract_residence_city_region_country,
         postpro.extract_destination_city_region_country,
-        postpro.deduce_missing_embarking_harbour,
+        postpro.add_belfast_as_embarking_city,
         postpro.embarked_as_single_character,
         postpro.manually_fill_missing_nationalities,
         postpro.manually_fill_missing_birth_dates,
