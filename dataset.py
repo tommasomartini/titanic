@@ -9,15 +9,24 @@ _project_path = os.path.join(os.environ['HOME'], 'kaggle', 'titanic')
 _data_dir = os.path.join(_project_path, 'data')
 _dataset_path = os.path.join(_data_dir, 'train.csv')
 _testset_path = os.path.join(_data_dir, 'test.csv')
+_xdataset_path = os.path.join(_data_dir, 'xtrain.csv')
+_xtestset_path = os.path.join(_data_dir, 'xtest.csv')
 
 
-def load_test_set():
-    X_test = pd.read_csv(_testset_path).set_index(ID_COLUMN_NAME)
+def load_test_set(extended=True):
+    if extended:
+        X_test = pd.read_csv(_xtestset_path).set_index(ID_COLUMN_NAME)
+    else:
+        X_test = pd.read_csv(_testset_path).set_index(ID_COLUMN_NAME)
     return X_test
 
 
-def load_training_set():
-    dataset_df = pd.read_csv(_dataset_path).set_index(ID_COLUMN_NAME)
+def load_training_set(extended=True):
+    if extended:
+        dataset_df = pd.read_csv(_xdataset_path).set_index(ID_COLUMN_NAME)
+    else:
+        dataset_df = pd.read_csv(_dataset_path).set_index(ID_COLUMN_NAME)
+
     attributes_columns = [
         col_name
         for col_name in dataset_df.columns
