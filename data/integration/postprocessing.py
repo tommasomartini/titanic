@@ -80,8 +80,8 @@ def extract_residence_city_region_country(df):
 
 
 def extract_destination_city_region_country(df):
-    df['Destination'] = df['Destination']\
-        .str.split(':', expand=True)[1]\
+    df['Destination'] = df['Destination'] \
+        .str.split(':', expand=True)[1] \
         .str.strip()
     return _extract_city_region_country_from_location(df, 'Destination')
 
@@ -115,7 +115,7 @@ def manually_fill_missing_birth_dates(df):
 
 def extract_birth_year(df):
     birth_year_pattern = r'.*(?P<BirthYear>\d{4}).*'
-    df = df.join(df['BirthDate']\
+    df = df.join(df['BirthDate'] \
                  .str.extract(birth_year_pattern, expand=True))
     return df
 
@@ -146,8 +146,8 @@ def compute_age_in_days(df):
     df.loc[mask, 'BirthDate'] = numeral_dates
 
     # Split the birth date in year, month and day.
-    df[['year', 'month', 'day']] = df['BirthDate']\
-        .str.split('-', expand=True)\
+    df[['year', 'month', 'day']] = df['BirthDate'] \
+        .str.split('-', expand=True) \
         .astype(float)
 
     # Randomize the missing months.
