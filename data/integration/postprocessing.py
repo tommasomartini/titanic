@@ -131,6 +131,15 @@ def extract_cabin_deck(df):
     # This function also formats the Cabin column.
     df['Cabin'] = df['Cabin'].str.split(':', expand=True)[1].str.strip()
     df['CabinDeck'] = df['Cabin'].str.extract(r'^\W*(\w)', expand=True)
+
+    # Passenger Benoît Picard does not have the deck indicated,
+    # but it was probably deck F.
+    df.loc[df['UrlId'] == '/titanic-survivor/berk-pickard.html',
+           ['CabinDeck']] = 'F'
+
+    # Some passengers are assigned deck "R", which is actually a location
+    # in deck F.
+    df.loc[df['CabinDeck'] == 'R', ['CabinDeck']] = 'F'
     return df
 
 
