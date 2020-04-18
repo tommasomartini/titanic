@@ -17,7 +17,7 @@ def import_extra_data():
 
 def apply_post_processing(df):
     post_processing_functions = [
-        postpro.manually_fix_missing_titles,
+        postpro.manually_fix_titles,
         postpro.extract_ticket_number_and_price,
         postpro.extract_birth_city_region_country,
         postpro.extract_residence_city_region_country,

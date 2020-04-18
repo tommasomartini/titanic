@@ -16,13 +16,28 @@ _belfast_passengers_path = os.path.join(os.environ['HOME'],
                                         'belfast_passengers.json')
 
 
-def manually_fix_missing_titles(df):
+def manually_fix_titles(df):
+    # Fix missing titles.
     df.loc[df['LastName'] == 'Banfi', ['Title']] = 'Mr'
     df.loc[df['FirstName'] == 'Lucy Christiana, Lady',
            ['FirstName', 'Title']] = ['Lucy Christiana', 'Lady']
     df.loc[df['FirstName'] == 'Lucy Noël Martha, Countess of',
            ['FirstName', 'Title']] = ['Lucy Noël Martha', 'Countess']
     df.loc[df['LastName'] == 'Walsh', ['Title']] = 'Msr'
+
+    # Mr Eugene Joseph Abbott is 13 yo: he's probably a Master instead of a Mr.
+    df.loc[df['UrlId'] == '/titanic-victim/eugene-joseph-abbott.html',
+           ['Title']] = 'Master'
+
+    # Sra. Asuncion Durán i Moné and Sra. Florentina Durán i Moné were both
+    # single: let's make it clear by changing "Sra" with "Miss".
+    df.loc[df['UrlId'].isin(['/titanic-survivor/asuncion-duran-y-more.html',
+                             '/titanic-survivor/florentina-duran-y-more.html']),
+           ['Title']] = 'Miss'
+
+    # Mr Colonel (Oberst) Alfons Simonius-Blumer is a Colonel.
+    df.loc[df['UrlId'] == '/titanic-survivor/alfons-simonius-blumer.html',
+           ['Title']] = 'Colonel'
 
     return df
 
