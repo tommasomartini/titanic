@@ -1,4 +1,4 @@
-,Age,BirthDate,BirthPlace,Cabin,Destination,Embarked,FirstName,Job,LastName,MaritalStatus,Nationality,Pclass,Relationships,Residence,Sex,Ticket,Title,UrlId,survived
+,Age,BirthDate,BirthPlace,Cabin,Destination,Embarked,FirstName,Job,LastName,MaritalStatus,Nationality,Pclass,Relationships,Residence,Sex,Ticket,Title,UrlId,Survived
 0,16,1896-02-21,,,"
 Destination:       
       East Providence, Rhode Island, United States
