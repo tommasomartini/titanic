@@ -24,15 +24,17 @@ coarse_description_to_fine_description = {
         'husband',
     ],
     'friend': [
-        'lodger',
         'shared cabin',
         'travelling companion',
         'friend',
         'cabin companion',
-        'companion',
         'cabin companion?',
         'colleague',
         'same cabin',
+        'employers maid',
+        'employers valet',
+        'companion',
+        'escort',
     ],
     'employee': [
         'maid',
@@ -49,18 +51,16 @@ coarse_description_to_fine_description = {
         'nursmaid',
         'husbands valet',
         'nursemaid',
-        'escort',
         'employee',
+        'employee (cook)',
+        'mothers maid',
+        'childrens nurse',
     ],
     'employer': [
+        'lodger',
         'employers',
-        'employers maid',
         'employer',
-        'employers valet',
         'employers son',
-        'childrens nurse',
-        'mothers maid',
-        'employee (cook)',
     ],
     'relative': [
         'grandmother',
@@ -84,6 +84,7 @@ coarse_description_to_fine_description = {
         'cousin',
         'niece',
     ],
+    'knows': [],    # The most generic category.
 }
 
 
@@ -95,6 +96,7 @@ _reciprocals = {
 }
 
 
+# Only for coarse relationships.
 reciprocals = {
     rel: _reciprocals.get(rel, rel)
     for rel
