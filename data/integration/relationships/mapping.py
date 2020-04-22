@@ -106,3 +106,16 @@ fine_description_to_coarse_description = {}
 for coarse, fine_list in coarse_description_to_fine_description.items():
     for fine in fine_list:
         fine_description_to_coarse_description[fine] = coarse
+
+
+relationship_type_to_coarse_description = {
+    'childen': 'child',
+    'knows': 'knows',
+    'children': 'child',
+    'relatedto': 'relative',
+    'known': 'knows',
+    'sibling': 'sibling',
+    'parent': 'parent',
+    'spouse': 'spouse',
+    'colleague': 'friend',
+}
