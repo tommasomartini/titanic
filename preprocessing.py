@@ -1,3 +1,6 @@
+"""Collection of function to preprocess Kaggle-only data before training.
+"""
+
 import re
 from collections import Counter
 
