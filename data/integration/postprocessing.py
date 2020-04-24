@@ -1,3 +1,7 @@
+"""Collection of functions to format the extra data downloaded from
+    www.encyclopedia-titanica.org
+"""
+
 import datetime as dt
 import json
 import os

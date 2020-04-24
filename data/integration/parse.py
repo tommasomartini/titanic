@@ -1,3 +1,7 @@
+"""Collection of functions to parse the website www.encyclopedia-titanica.org
+to collect extra data.
+"""
+
 import logging
 
 _logger = logging.getLogger(__name__)
