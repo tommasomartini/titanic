@@ -15,7 +15,11 @@ _xtestset_path = os.path.join(_data_dir, 'xtest.csv')
 
 def load_test_set(extended=True):
     if extended:
-        X_test = pd.read_csv(_xtestset_path).set_index(ID_COLUMN_NAME)
+        X_test = pd.read_csv(_xtestset_path)
+        X_test = X_test.drop(columns=[ID_COLUMN_NAME])
+        X_test = X_test.rename(columns={'KPassengerId': ID_COLUMN_NAME})
+        X_test[ID_COLUMN_NAME] = X_test[ID_COLUMN_NAME].astype(int)
+        X_test = X_test.set_index(ID_COLUMN_NAME)
     else:
         X_test = pd.read_csv(_testset_path).set_index(ID_COLUMN_NAME)
     return X_test
