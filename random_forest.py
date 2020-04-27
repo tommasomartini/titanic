@@ -7,26 +7,150 @@ import dataset as ds
 import preprocessing as pp
 import submission as sm
 
+'''
+Just a copy of all the attributes.
+
+attributes = [
+    'Age',
+    'BirthDate',
+    'BirthPlace',
+    'Cabin',
+    'Destination',
+    'Embarked',
+    'FirstName',
+    'Job',
+    'LastName',
+    'MaritalStatus',
+    'Nationality',
+    'Pclass',
+    'Residence',
+    'Sex',
+    'Ticket',
+    'Title',
+    'UrlId',
+    'TicketPrice',
+    'TicketNumber',
+    'BirthPlaceCountry',
+    'BirthPlaceCity',
+    'BirthPlaceRegion',
+    'ResidenceCountry',
+    'ResidenceCity',
+    'ResidenceRegion',
+    'DestinationCountry',
+    'DestinationCity',
+    'DestinationRegion',
+    'CabinDeck',
+    'AgeInDays',
+    'KPassengerId',
+    'SibSp',
+    'Parch',
+    'Split',
+    'NumChild',
+    'NumEmployee',
+    'NumEmployer',
+    'NumFriend',
+    'NumKnows',
+    'NumParent',
+    'NumRelative',
+    'NumSibling',
+    'NumSpouse',
+]
+'''
+
 
 def preprocess_dataset(df):
-    df = pp.replace_nan_embarked_with_unknown(df)
-    df = pp.replace_nan_age_with_value(df)
-    df = pp.replace_nan_fare_with_value(df)
+    keep_attributes = [
+        # 'Age',
+        # 'BirthDate',
+        # 'BirthPlace',
+        # 'Cabin',
+        # 'Destination',
+        'Embarked',
+        # 'FirstName',
+        'Job',
+        # 'LastName',
+        'MaritalStatus',
+        'Nationality',
+        'Pclass',
+        # 'Residence',
+        'Sex',
+        # 'Ticket',
+        'Title',
+        # 'UrlId',
+        'TicketPrice',
+        'TicketNumber',
+        'BirthPlaceCountry',
+        # 'BirthPlaceCity',
+        # 'BirthPlaceRegion',
+        'ResidenceCountry',
+        # 'ResidenceCity',
+        # 'ResidenceRegion',
+        'DestinationCountry',
+        # 'DestinationCity',
+        # 'DestinationRegion',
+        'CabinDeck',
+        'AgeInDays',
+        # 'KPassengerId',
+        # 'SibSp',
+        # 'Parch',
+        # 'Split',
+        'NumChild',
+        'NumEmployee',
+        'NumEmployer',
+        'NumFriend',
+        'NumKnows',
+        'NumParent',
+        'NumRelative',
+        'NumSibling',
+        'NumSpouse',
+    ]
+    drop_attributes = set(df.columns) - set(keep_attributes)
+    df = df.drop(columns=drop_attributes)
 
-    attributes_to_categorical = ['Sex', 'Embarked', 'Pclass']
+    # Missing tickets belong to crew member.
+    df['TicketNumber'] = df['TicketNumber'].fillna(-1)
+
+    # Use the median to replace missing ages.
+    no_age_df = df.loc[df['AgeInDays'].isna()]
+    for psgr_id, no_age_row in no_age_df.iterrows():
+        pclass, gender, embarked = no_age_row[['Pclass', 'Sex', 'Embarked']]
+        inferred_age = df.loc[(df['Pclass'] == pclass)
+                              & (df['Sex'] == gender)
+                              & (df['Embarked'] == embarked)
+                              & (~df['AgeInDays'].isna())]['AgeInDays'].median()
+        df.loc[psgr_id, 'AgeInDays'] = inferred_age
+
+    attributes_to_categorical = [
+        'Embarked',
+        'Job',
+        'MaritalStatus',
+        'Nationality',
+        'Pclass',
+        'Sex',
+        'Title',
+        # 'TicketPrice',
+        # 'TicketNumber',
+        'BirthPlaceCountry',
+        'ResidenceCountry',
+        'DestinationCountry',
+        'CabinDeck',
+        # 'AgeInDays',
+        # 'NumChild',
+        # 'NumEmployee',
+        # 'NumEmployer',
+        # 'NumFriend',
+        # 'NumKnows',
+        # 'NumParent',
+        # 'NumRelative',
+        # 'NumSibling',
+        # 'NumSpouse',
+    ]
+    df[attributes_to_categorical] = \
+        df[attributes_to_categorical].fillna('Unknown')
     for attribute_name in attributes_to_categorical:
         df = pp.convert_attribute_to_categorical(df, attribute_name)
 
-    df = pp.add_coarse_title_column(df)
-    df = pp.add_ticket_number_column(df)
-    df = pp.add_floor_column(df)
-
     df = pp.convert_categorical_columns_to_numerical(df)
-
-    non_numerical_attributes = ['Name', 'Ticket', 'Cabin']
-    df.drop(columns=non_numerical_attributes, inplace=True)
-
-    df = pp.sort_columns(df)
 
     return df
 
@@ -35,17 +159,21 @@ def main():
     print('Random Forest')
 
     X_dataset, y_dataset = ds.load_training_set()
+    X_testset = ds.load_test_set()
+
     X_dataset = preprocess_dataset(X_dataset)
+    X_testset = preprocess_dataset(X_testset)
+
     X_train, X_val, y_train, y_val = train_test_split(X_dataset,
                                                       y_dataset,
                                                       test_size=0.3,
                                                       random_state=0)
 
     parameters = {
-        'n_estimators': np.linspace(100, 500, 5),
+        'n_estimators': range(100, 501, 500),
         'criterion': ('entropy', 'gini'),
         'max_depth': range(1, 11, 1),
-        'ccp_alpha': np.linspace(0, 1e-2, 21),
+        'ccp_alpha': np.linspace(0, 1e-2, 6),
         'bootstrap': (True, False),
     }
     estimator = RandomForestClassifier()
@@ -63,13 +191,12 @@ def main():
     print('Best parameters:')
     print(clf.best_params_)
 
-    X_testset = ds.load_test_set()
-    X_testset = preprocess_dataset(X_testset)
     test_predictions = clf.predict(X_testset)
     print('Testset: {}/{} survived'.format(sum(test_predictions),
                                            len(test_predictions)))
 
-    X_testset = X_testset.assign(**{ds.LABEL_COLUMN_NAME: test_predictions})
+    X_testset[ds.LABEL_COLUMN_NAME] = test_predictions
+    X_testset[ds.LABEL_COLUMN_NAME] = X_testset[ds.LABEL_COLUMN_NAME].astype(int)
     sm.output_submission_file(X_testset, notes='random_forest')
 
 
