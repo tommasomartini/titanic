@@ -1,6 +1,7 @@
 import os
 import time
 
+import dataset as ds
 
 _project_path = os.path.join(os.environ['HOME'], 'kaggle', 'titanic')
 _output_dir = os.path.join(_project_path, 'submissions')
@@ -18,5 +19,6 @@ def output_submission_file(X_testset_df, notes=None):
     filename = '{}.csv'.format(_get_filename(notes))
     output_path = os.path.join(_output_dir, filename)
     X_testset_df.reset_index().to_csv(output_path,
-                                      columns=['PassengerId', 'Survived'],
+                                      columns=[ds.ID_COLUMN_NAME,
+                                               ds.LABEL_COLUMN_NAME],
                                       index=False)
